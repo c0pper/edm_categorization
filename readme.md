@@ -29,13 +29,13 @@ os.environ["LANGCHAIN_PROJECT"] = "Enrich My Data"
 
 ## Usage
 
-The `Categorizer` class within `Categorizer.py` provides functionalities to categorize text using both LangChain and OpenAI's GPT-3.5-turbo model. The script includes:
+The `Categorizer` class within `Categorizer.py` provides functionalities to categorize text using both Expert.AI Elmi LLM and OpenAI's GPT-3.5-turbo model. The script includes:
 
 - Building prompts for categorization.
 - Interaction with the ElmiLab API for additional categorization options.
 - Integration with OpenAI's GPT-3.5-turbo model for categorization.
 
-The `run_on_dataset` method initiates the categorization process on a specified dataset, allowing users to choose between different categorization methods.
+The `run_on_dataset` method initiates the categorization process on a specified dataset, allowing users to choose between different categorization methods and evaluates the outputs using the eval_configuration of the categorizer object.
 
 ## main.py
 
