@@ -30,8 +30,8 @@ class RelevanceEvaluator(StringEvaluator):
 
     def __init__(self, mode):
         self.mode = mode
-        llm = Categorizer.eval_llm
-        template = """You are now a evaluator for a question answering system.
+        self.llm = Categorizer.eval_llm
+        self.template = """You are now a evaluator for a question answering system.
 
 # Task
 
@@ -73,23 +73,7 @@ First give the grade <GRADE: (CORRECT or INCORRECT here)>.
 Then explain all the criteria you went through step by step <EXPLANATION: (EXPLANATION here)>.
 """
 
-#         template = """You are a teacher grading a quiz.
-# You are given a question, the true answer to the question, and the student's answer. You are asked to score the student's answer as either CORRECT or INCORRECT, based on the true answer.
-
-# Example Format:
-# QUESTION: question here
-# TRUE ANSWER: answer to the question is here
-# STUDENT ANSWER: student's answer here
-# GRADE: CORRECT or INCORRECT here
-
-# Grade the student answers based solely on the factual accuracy of their response in relation to the true answer. Disregard differences in phrasing, and consider their answer correct as long as it aligns with the provided true answer, even if additional information is included. Begin! 
-
-# QUESTION: {query}
-# TRUE ANSWER: {true_answer}
-# STUDENT ANSWER: {model_answer}
-# GRADE:"""
-
-        self.eval_chain = PromptTemplate.from_template(template) | llm
+        self.eval_chain = PromptTemplate.from_template(self.template) | self.llm
 
     @staticmethod
     def extract_final_score(text):
@@ -134,8 +118,9 @@ Then explain all the criteria you went through step by step <EXPLANATION: (EXPLA
             query_query = input.split("CONTEXT")[0]
         elif self.mode == "cat":
             query_query = list(input.values())[0]
+        evaluation_data = {"input": query_query, "prediction": prediction, "query": query_query, "true_answer": reference, "model_answer": prediction}
         evaluator_result = self.eval_chain.invoke(
-            {"input": query_query, "prediction": prediction, "query": query_query, "true_answer": reference, "model_answer": prediction}, kwargs
+            evaluation_data, kwargs
         )
 
         # SCORE BASED
@@ -151,16 +136,16 @@ Then explain all the criteria you went through step by step <EXPLANATION: (EXPLA
         if matches:
             score = matches[0].group(0).strip()
             if score == "INCORRECT":
-                return {"score": float(0), "value": "INCORRECT", "explanation": evaluator_result, "prompt": query_query}
+                return {"score": float(0), "value": "INCORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data)}
             elif score == "CORRECT":
-                return {"score": float(1), "value": "CORRECT", "explanation": evaluator_result, "prompt": query_query}
+                return {"score": float(1), "value": "CORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data)}
         else:
             print("evalutar result\n\n" + evaluator_result)
             print("matches\n\n")
             for match in matches:
                 print(match)
             print("No grade text found.")
-            return {"score": 0, "value": "INCORRECT", "explanation": evaluator_result, "prompt": query_query}
+            return {"score": 0, "value": "INCORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data)}
 
 
 
