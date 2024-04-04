@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n COMMERCIAL BUS CONTRACT\n\n ### DESCRIPTION:\n COMMERCIAL BUS CONTRACT",
+    "output": [
+        "Contractual services"
+    ],
+    "expected_output": "Motor vehicles for the transport of 10 or more persons",
+    "output_explanation": "The offer is a commercial bus contract, which falls under the category of contractual services as it involves a contract for transportation services.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Consultative engineering and construction services",
+        "Transport tickets",
+        "Transportation services",
+        "Contractual services",
+        "Other services",
+        "Legal documentation and certification services",
+        "Hire of goods-transport vehicles with driver",
+        "Public transport services by railways",
+        "Miscellaneous fire-protection equipment",
+        "Repair and maintenance services of vehicles",
+        "Sales",
+        "Development services of real estate"
+    ]
+}

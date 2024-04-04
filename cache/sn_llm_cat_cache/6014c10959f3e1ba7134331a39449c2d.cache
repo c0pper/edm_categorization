@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n Biomechanics Lab - GAIT Analysis Equipment\n\n ### DESCRIPTION:\n Sheffield Children's Hospital are seeking a supplier to supply a Biomechanics Lab for GAIT Analysis",
+    "output": [
+        "Medical equipment"
+    ],
+    "expected_output": "Detection and analysis apparatus",
+    "output_explanation": "The offer for Biomechanics Lab - GAIT Analysis Equipment falls under the category of Medical equipment as it involves supplying equipment for medical analysis and testing purposes.",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Medical imaging services",
+        "Specialized Machinery",
+        "Healthcare Services",
+        "Research, testing and scientific technical simulator",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Medical equipment",
+        "Healthcare services",
+        "Installation services of laboratory equipment"
+    ]
+}

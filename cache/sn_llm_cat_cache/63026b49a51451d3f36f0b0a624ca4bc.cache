@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n G/024 PRINTED STATIONERY\n\n ### DESCRIPTION:\n Contract for printed Stationery",
+    "output": [
+        "Printing services"
+    ],
+    "expected_output": "Various office equipment and supplies",
+    "output_explanation": "The offer is for a contract for printed stationery, which falls under the category of Printing services.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Printing services",
+        "Printing, graphics, office automation and information-processing equipment",
+        "Miscellaneous textile articles",
+        "Facilities management software package and software package suite",
+        "Services furnished by business, professional and specialist organisations",
+        "Sales"
+    ]
+}

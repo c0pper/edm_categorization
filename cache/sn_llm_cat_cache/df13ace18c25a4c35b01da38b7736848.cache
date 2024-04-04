@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Switchgear Replacement\n\n ### DESCRIPTION:\n View Changes Argonne National Laboratory is looking for a contractor to provide a Switchgear Replacement.\u00a0 Please see the statement of work for further details. If able to provide the requested item, please provide and address the following by 03/15/2024, 5:00 PM CST. Review of Instructions to Bidders, dated 02/20/2024 Review and acceptance of the ANL-71 COM Terms and Conditions Review of Statement of Work, Bldg 364 12A/12B Switchgear Replacement, dated 02/15/2024 Review\u00a0 of\u00a0Drawings, Building 364 Switchgear 12A-12B Replacement Review of\u00a0Specifications for Building 364 12A-12B Switchgear Replacement \u2013 Phase 1, dated January 2024 Completion of\u00a0Reps & Certs, ANL-70B, dated 06/06/2022 Completion of\u00a0Pricing Schedule RFQ: 4-B175-Q-00277-00 Executed ANL-70 Request for Quotation (Signed on Page 1) Proposal Lead Time Country of Origin Provide Price Justification in the form of a public pricelist or redacted invoice to support quoted pricing. Review and completion of Addendum 0001 - Proposal due date has been extended to 03/15/2024. Please submit any questions regarding this RFQ no later than 02/27/2024, 12:00 PM CST",
+    "output": [
+        "Electrical installation work"
+    ],
+    "expected_output": "Electrical apparatus for switching or protecting electrical circuits",
+    "output_explanation": "The product offer is for a Switchgear Replacement, which falls under the category of Electrical installation work as it involves the installation and replacement of electrical equipment.",
+    "shortlisted_categories": [
+        "Electrical installation work",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Electrical supplies and accessories",
+        "Repair and maintenance services of precision equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Machines and apparatus with individual functions",
+        "Maintenance and repair of office machinery",
+        "Repair and maintenance services of weapons and weapon systems",
+        "System, storage and content management software package",
+        "Parts of sound and video equipment",
+        "Installation services of laboratory equipment"
+    ]
+}

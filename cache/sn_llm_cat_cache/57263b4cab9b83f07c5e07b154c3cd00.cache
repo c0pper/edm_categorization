@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Liner, Augmenter Com\n\n ### DESCRIPTION:\n NSN:\u00a02840-01-308-4469NZ / PN:\u00a04078304 / AMC: 1C",
+    "output": [
+        "Various office equipment and supplies"
+    ],
+    "expected_output": "Building construction work",
+    "output_explanation": "The product 'Liner, Augmenter Com' seems to fall under the category of various office equipment and supplies based on the NSN and PN provided in the description.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Detection and analysis apparatus",
+        "Engineering-related scientific and technical services",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Specialised chemical products",
+        "Parts of railway or tramway locomotives or rolling stock; railways traffic-control equipment",
+        "Machines and apparatus with individual functions",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Miscellaneous fertilisers",
+        "Plastic products",
+        "Development services of real estate"
+    ]
+}

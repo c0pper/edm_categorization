@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n MEDICAL AUTOCLAVE REPAIRS\n\n ### DESCRIPTION:\n SOLICITATION The Veterans Healthcare System of The Ozarks (VHSO) has a requirement for repair services to a Bondtech model 12975 medical waste autoclave at its facility located at 1100 N. College Ave in Fayetteville, AR.\u00a0 This is a total Service-Disabled, Veteran-Owned, Small Business set-aside in accordance with VAAR 819.7006 under NAICS code 811210,. \u00a0All interested parties must be listed in the U. S. Small Business Administration\u2019s Veteran Small Business Certification (VetCert) database at https://veterans.certify.sba.gov/ and the System for Award Management (SAM) at https://www.sam.gov, as of the date of quote submission and date of award.\u00a0 Award WILL NOT be delayed for registration. Interested parties must submit all questions concerning the solicitation, in writing, via email to james.hunt2@va.gov, to be received no later than 1:00 PM, Thursday, March 7, 2024.\u00a0 Questions submitted after this date/time may not be answered. As indicated on the cover page, all quotes must include the following to be considered for award: - Contractor\u2019s business name (as registered in SAM) - Contractor\u2019s address (as registered in SAM) - Contractor\u2019s Unique Entity ID number (as registered in SAM) - Point of Contact (POC) Name - POC phone number - POC email address - Resume`s of Qualified Technicians (Attachment 1, Section III) - Proof of SDVOSB Status (Copy/Screenshot of VetCert Registration) - Proof of SAM Registration - Completed Price Schedule (solicitation section B.2) - Completed Solicitation Clause 852.219-75 (C.3) - Completed Solicitation Provision 52.204-24 (E.1) (if not completed in SAM) - Completed Offeror Representations and Certifications (Solicitation Section E.6).\u00a0 - Complete and return only paragraph (b)(2) of this provision if your annual representations and certifications in SAM, have been entered or updated in the last 12 months, are current, accurate, complete, and applicable to this solicitation (including the business size standard(s) applicable to the NAICS code(s) referenced for this solicitation), at the time this offer is submitted.",
+    "output": [
+        "Repair and maintenance services of medical and surgical equipment"
+    ],
+    "expected_output": "Miscellaneous medical devices and products",
+    "output_explanation": "The offer specifically involves repair services for a medical waste autoclave, which falls under the category of repair and maintenance services of medical and surgical equipment.",
+    "shortlisted_categories": [
+        "Repair, maintenance and associated services related to medical devices",
+        "Veteran-owned business services",
+        "Government procurement services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Miscellaneous fire-protection equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

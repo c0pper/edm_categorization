@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n With PA\n\n ### DESCRIPTION:\n With PA",
+    "output": [
+        "Other services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The offer lacks specific details in the title and description, making it difficult to categorize. However, based on the limited information provided, it seems to fall under the general category of 'Other services'.",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Other building completion work",
+        "System and support services",
+        "Information systems",
+        "Other services",
+        "General public services",
+        "Miscellaneous fertilisers",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n FMS Repair_N00383-24-Q-120T\n\n ### DESCRIPTION:\n FMS Repair-NIIN: 016586526; QTY:1 SEE ATTACHED",
+    "output": [
+        "Repair"
+    ],
+    "expected_output": "Repair, maintenance and associated services related to aircraft and other equipment",
+    "output_explanation": "The offer is for FMS Repair, indicating a service related to repairing equipment. Therefore, it falls under the 'Repair' category.",
+    "shortlisted_categories": [
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Repair and maintenance services of telecommunications equipment",
+        "Repair and maintenance services of audio-visual and optical equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military aircrafts",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

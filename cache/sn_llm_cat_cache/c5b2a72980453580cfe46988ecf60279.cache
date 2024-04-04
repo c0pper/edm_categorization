@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n ELEMENT, COUPLING SHAFT\n\n ### DESCRIPTION:\n SEE RFQ ATTACHMENT NSN\u00a03010-01-466-3015",
+    "output": [
+        "Machines and apparatus with individual functions"
+    ],
+    "expected_output": "Lifting and handling equipment",
+    "output_explanation": "The product description mentions a coupling shaft, which falls under the category of Machines and apparatus with individual functions.",
+    "shortlisted_categories": [
+        "Miscellaneous engineering services",
+        "Repair and maintenance services of precision equipment",
+        "Parts of railway or tramway locomotives or rolling stock; railways traffic-control equipment",
+        "Machines and apparatus with individual functions",
+        "Parts for warships",
+        "Parts of military vehicles",
+        "Parts of sound and video equipment",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

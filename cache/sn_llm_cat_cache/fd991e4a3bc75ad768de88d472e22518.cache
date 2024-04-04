@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Prison Legacy Replacement Digital Services\n\n ### DESCRIPTION:\n Prison Legacy Replacement Digital Services: To design, build and deliver bespoke software to replace legacy functionality.",
+    "output": [
+        "Software-related services"
+    ],
+    "expected_output": "Systems and technical consultancy services",
+    "output_explanation": "The offer involves designing, building, and delivering bespoke software to replace legacy functionality, which falls under Software-related services category.",
+    "shortlisted_categories": [
+        "Software-related services",
+        "Consultative engineering and construction services",
+        "Information systems",
+        "Provider services",
+        "Specialised software package",
+        "Justice services",
+        "Other services",
+        "Database systems",
+        "Communication software package",
+        "Custom software development services",
+        "System, storage and content management software package",
+        "Development services of real estate"
+    ]
+}

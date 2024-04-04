@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n INTRAOPERATIVE NEUROPHYSIOLOGIC MONITORING LOMA LINDA VA HEALTHCARE SYSTEM\n\n ### DESCRIPTION:\n Intraoperative Neurophysiologic Monitoring (IONM) Technician Services. Provide Neuro Monitoring Equipment/Technician Services to Include Intraoperative, Preoperative, Postoperative and Operating Room Neurophysiologic Monitoring Services by a Technical Monitor for the Loma Linda VA Healthcare System.",
+    "output": [
+        "Hospital and related services"
+    ],
+    "expected_output": "Hospital and related services",
+    "output_explanation": "The offer provides Neuro Monitoring Equipment/Technician Services specifically for the Loma Linda VA Healthcare System, which falls under the category of Hospital and related services.",
+    "shortlisted_categories": [
+        "Hospital and related services",
+        "Medical practice and related services",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Medical equipment and services",
+        "Healthcare services",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Medical equipment",
+        "Healthcare services",
+        "Medical services",
+        "Healthcare services",
+        "Installation services of laboratory equipment",
+        "Development services of real estate",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

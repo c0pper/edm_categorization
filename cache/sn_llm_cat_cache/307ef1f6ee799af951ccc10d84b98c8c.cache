@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n DOD CIO Wireless and Telecommunications Services\n\n ### DESCRIPTION:\n View Changes NAVSUP FLC San Diego, in support of the DOD CIO, is issuing this solicitation under full and open competition for a follow-on MAC IDIQ for mobility and telecommunication services, (all wireless technologies and related operations including related software, hardware, firmware and equipment), to Military Members and Federal Civilians. Services under this procurement will cover usage in the 50 United States, US territories, and while traveling internationally for Military Members and Federal Civilians stationed within the 50 States and US territories. Required contract users will be all Department of Defense Military and Civilians based on DoD Guidance. Authorized users will also include other Federal Agencies. The period of performance for the follow-on contracts shall include a one-year base period followed by nine one-year options. Interested parties shall provide their proposals to the Government in accordance with the Addendum to 52.212-1 by the closing date and time of this solicitation. The applicable North American industry Classification System (NAICS) Code for this procurement is\u00a0 \u00a0517112 \u201cWireless Telecommunications Carriers (except Satellite)\u201d. Offerors are advised that they must be registered and active with the System for Award Management (SAM.gov) to receive award of Government contracts. *Update 2/23/24 Uploaded solicitation amendment 0003.",
+    "output": [
+        "Government services"
+    ],
+    "expected_output": "Wireless telecommunications system",
+    "output_explanation": "The offer specifically mentions providing services to Military Members, Federal Civilians, and other Federal Agencies under the Department of Defense. This falls under the category of Government services.",
+    "shortlisted_categories": [
+        "Wireless Telecommunications System",
+        "Telecommunication services",
+        "Government services",
+        "Telecommunications cable and equipment",
+        "Defence services",
+        "Telecommunication services",
+        "Telecommunications services",
+        "Government services",
+        "Information technology services",
+        "Wide area network services"
+    ]
+}

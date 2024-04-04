@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n R499--Employee Aide 578-24-2-1300-0112  (VA-24-00047108)\n\n ### DESCRIPTION:\n View Changes The purpose of this amendment is to remove letter  a) Certificate of Insurance  on page 26 of the solicitation under  Technical Quotation shall also include the following documentation:  There shall be no Certificate of Insurance required as a part of this Request for Quote.",
+    "output": [
+        "Administrative services of agencies"
+    ],
+    "expected_output": "Supply services of personnel including temporary staff",
+    "output_explanation": "The offer is related to the removal of the Certificate of Insurance requirement in a solicitation, which falls under administrative services of agencies.",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Administrative services of agencies",
+        "Insurance services",
+        "Other services",
+        "Miscellaneous textile articles",
+        "Database systems",
+        "Miscellaneous fertilisers",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Sales, marketing and business intelligence software package",
+        "Development services of real estate"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n Washer and Dryer Services\n\n ### DESCRIPTION:\n View Changes See Solicitation for Details. See Amendment One for Questions and Answers.",
+    "output": [
+        "Repair and maintenance services of appliances"
+    ],
+    "expected_output": "Washing and dry-cleaning services",
+    "output_explanation": "The offer of Washer and Dryer Services falls under the category of Repair and maintenance services of appliances because it involves servicing and maintaining household appliances like washers and dryers.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Repair and maintenance services of precision equipment",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of personal computers",
+        "Cleaning products",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of appliances",
+        "Installation services of laboratory equipment"
+    ]
+}

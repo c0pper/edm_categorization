@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Cartridge, Seat Initiator, Part Number MBEU200878\n\n ### DESCRIPTION:\n Paper copies will not be provided.  Procurement is restricted to Martin Baker Aircraft Co.  Item is explosive.  A Safety Survey will be required.  See solicitation for explosive weight and class.",
+    "output": [
+        "Prepared explosives"
+    ],
+    "expected_output": "Ammunition",
+    "output_explanation": "The offer is for a Cartridge, Seat Initiator which is an explosive item. It falls under the category of Prepared explosives.",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Individual equipment",
+        "Security services",
+        "Trade-advertising material",
+        "Parts of railway or tramway locomotives or rolling stock; railways traffic-control equipment",
+        "Defence services",
+        "Military aircrafts",
+        "Prepared explosives",
+        "Seats, chairs and related products, and associated parts",
+        "Aircraft or spacecraft equipment",
+        "Parts for military aerospace equipment",
+        "Explosives",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

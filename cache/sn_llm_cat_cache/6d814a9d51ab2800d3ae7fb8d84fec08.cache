@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n 19MU3024Q0008 PR12219126 - MCT-GSO-Day laborers to assist warehouse team\n\n ### DESCRIPTION:\n The purpose of this indefinite delivery / indefinite quantity contract is to obtain Day Worker services, as needed, on a seasonal basis to work with the U.S Embassy, Muscat, Oman Warehouse team. The Contractor shall provide three dayworkers from Sunday to Thursday for up to 8 hours daily work duty as needed on a seasonal basis. The workers must report at 8:30 am at the American Embassy in Al-Khuwair area or the Warehouse in Ghala, as required and notified in advance. The Embassy will provide the Contractor with a two-day notice for additional workers whenever required during the contract period. The contract will be for a 1 base year plus 4 option years from the date of award of contract, for a total of 5 years. The day workers shall provide service to warehouse staff for loading, unloading, moving, storing, and cleaning any kind of item when they work at the Warehouse, Chancery and official/designated residences.",
+    "output": [
+        "Personnel services except placement and supply services"
+    ],
+    "expected_output": "Miscellaneous business-related services",
+    "output_explanation": "I categorized this offer under 'Personnel services except placement and supply services' because it involves providing day laborers to assist the warehouse team, which falls under personnel services for manual labor work.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Support services for water transport",
+        "Building construction work",
+        "Administrative services of agencies",
+        "Repair and maintenance services of precision equipment",
+        "General anti-infectives for systemic use",
+        "Personnel services except placement and supply services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Maintenance services of telecommunications equipment",
+        "Hire of goods-transport vehicles with driver",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Workwear accessories",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate"
+    ]
+}

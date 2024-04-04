@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Church Organist/Pianist - Fort Hamilton, NY\n\n ### DESCRIPTION:\n View Changes This Solicitation is to procure an Organist/Pianist for weekly Catholic Mass and Protestant Worship services which meet at the Post Chapel, Fort Hamilton, 219 Grimes Road, Brooklyn, NY 11252. Service will also include weekly rehearsals and specified holidays.\u00a0 See attached Solicitation and Performance Work Statement. Wage Determination also attached. 2-5-2024\u00a0 Added Questions and Answers 2-7-2024\u00a0 Added Questions and Answers-2 2-8-2024\u00a0 Added Questions and Answers-3 2-16-2024 Added Questions and Answers-4 2-21-2024 Added Questions and Answers-5 2-23-2024 Added Questions and Answers-6 2-23-2024 Posted Solicitation Amendment 0001 - Contractors must sign and return with bid",
+    "output": [
+        "Church services"
+    ],
+    "expected_output": "Artistic and literary creation and interpretation services",
+    "output_explanation": "The offer is for an Organist/Pianist for weekly Catholic Mass and Protestant Worship services at a Post Chapel, which clearly falls under the category of Church services.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Consultative engineering and construction services",
+        "Musical instruments",
+        "Funeral and related services",
+        "Personnel services except placement and supply services",
+        "Church services",
+        "Musical instruments",
+        "Cultural services",
+        "Miscellaneous fertilisers",
+        "Musical instruments",
+        "Public security, law and order services",
+        "Religious Services",
+        "Music Services"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Kings College Hospital Patient Experience and Communication\n\n ### DESCRIPTION:\n The patient experience survey is structured to gather valuable insights and feedback from individuals or patients who have received care at King's College Hospital. This feedback is gathered through a variety of channels, including SMS (Short Message Service), paper, email, online links, QR codes, and IVR (Interactive Voice Response). This diverse array of mediums ensures a comprehensive and varied input from the perspectives of the patients",
+    "output": [
+        "Hospital and related services"
+    ],
+    "expected_output": "Market research services",
+    "output_explanation": "The offer is categorized as Hospital and related services because it involves gathering feedback from patients who have received care at King's College Hospital, indicating a direct association with hospital services.",
+    "shortlisted_categories": [
+        "Market research services",
+        "Hospital and related services",
+        "Research services",
+        "Medical education services",
+        "Medical imaging services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Health and first-aid training services",
+        "Network equipment",
+        "Communication software package",
+        "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+        "Medical services",
+        "Feedback services",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system",
+        "Statistical services"
+    ]
+}

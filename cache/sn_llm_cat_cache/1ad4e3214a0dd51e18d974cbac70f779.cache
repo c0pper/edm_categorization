@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Internet and Telephone Satellite Services for FBI Los Angeles Field Office\n\n ### DESCRIPTION:\n View Changes This is a Request for Quotation for internet and telephone satellite service for the FBI Los Angeles Field Office. Please see attached Request for Quotation (RFQ) and the self-certifying document for additional detailed information. Per FAR Part 13, this requirement is set a side for total small business and will be awarded based on Lowest Price Technically Acceptable. All capability statements or quotes shall be submitted to the Contracting Officer Hong Nguyen by email. The email address is HNGUYEN2@FBI.GOV. All capability statements or quotes shall be received before the closing date andtime. \u00a0 AMENDED: February 23rd, 2024: Questions and Answers posted.",
+    "output": [
+        "Telecommunication services"
+    ],
+    "expected_output": "Telephone and data transmission services",
+    "output_explanation": "The offer is specifically for internet and telephone satellite services for the FBI Los Angeles Field Office, which falls under the category of Telecommunication services.",
+    "shortlisted_categories": [
+        "Wireless telecommunications system",
+        "Telecommunication services",
+        "Information technology services",
+        "Telecommunications cable and equipment",
+        "Telephone-answering services",
+        "Internet and intranet software package",
+        "Telecommunication services except telephone and data transmission services",
+        "Intelligence, surveillance, target acquisition and reconnaissance",
+        "Wide area network services"
+    ]
+}

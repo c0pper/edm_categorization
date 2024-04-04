@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n Butler Rideshare Services\n\n ### DESCRIPTION:\n View Changes This is a Small Business set aside for rideshare services.\u00a0 Please review the details in the attached combined synopsis and its attachments for further instructions.Questions are by email only. 02/23/2024 RFQ 36C24424Q0316 is hereby canceled and a new solicitation will be posted in the near future.",
+    "output": [
+        "Transportation Services"
+    ],
+    "expected_output": "Repair and maintenance services of motor vehicles and associated equipment",
+    "output_explanation": "The offer is for a rideshare service, which falls under the category of Transportation Services.",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Transportation Services",
+        "Personal services",
+        "Transportation services",
+        "Hire of goods-transport vehicles with driver",
+        "Miscellaneous gardening equipment",
+        "Public transport services by railways",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n SD-HURON WMD-BULK FUEL AND PROPANE BPA SETUP\n\n ### DESCRIPTION:\n SD-HURON WMD-BULK FUEL AND PROPANE BPA SETUP",
+    "output": [
+        "Fuel services"
+    ],
+    "expected_output": "Petroleum and distillates",
+    "output_explanation": "The offer is related to bulk fuel and propane setup, which falls under the category of Fuel services.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Fuel services",
+        "Government contracts",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Industrial process control equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

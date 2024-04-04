@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n EXU1 Building 900 Renovation, Indian Head, Maryland\n\n ### DESCRIPTION:\n View Changes PLEASE NOTE THIS TASK ORDER IS SET ASIDE FOR THE FOLLOWING 8(a) MACC CONTRACT HOLDERS: N4008022D1113/1114/1115/1116/1117/1118 and N4008023D1120 Indefinite Delivery Quantity Contracts Login at https://piee.eb.mil and search for 'N4008024R2397' to obtain more details.*",
+    "output": [
+        "Building construction work"
+    ],
+    "expected_output": "Building construction work",
+    "output_explanation": "The offer is related to the renovation of a building, specifically the EXU1 Building 900 in Indian Head, Maryland, which falls under the category of Building construction work.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Consultative engineering and construction services",
+        "Other building completion work",
+        "Construction consultancy services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Building rental or sale services",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate"
+    ]
+}

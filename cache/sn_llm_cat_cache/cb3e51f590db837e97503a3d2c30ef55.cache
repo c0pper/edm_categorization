@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n 6640 BX46 Microscope Frame\n\n ### DESCRIPTION:\n View Changes The purpose of amendment 0001 is to update the following within the request for quote A. Correct part number in line item 0007 from CS-EN-V4.1 to CS-EN-V4.2-EL B. Correct part number in line item 0008 from UYVP-11 to UYCP-11 This is a Brand Name Requirement See Section B2 of the attached Request For Quote, 36C26124Q0381, for Solicitation Requirements. Submission of your response shall be received not later than Friday, March 01, 2024 at 15:00 PST to the below POCs Kimberly McKinney Kimberly.McKinney1@va.gov Victoria Torres victoria.torres@va.gov",
+    "output": [
+        "Detection and analysis apparatus"
+    ],
+    "expected_output": "Microscopes",
+    "output_explanation": "The product offer relates to a microscope frame, which falls under the category of detection and analysis apparatus due to its use in scientific research and analysis.",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Medical consumables",
+        "Networking software package",
+        "Miscellaneous special-purpose machinery",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Drawing and imaging software package",
+        "Geological prospecting apparatus",
+        "Diffraction apparatus",
+        "Meteorological instruments",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

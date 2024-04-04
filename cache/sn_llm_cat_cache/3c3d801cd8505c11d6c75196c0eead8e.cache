@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n SHUTOFF,AIR\n\n ### DESCRIPTION:\n See attached.",
+    "output": [
+        "Control, safety, signalling and light equipment"
+    ],
+    "expected_output": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery",
+    "output_explanation": "The offer is categorized under Control, safety, signalling and light equipment because it seems to be related to a specific component or apparatus used for controlling, safety, or signaling purposes in machinery or equipment.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Miscellaneous special-purpose machinery",
+        "Machines and apparatus with individual functions",
+        "Control, safety, signalling and light equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

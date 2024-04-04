@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n Contract for foster placement for children\n\n ### DESCRIPTION:\n This contract is for a foster placement(s) for children. The contract will remain in place until the children leave or the placement is terminated.",
+    "output": [
+        "Social services"
+    ],
+    "expected_output": "Social work services",
+    "output_explanation": "I categorized this offer as 'Social services' because it involves providing foster placements for children, which falls under the umbrella of social services aimed at supporting and caring for vulnerable populations.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Social services",
+        "Justice services",
+        "General public services",
+        "Public security, law and order services",
+        "Miscellaneous fire-protection equipment",
+        "Development services of real estate"
+    ]
+}

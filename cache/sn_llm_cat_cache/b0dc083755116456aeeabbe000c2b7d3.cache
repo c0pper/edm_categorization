@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n ACB Remedial Retrofit works - waiver 4983\n\n ### DESCRIPTION:\n ACB Remedial Retrofit works - waiver 4983",
+    "output": [
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry"
+    ],
+    "expected_output": "Electrical installation work",
+    "output_explanation": "The offer is related to remedial retrofit works, which are typically part of construction works for plants, mining, manufacturing, or buildings related to the oil and gas industry.",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Other building completion work",
+        "Repair and maintenance services of precision equipment",
+        "Construction consultancy services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

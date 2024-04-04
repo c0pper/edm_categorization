@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Heavy Lift Crane\n\n ### DESCRIPTION:\n View Changes ***Amendment 0002 is issued to extend the proposal due date to March 5, 2024 at 1:00PM.***     // Amendment 0001 is issued to answer Request for Information (RFI) questions received. Amendment 0001 does not extend the proposal due date. //      The Philadelphia District of the Corps of Engineers on behalf of the Marine Design Center intends to procure one heavy lift crane. Upon completion of procurement, the crane will be mounted on an existing barge to be used by the US Army Corps of Engineers New Orleans District in support of its navigation maintenance mission. The heavy lift crane to be supplied shall be new with the following approximate characteristics: Designed and fabricated in compliance with the American Petroleum Institute ? API Specification 2C ? Offshore Pedestal-Mounted Cranes; Designed and fabricated in compliance with the American Bureau of Shipping ? ABS Guide for Certification of Lifting Appliances; Third party review by ABS for compliance with API 2C and ABS Guide for Certification of Lifting Appliances; and the crane duty-cycle classification shall be ?Construction Duty?. The heavy lift crane supplied shall be installed on a Corps owned barge with the following particulars: Length: 195 feet, Beam: 54 feet, Depth: 10 feet ? 0 inches. The Government (via a separate contract action) will install the new heavy lift crane on the barge. The Government intends to award a firm fixed price contract to the responsible offeror whose proposal conforms to the terms of the RFP notice, is determined fair and reasonable, and offers the best overall value to the Government as determined through the Best Value Trade-off process (FAR 15.101-1). Offerors should review the entire solicitation. Information within this solicitation notice is subject to change. Vendors must be registered with the System for Award Management (SAM) database to receive a government contract award. Vendors may register for SAM online at www.sam.gov or by calling 1-836-606-8220. The solicitation is issued and provided in an electronic format, free of charge, in the Procurement Integrated Enterprise Environment (PIEE) Solicitation System. Requests for Information (RFI) inquiries (i.e. Vendor Questions) are due by noon on 12 February 2024. Inquiries can be emailed to the Contract Specialist, Amanda Bellnier, at Amanda.Bellnier@usace.army.mil. Responses to RFIs will be posted via amendment.",
+    "output": [
+        "Lifting and handling equipment"
+    ],
+    "expected_output": "Lifting and handling equipment",
+    "output_explanation": "The offer is for a heavy lift crane designed and fabricated in compliance with specific regulations for lifting appliances, indicating that it falls under the category of 'Lifting and handling equipment'.",
+    "shortlisted_categories": [
+        "Lifting and handling equipment",
+        "Construction work for water projects",
+        "Support services for water transport",
+        "Construction equipment",
+        "Miscellaneous special-purpose machinery",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Industrial control software package",
+        "Machines and apparatus with individual functions",
+        "Marine services",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Offshore services",
+        "Industrial process control equipment",
+        "Offshore services",
+        "Development services of real estate"
+    ]
+}

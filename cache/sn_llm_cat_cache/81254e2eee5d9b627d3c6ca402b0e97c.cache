@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n R425--PLANT OPERATOR SUPPORT STAFF  4/1/24- 7/31/24\n\n ### DESCRIPTION:\n The Contractor shall Provide all necessary labor, supervision, materials and equipment to clean grilles and fan systems, conduct Air Change (ACH) Testing, and replace filters located at the Edward Hines Jr VA Hospital, Hines, IL.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Consultative engineering and construction services",
+    "output_explanation": "The offer involves providing labor, materials, and equipment for cleaning grilles, fan systems, conducting Air Change Testing, and replacing filters at a hospital, which aligns with the category of Cleaning services.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Construction work for water projects",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Technical inspection and testing services",
+        "Construction supervision services",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Miscellaneous fertilisers",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

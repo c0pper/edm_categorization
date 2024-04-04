@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n FILTER ELEMENT, FLUID\n\n ### DESCRIPTION:\n SEE RFQ ATTACHMENT NSN\u00a02940 01-561-9213 NSN\u00a04330 12-386-6413",
+    "output": [
+        "Parts and equipment"
+    ],
+    "expected_output": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery",
+    "output_explanation": "The offer is for a filter element, which falls under the category of parts and equipment.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Industrial machinery",
+        "Construction works",
+        "Parts and equipment",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Filtering or rectifying apparatus",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Plastic products",
+        "Parts of military vehicles",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n Lawn Maintenance Services\n\n ### DESCRIPTION:\n The United States Army Contracting Command \u2013 New Jersey (ACC-NJ) has issued this Request for Quotation (RFQ) to fulfill the need of the 80th Training Command, 102nd Training Division, Total Army School System (TASS) Training Center requirement to procure lawn maintenance service to Fort Leonard Wood (FLW), Missouri. The contractor shall provide all personnel, equipment, material, transportation, supervision and other items necessary to provide the contracted services in accordance with the Performance Work Statement (PWS). The contractor shall perform scheduled lawn care once every two weeks for the duration of the period of performance. Contract service providers shall be accountable solely to the Contractor who, in turn is responsible to the Government.",
+    "output": [
+        "Maintenance services of telecommunications equipment"
+    ],
+    "expected_output": "Planting and maintenance services of green areas",
+    "output_explanation": "The offer is for lawn maintenance services for a military training center, which falls under the category of maintenance services. Specifically, it involves the maintenance of the training center's outdoor space, making it best categorized as Maintenance services of telecommunications equipment.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Repair and maintenance services of precision equipment",
+        "Administrative services of agencies",
+        "Maintenance services of telecommunications equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Sports fields maintenance services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

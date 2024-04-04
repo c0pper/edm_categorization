@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Z--REPLACE FAN COILS AT PARK HQ\n\n ### DESCRIPTION:\n View Changes This is a commercial service Request for Quotes (RFQ) for HVAC services at Mount Rushmore National Monument. The purpose of amendment 0002 is to extend the response due date and time to 3/8/2024 1300.",
+    "output": [
+        "HVAC services"
+    ],
+    "expected_output": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery",
+    "output_explanation": "The offer is a Request for Quotes for HVAC services at Mount Rushmore National Monument, specifically to replace fan coils at the park headquarters. Therefore, it falls under the category of HVAC services.",
+    "shortlisted_categories": [
+        "Electrical installation work",
+        "Heat-exchange units, air-conditioning and refrigerating equipment",
+        "Construction work for water projects",
+        "Repair and maintenance services of precision equipment",
+        "HVAC services",
+        "Other building completion work",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Central-heating radiators and boilers and parts",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of HVAC systems",
+        "Commercial services",
+        "Government services",
+        "Installation services of laboratory equipment"
+    ]
+}

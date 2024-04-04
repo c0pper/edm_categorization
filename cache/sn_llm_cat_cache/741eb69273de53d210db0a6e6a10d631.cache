@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n R--AVSO Land Appraisal for NECHES RIVER NWR TRACT (23\n\n ### DESCRIPTION:\n AVSO Land Appraisal for NECHES RIVER NWR TRACT (23).",
+    "output": [
+        "Property management services of real estate on a fee or contract basis"
+    ],
+    "expected_output": "Engineering-related scientific and technical services",
+    "output_explanation": "The offer is related to land appraisal for a specific tract, which falls under property management services of real estate category.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Administrative services of agencies",
+        "Property management services of real estate on a fee or contract basis",
+        "Real Estate Services",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Development services of real estate"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n V--BIA Exclusive Use Type III Helicopter Services\n\n ### DESCRIPTION:\n BIA Exclusive Use Type III Helicopter Services in Double Eagle, NM",
+    "output": [
+        "Aerial and related services"
+    ],
+    "expected_output": "Helicopters, aeroplanes, spacecraft and other powered aircraft",
+    "output_explanation": "The offer relates to exclusive helicopter services in Double Eagle, NM, which falls under the category of Aerial and related services.",
+    "shortlisted_categories": [
+        "Specialist training services",
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Aerial and related services",
+        "Non-scheduled air transport services",
+        "Transport agency services",
+        "Miscellaneous gardening equipment",
+        "Aircraft or spacecraft equipment",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Scheduled air transport services"
+    ]
+}

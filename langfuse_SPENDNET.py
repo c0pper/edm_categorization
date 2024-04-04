@@ -1,6 +1,7 @@
 import csv
 from datetime import datetime
 import functools
+import hashlib
 import json
 from uuid import uuid4
 from langfuse import Langfuse
@@ -26,6 +27,7 @@ load_dotenv()
 
 df = pd.read_csv("data/SN_20k.csv", encoding="UTF8")
 categories = df["category"].unique()
+cache_path = "cache/sn_llm_cat_cache"
 
 class Category(BaseModel):
     output_categories: List[str]  = Field(description="list of categories in which the offer has been categorized")
@@ -91,16 +93,41 @@ def retry_until_output_categories_present(func):
                 print(f'invalid json\n{response["output"]}')  # Ignore JSONDecodeError and continue retrying
             
             response = func(*args, **kwargs)
+            response["output"] = response["output"].replace("`", "").replace("json","")
         return response
     return wrapper
 
 @retry_until_output_categories_present
 def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm_config=None):
+    generation_start_time = datetime.now()
     if llm_config is None:
         llm_config = {}
 
     # Get prompt object
     prompt_str = prompt_obj.compile(**prompt_dictionary)
+
+    # Check cache
+    md5_hash = hashlib.md5(prompt_dictionary["offer"].encode()).hexdigest()
+    cache_filename = f"cache/sn_llm_cat_cache/{md5_hash}.cache"
+
+    # Check if file exists in cache
+    if os.path.exists(cache_filename):
+        with open(cache_filename, "r") as cache_file:
+            cached_json = json.load(cache_file)
+            cached_response = {
+                "input": cached_json["offer"],
+                "output": f"{{\"output_categories\": {json.dumps(cached_json['output'])}, \"explanation\": {json.dumps(cached_json['output_explanation'])}}}",
+                "prompt_obj": prompt_obj,
+                "prompt_str": prompt_str,
+                "llm": model,
+                "llm_config": llm_config,
+                "start_time": generation_start_time,
+                "end_time": datetime.now(),
+            }
+
+        return cached_response
+
+
 
     # Create chat completion request
     response = client.chat.completions.create(
@@ -111,11 +138,6 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm
 
     content = response.choices[0].message.content
 
-    # Prepare response data
-    generation_start_time = datetime.now()
-    end_time = datetime.now()
-
-
     response_data = {
         "input": prompt_str,
         "output": content,
@@ -124,7 +146,7 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm
         "llm": model,
         "llm_config": llm_config,
         "start_time": generation_start_time,
-        "end_time": end_time,
+        "end_time": datetime.now(),
     }
 
     return response_data
@@ -235,7 +257,7 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
             gpt35turbo_shortlisted_categories = []
             if l == "gpt-3.5-turbo":
                 for idx, subset in enumerate(categories_subsets):
-                    print(f"\nCategorizing '{offer}'\nModel: {l}")
+                    # print(f"\nCategorizing '{offer}'\nModel: {l}")
                     prompt_obj = langfuse.get_prompt("categorizator_multi")
                     response = invoke_llm(
                         client=openai_client,
@@ -276,12 +298,23 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
                 final_cat_span = langfuse.span(trace_id=trace.id, name="final_categorization", input=offer, output=final_category, parent_observation_id=main_span.id)
                 final_generation = create_generation(response_dict=final_response, trace=trace, db_item=item, parent_observation_id=final_cat_span.id, run_id=run_id)
                 
-                csv_results.append({
+                final_data = {
                     "offer": offer,
                     "output": final_category,
                     "expected_output": item.expected_output,
-                    "output_explanation": json.loads(final_response["output"])["explanation"]
-                })
+                    "output_explanation": json.loads(final_response["output"])["explanation"],
+                    "shortlisted_categories": gpt35turbo_shortlisted_categories
+                }
+                csv_results.append(final_data)
+                md5_hash = hashlib.md5(offer.encode()).hexdigest()
+        
+                # Write cache file
+                cache_filename = f"cache/sn_llm_cat_cache/{md5_hash}.cache"
+                if not os.path.exists(cache_filename):
+                    with open(cache_filename, "w") as cache_file:
+                        json.dump(final_data, cache_file, indent=4)
+
+
             
         with open(f"experiment_{run_id}.csv", "w", newline="") as csvfile:
             fieldnames = ["offer", "output", "expected_output","output_explanation"]

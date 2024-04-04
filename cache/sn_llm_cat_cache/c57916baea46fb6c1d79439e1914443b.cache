@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Funding opportunity: UK-South Korea CR&D 2024\n\n ### DESCRIPTION:\n See the full opportunity details on the Innovation Funding Service. UK registered businesses can apply for a share of up to \u00a36 million for the purpose of developing innovative proposals with South Korea. You must collaborate with at least one South Korean business applying under the equivalent KIAT or KETEP programme. Eligibility summary To lead a project your organisation must: be a UK registered business of any size partner with a South Korean registered business, which must be a separate non-linked entity to the UK project partners",
+    "output": [
+        "Development consultancy services"
+    ],
+    "expected_output": "Business and management consultancy services",
+    "output_explanation": "I categorized this offer as Development consultancy services because it involves UK registered businesses applying for a funding opportunity to develop innovative proposals with South Korea. This collaboration requires expertise in consultancy services to facilitate the development of the projects, making it suitable for the category of Development consultancy services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Business and management consultancy services",
+        "Technical inspection and testing services",
+        "Financial analysis and accounting software package",
+        "Networking software package",
+        "Development consultancy services",
+        "Investment banking services and related services",
+        "Research, testing and scientific technical simulator",
+        "Custom software development services",
+        "Business professional and specialist organizations",
+        "Industrial process control equipment",
+        "Development services of real estate",
+        "Advisory architectural services"
+    ]
+}

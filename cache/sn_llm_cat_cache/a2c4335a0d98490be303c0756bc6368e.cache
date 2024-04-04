@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n NHS CFA Analytical Software\n\n ### DESCRIPTION:\n Analytical Software Services",
+    "output": [
+        "Analytical"
+    ],
+    "expected_output": "Analytical, scientific, mathematical or forecasting software package",
+    "output_explanation": "The product/service offer is categorized as Analytical software since it provides analytical software services specifically tailored for CFA analysis in the healthcare sector.",
+    "shortlisted_categories": [
+        "Analytical, scientific, mathematical or forecasting software package",
+        "Information systems",
+        "Medical software package",
+        "Industrial control software package",
+        "Database systems",
+        "System, storage and content management software package",
+        "Custom software development services",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

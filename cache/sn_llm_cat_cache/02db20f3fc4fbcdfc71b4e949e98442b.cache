@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n FORCED DRAFT BLOWER Parts\n\n ### DESCRIPTION:\n This is a COMBINED SYNOPSIS/SOLICITATION for commercial items prepared in accordance with the information in Federal Acquisition Regulation (FAR) Part 13 using Simplified Acquisition Procedures (SAP). This announcement constitutes the only solicitation; a written solicitation will not be issued. PAPER COPIES OF THIS SOLICITATION WILL NOT BE AVAILABLE. This combined synopsis/solicitation will be posted to the System for Award Management at https://sam.gov/ and/or Procurement Integrated Enterprise Environment (PIEE) at https://piee.eb.mil. This is a combined synopsis/solicitation for commercial items prepared in accordance with the format in FAR 12.6, as supplemented with additional information included in this notice. The RFQ number is N5005424Q0073. This solicitation documents and incorporates provisions and clauses in effect though FAC 2024-03 and the DFARS Change notice 20231222.  The Mid-Atlantic Regional Maintenance Center (MARMC) requests responses from qualified sources capable of providing the Labyrinth Assembly / Seal, Oil Baffle and Spring Packing that are identified in the attached Statement of Work (SOW). All parts shall be new. No refurbished or used parts will be accepted.",
+    "output": [
+        "Mechanical spare parts except engines and engine parts"
+    ],
+    "expected_output": "Ships",
+    "output_explanation": "The product offer of FORCED DRAFT BLOWER Parts falls under the category of Mechanical spare parts except engines and engine parts because it specifically mentions providing parts like Labyrinth Assembly / Seal, Oil Baffle, and Spring Packing for blower maintenance, which are mechanical spare parts used in equipment.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Repair and maintenance services of precision equipment",
+        "Electrical supplies and accessories",
+        "Technical inspection and testing services",
+        "Miscellaneous special-purpose machinery",
+        "Parts of railway or tramway locomotives or rolling stock",
+        "Industrial control software package",
+        "Machines and apparatus with individual functions",
+        "Mechanical spare parts except engines and engine parts",
+        "Parts of military vehicles",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Spare parts for goods vehicles"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n FURNACE REPLACEMENT - KLONDIKE GOLD RUSH NP, AK\n\n ### DESCRIPTION:\n FURNACE REPLACEMENT - KLONDIKE GOLD RUSH NP, AK",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery",
+    "output_explanation": "The offer is for furnace replacement, which falls under construction work for water projects as it involves the installation or replacement of heating equipment in a specific location within a national park.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Heat-exchange units, air-conditioning and refrigerating equipment",
+        "Repair and maintenance services of precision equipment",
+        "Construction equipment",
+        "Construction works for plants",
+        "Central-heating radiators and boilers and parts",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services",
+        "Building rental or sale services",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n NON-HAZARDOUS WASTE RECYCLING, COMPOST, AND DISPOSAL\n\n ### DESCRIPTION:\n View Changes Argonne National Laboratory is looking for a contractor to provide services for Non-Hazardous Waste Recycling, Compost, and Disposal.\u00a0 Please see the statement of work for further details. If able to provide the services listed above, please provide and address the following by 02/27/2024, 5:00 PM CST. Review of Instructions to Bidders, dated 02/15/2024 Review and acceptance of the ANL-71 COM Terms and Conditions Review and Acceptance of ANL-366H,\u00a0High-Risk Work by Contractors on the Argonne Site Supplemental Conditions Review of Statement of Work, entitled \u201cNON-HAZARDOUS WASTE RECYCLING, COMPOST, AND DISPOSAL\u201d, dated January 2024 Review\u00a0 of\u00a0Annual Argonne National Laboratory\u2019s Waste Types & Estimated Quantities, dated 02/15/2024 Review of\u00a0Dumpster Pickup Schedule, dated 02/01/2024 Completion of\u00a0Reps & Certs, ANL-70B, dated 06/06/2022 Completion of\u00a0Pricing Schedule RFQ: 4-B175-Q-00277-00 Completion of\u00a0the ANL-548, Organizational Conflicts of Interest isclsure/Representation form Executed ANL-70 Request for Quotation (Signed on Page 1) Proposal Certificate of Insurance Provide the earliest start date of services Provide Price Justification in the form of a public pricelist or redacted invoice to support quoted pricing. Review and complete Addendum 0001 - Proposal due date has been extended to 3/5/2024 Please submit any questions regarding this RFQ no later than 02/21/2024, 12:00 PM CST",
+    "output": [
+        "Waste management services"
+    ],
+    "expected_output": "Radioactive-, toxic-, medical- and hazardous waste services",
+    "output_explanation": "I categorized the offer as Waste management services because it involves recycling, compost, and disposal of non-hazardous waste, which falls under the broader category of waste management services.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Refuse disposal and treatment",
+        "Waste management services",
+        "Recycling services",
+        "Waste management services",
+        "Recycling services",
+        "Compost services",
+        "Waste incinerators",
+        "Processed fruit and vegetables",
+        "Potatoes and potato products",
+        "Environmental services",
+        "Waste management",
+        "Recycling",
+        "Sales",
+        "Recycling",
+        "Disposal"
+    ]
+}

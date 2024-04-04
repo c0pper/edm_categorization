@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Y--Barn and Shed\n\n ### DESCRIPTION:\n ROMO 316223, Colorado River District Barn and Shed Replacement, Rocky Mountain National Park, Colorado",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Building construction work",
+    "output_explanation": "The offer is related to the replacement of a barn and shed in Rocky Mountain National Park, which falls under construction work for water projects.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Other building completion work",
+        "Construction consultancy services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Civil engineering machinery",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Building rental or sale services",
+        "Development services of real estate"
+    ]
+}

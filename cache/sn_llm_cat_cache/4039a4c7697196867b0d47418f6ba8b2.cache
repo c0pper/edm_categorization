@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Doctorate in Clinical Psychology - Health Education England (LDN)\n\n ### DESCRIPTION:\n Doctorate in Clinical Psychology - Health Education England<br/><br/>https://www.contractsfinder.service.gov.uk/Notice/ddaee949-8dff-4132-b537-75fb7bcf600b",
+    "output": [
+        "Medical education services"
+    ],
+    "expected_output": "Administrative services of agencies",
+    "output_explanation": "I categorized the offer as Medical education services because it is a Doctorate in Clinical Psychology program offered by Health Education England, which falls under the category of Medical education services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Medical practice and related services",
+        "Medical education services",
+        "Education services",
+        "Healthcare services",
+        "Education",
+        "Healthcare",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Development services of real estate"
+    ]
+}

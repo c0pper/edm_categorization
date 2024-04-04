@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Facilities Management Services (Paterson)\n\n ### DESCRIPTION:\n The Christie NHS Foundation Trust is looking to procure a Facilities Management Service Provider to maintain the Paterson Building, Manchester.",
+    "output": [
+        "Facilities management services"
+    ],
+    "expected_output": "Miscellaneous business-related services",
+    "output_explanation": "The offer is seeking a Facilities Management Service Provider to maintain a building, which falls under facilities management services category.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Administrative services of agencies",
+        "Repair and maintenance services of precision equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Building rental or sale services",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate"
+    ]
+}

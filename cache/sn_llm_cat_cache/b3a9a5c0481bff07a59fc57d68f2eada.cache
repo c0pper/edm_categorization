@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n FIRE ALARM/SPRINKLER SYSTEM INSPECTION REPAIR,MONITORING\n\n ### DESCRIPTION:\n Network Contracting Office 16 is seeking Contractors to\u00a0provide fire alarm preventative maintenance services in\u00a0accordance with the Statement of Work (SOW). See attached solicitation document.",
+    "output": [
+        "Firefighting, rescue and safety equipment"
+    ],
+    "expected_output": "Sound or visual signalling apparatus",
+    "output_explanation": "The offer is related to fire alarm preventative maintenance services, which falls under the category of Firefighting, rescue and safety equipment.",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Electrical installation work",
+        "Firefighting, rescue and safety equipment",
+        "Technical inspection and testing services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Maintenance services of telecommunications equipment",
+        "Firearms",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of security equipment",
+        "System, storage and content management software package",
+        "Miscellaneous fire-protection equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

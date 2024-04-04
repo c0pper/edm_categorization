@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Portable Temporary Container Living Units\n\n ### DESCRIPTION:\n The supplier shall provide, design, manufacture, equipment, deliver, and install (with support mooring and utilities hook-up) three (3) three-bedroom three- bathroom, 40-foot marine portable shipping container living units.",
+    "output": [
+        "Containers and pressure vessels"
+    ],
+    "expected_output": "Structures and parts of structures",
+    "output_explanation": "The offer of Portable Temporary Container Living Units falls under the category of Containers and pressure vessels because it involves the design, manufacture, and installation of portable shipping container living units.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Other building completion work",
+        "Containers and pressure vessels",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Trailers, semi-trailers and mobile containers",
+        "Miscellaneous furniture and equipment",
+        "Facilities management software package and software package suite",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Building rental or sale services",
+        "Plastic products",
+        "System, storage and content management software package",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Sales"
+    ]
+}

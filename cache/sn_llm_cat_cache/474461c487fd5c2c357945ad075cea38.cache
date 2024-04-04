@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Provision of a Tender Tracking Service\n\n ### DESCRIPTION:\n The Commercial Intelligence team requires access to public sector contract data including contract notices and awards. Insight into this data will be used to highlight opportunities for relevant Commercial, Account Manager, and Partnerships colleagues. Da",
+    "output": [
+        "Market research services"
+    ],
+    "expected_output": "Business and management consultancy services",
+    "output_explanation": "The offer of provision of a Tender Tracking Service involves tracking public sector contract data which aligns with the category of Market research services. This service involves researching and analyzing contract notices and awards within the market.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Business and management consultancy services",
+        "Market research services",
+        "Information systems",
+        "Technical inspection and testing services",
+        "Data-processing machines (hardware)",
+        "Investigation services",
+        "Legal documentation and certification services",
+        "Computer-related equipment",
+        "Database systems",
+        "General public services",
+        "Research, testing and scientific technical simulator",
+        "Intelligence",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n BME WATER TREATMENT SERVICES\n\n ### DESCRIPTION:\n attached",
+    "output": [
+        "Consultative engineering and construction services"
+    ],
+    "expected_output": "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+    "output_explanation": "The offer of BME WATER TREATMENT SERVICES is categorized as Consultative engineering and construction services because it involves the engineering and construction aspects of water treatment services, which require expertise and consultancy in the design and implementation of water projects.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Construction work for water projects",
+        "Consultative engineering and construction services",
+        "Technical inspection and testing services",
+        "Repair and maintenance services of precision equipment",
+        "Maintenance services of telecommunications equipment",
+        "Drinking water",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Repair and maintenance services of weapons and weapon systems",
+        "System, storage and content management software package",
+        "Installation services of laboratory equipment"
+    ]
+}
