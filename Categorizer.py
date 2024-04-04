@@ -272,8 +272,11 @@ class Categorizer:
         return context
 
 
-    def ask_elmib(self, input_: dict, categories:list = None) -> dict:
+    def ask_elmib(self, input_: dict, llm_config: dict = None, categories:list = None) -> dict:
         url = "https://elmilab.expertcustomers.ai/elmib/generate"
+
+        if llm_config is None:
+            llm_config = {}
 
         headers = {
             "Content-Type": "application/json",
@@ -311,6 +314,7 @@ class Categorizer:
             "lang": "en",
             "input_auto_trunc": False,
             "custom_profile": "",
+            **llm_config # This line merges the llm_config dictionary into body
         }
 
         response = requests.post(url, json=body, headers=headers)
@@ -318,38 +322,49 @@ class Categorizer:
         if response.status_code == 200:
             result = response.json()
             # print(result)
-            return {"output": result.strip(), "prompt": prompt}
+            return {"output": result.strip(), "prompt": prompt, "llm_config": llm_config}
         else:
             print(f"Error: {response.status_code}, {response.text}")
             return {"output": response}
     
 
-    def ask_chatgpt(self, input_: dict, categories:list = None) -> dict:
+    def ask_chatgpt(self, input_: dict, llm_config: dict = None, categories:list = None) -> dict:
         client = OpenAI()
-        
+
+        if llm_config is None:
+            llm_config = {}
 
         if self.mode == "cat":
-            if not list(categories):
-                raise ValueError("No categories list provided")
-            question = list(input_.values())[0]
-            categories = ", ".join(list(categories))
-            prompt = self.BASE_PROMPT.format(question, categories)
+            # if not list(categories):
+            #     raise ValueError("No categories list provided")
+            # question = list(input_.values())[0]
+            # categories = ", ".join(list(categories))
+            # prompt = self.BASE_PROMPT.format(question, categories)
+            prompt = input_["question"]
         elif self.mode in ["context", "nestor_elmi", "nestor_cgpt"]:
             # question = list(input_.values())[0].split("CONTEXT")[0]
             # context = self.format_context(input_)
             # prompt = self.BASE_PROMPT.format(context, question)
             prompt = input_["question"]
+        
+        if "instruct" in input_["model"]:
+            completion = client.completions.create(
+                model=input_["model"],
+                prompt=prompt,
+                **llm_config
+            )
+            content = completion.choices[0].text
+        else:
+            completion = client.chat.completions.create(
+                model=input_["model"],
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                **llm_config
+            )
+            content = completion.choices[0].message.content
 
-        completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant. Please respond to the user's request only based on the given context."},
-                {"role": "user", "content": prompt}
-            ]
-        )
-
-        content = completion.choices[0].message.content
-        return {"output": content, "prompt": prompt}
+        return {"output": content, "prompt": prompt, "llm_config": llm_config}
 
 
     

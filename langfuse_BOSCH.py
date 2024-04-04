@@ -37,7 +37,7 @@ def create_generation(response_dict, trace):
         name=f'{response_dict["llm"]}_generation',
         model=response_dict["llm"],
         input=response_dict["prompt_str"],
-        metadata={"llm": response_dict["llm"]},
+        metadata={"llm": response_dict["llm"], "llm_config": response_dict["llm_config"]},
         start_time=response_dict["start_time"],
         end_time=response_dict["end_time"],
         prompt=response_dict["prompt_obj"],
@@ -65,7 +65,8 @@ def evaluate_generation(generation, response_dict, db_item, trace):
     evaluator = RelevanceEvaluator(mode=MODE)
     ground_truth = db_item["ground_truth"] if isinstance(db_item, dict) else db_item.expected_output
 
-    evalautor_prompt_obj = langfuse.get_prompt("qa_evaluator")
+    # evalautor_prompt_obj = langfuse.get_prompt("qa_evaluator")
+    evalautor_prompt_obj = langfuse.get_prompt("qa_evaluator_bullets")
     evaluator_prompt_str = evalautor_prompt_obj.compile(
             query=response_dict["question"],
             true_answer=ground_truth,
@@ -122,16 +123,21 @@ def llm_generate_and_evaluate(response_dict, db_item, run_id, using_LF_dataset):
     langfuse.flush()
 
 
-def run_bosch_qa_experiment():
+def run_bosch_qa_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=None, elmib_config=None):
     # df = pd.read_csv( "data/bosch-samples_3_with_answers.csv", encoding='cp1252')
+    if not gpt35turboinstruct_config:
+        gpt35turboinstruct_config = {}
+    if not gpt35turbo_config:
+        gpt35turbo_config = {}
+    if not elmib_config:
+        elmib_config = {}
 
     categorizer = Categorizer(mode=MODE)
 
-    dataset = langfuse.get_dataset("bosch-samples")
     using_LF_dataset = not isinstance(dataset, Dataset)
 
     expertiment_uuid = str(uuid4())[:8]
-    llms = ["elmib", "chatgpt-3.5-turbo"]
+    llms = ["gpt-3.5-turbo-instruct", "gpt-3.5-turbo", "elmib"]
     for l in llms:
         run_id = f"{l}_{expertiment_uuid}"
         for item in tqdm(dataset if not using_LF_dataset else dataset.items):
@@ -153,17 +159,26 @@ def run_bosch_qa_experiment():
             # input_text = f"{question} CONTEXT {nl.join(contexts)}"
             
             generationStartTime = datetime.now()
-            if l == "chatgpt-3.5-turbo":
+            if l == "gpt-3.5-turbo":
+                print(f"\nAsking '{question}'\nModel: {l}")
                 prompt_obj = langfuse.get_prompt("nestor_cgpt_original_prompt")
                 prompt_str = prompt_obj.compile(context=nl.join(contexts), query=question)
-                response = categorizer.ask_chatgpt({"question": prompt_str})
-                response = {"question": question, "output": response["output"], "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "start_time": generationStartTime, "end_time": datetime.now()}
+                response = categorizer.ask_chatgpt({"question": prompt_str, "model": l})
+                response = {"question": question, "output": response["output"], "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "llm_config": response["llm_config"], "start_time": generationStartTime, "end_time": datetime.now()}
+
+            if l == "gpt-3.5-turbo-instruct":
+                print(f"\nAsking '{question}'\nModel: {l}")
+                prompt_obj = langfuse.get_prompt("nestor_cgpt_original_prompt")
+                prompt_str = prompt_obj.compile(context=nl.join(contexts), query=question)
+                response = categorizer.ask_chatgpt({"question": prompt_str, "model": l}, llm_config=gpt35turboinstruct_config)
+                response = {"question": question, "output": response["output"], "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "llm_config": response["llm_config"], "start_time": generationStartTime, "end_time": datetime.now()}
 
             elif l == "elmib":
+                print(f"\nAsking '{question}'\nModel: {l}")
                 prompt_obj = langfuse.get_prompt("nestor_elmib_original_prompt")
                 prompt_str = prompt_obj.compile(context=nl.join(contexts), query=question)
                 response = categorizer.ask_elmib({"question": prompt_str})
-                response = {"question": question, "output": response["output"], "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "start_time": generationStartTime, "end_time": datetime.now()}
+                response = {"question": question, "output": response["output"], "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "llm_config": response["llm_config"], "start_time": generationStartTime, "end_time": datetime.now()}
                 
             llm_generate_and_evaluate(response, item, run_id, using_LF_dataset)
 
@@ -182,16 +197,26 @@ if __name__ == "__main__":
     )
 
     MODE = "nestor_cgpt"
-    # langfuse.create_dataset(name="bosch-samples")
-    # with open('data/bosch-samples_for_ragas.csv', 'r') as csv_file:
+    dataset_name = "bosch-samples-bullets"
+    # langfuse.create_dataset(name=dataset_name)
+    # with open(f'data/{dataset_name}.csv', 'r') as csv_file:
     #     csv_reader = csv.reader(csv_file)
     #     next(csv_reader)
         
     #     for row in csv_reader:
     #         langfuse.create_dataset_item(
-    #             dataset_name="bosch-samples",
+    #             dataset_name=dataset_name,
     #             input=f"{row[0].strip()} CONTEXT {row[2]}",
     #             expected_output=row[1].strip()
     #         )
+    
+    # dataset = langfuse.get_dataset("bosch-samples")
+    dataset = langfuse.get_dataset(dataset_name)
 
-    run_bosch_qa_experiment()
+    run_bosch_qa_experiment(dataset, gpt35turboinstruct_config={
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 0.75,
+        "temperature": 0.1,
+        "max_tokens": 2000
+    })
