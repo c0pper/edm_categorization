@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Provision of Vehicle Body Repair Services\n\n ### DESCRIPTION:\n This contract is for the Provision of Vehicle Bodywork Repair Services for Leeds City Council's fleet of vehicles and also to vehicles for other public bodies as requested all of which could be drivable or non drivable",
+    "output": [
+        "Vehicle Body Repair Services"
+    ],
+    "expected_output": "Repair and maintenance services of motor vehicles and associated equipment",
+    "output_explanation": "The offer is clearly focused on the provision of vehicle body repair services, making it a perfect fit for the 'Vehicle Body Repair Services' category.",
+    "shortlisted_categories": [
+        "Repair and maintenance services of motor vehicles and associated equipment",
+        "Repair and maintenance services of precision equipment",
+        "Vehicle body repair services",
+        "Motor vehicles for the transport of goods",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of measuring, testing and checking apparatus",
+        "Vehicle Body Repair Services",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Repair and maintenance services of audio-visual and optical equipment",
+        "Street-cleaning and sweeping services",
+        "Repair and maintenance services of vehicles",
+        "Public services",
+        "Fleet management services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

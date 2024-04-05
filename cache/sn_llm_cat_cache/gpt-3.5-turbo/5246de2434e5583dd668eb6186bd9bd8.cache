@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n USDA Seeks General Office Space for Lease in Newberry South Carolina\n\n ### DESCRIPTION:\n View Changes State:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 SC City:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 Newberry Delineated Area: North: HWY.121 / KENDALL RD. East: WILSON RD. / HWY. 76 South: DIXIE DR. / HWY. 34 West: HWY.121 Minimum Sq. Ft. (ABOA):\u00a0 4,000 Maximum Sq. Ft. (ABOA):\u00a04,200 Maximum Sq. Ft. (RSF):\u00a0 \u00a0 4,800 Space Type: General Office Space Reserved Parking Spaces (Total):\u00a0 \u00a0 \u00a0 \u00a0 \u00a03 Reserved Parking Spaces (Gated):\u00a0 \u00a0 \u00a0 \u00a00 Non-Reserved Parking Spaces (Total):\u00a0 23\u00a0\u00a0 Full Term: 10 Years Firm Term: 3 Additional Requirements: 1000 SF Fenced and well lit wareyard. Pull through parking for large trucks and trailers Security lights parking lot. Install the supporting infrastructure for 1 dual-port Level 2 EVSE Charging Stations in support of USDA\u2019s electric vehicles. (RLP Amendment 1) The Government wishes to lease space in an existing building, or in a building to be constructed for the Government\u2019s use. Offered space must meet Government requirements for fire safety, accessibility, seismic and sustainability standards per the terms of the Lease.\u00a0 The space offered, its location, and its surroundings must be compatible with the Government\u2019s intended use. A fully serviced lease is required.\u00a0 Offered space and sites shall not be in the 100-year flood plain. Additional parking spaces may be located on-site and/or within 1/4 of a mile of the premises, pedestrian accessible. Preferred first floor, contiguous space that meets accessibility requirements. Estimated award date 07/15/2024 Notice: The Government will not pay for any costs incurred as a result of this advertisement. Respondents are advised that the Government assumes no responsibility to award a lease based upon responses to this advertisement.",
+    "output": [
+        "Non-residential property renting or leasing services"
+    ],
+    "expected_output": "Non-residential property renting or leasing services",
+    "output_explanation": "The offer is for USDA seeking general office space for lease in Newberry, South Carolina. This falls under the category of non-residential property renting or leasing services.",
+    "shortlisted_categories": [
+        "Non-residential property renting or leasing services",
+        "Administrative services of agencies",
+        "Construction consultancy services",
+        "Electrical supplies and accessories",
+        "Property management services of real estate on a fee or contract basis",
+        "Office automation software package",
+        "General Office Space",
+        "Facilities Management Software Package",
+        "Electric Vehicle Charging Stations",
+        "Building rental or sale services",
+        "Supporting services for the government",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Woodworking equipment"
+    ]
+}

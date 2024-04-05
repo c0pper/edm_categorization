@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Managed Clinical Advisory Group in the Children & Young People Secure Estate\n\n ### DESCRIPTION:\n The \u2018Managed Clinical Advisory Group\u2019, will function as a specific child health group; a sub group of the main Health and Justice Clinical Reference Group. Please see the Specification in the Atamis portal for further details.",
+    "output": [
+        "Health services"
+    ],
+    "expected_output": "Miscellaneous health services",
+    "output_explanation": "The offer is categorized as 'Health services' because it involves providing clinical advisory services in the Children & Young People Secure Estate, focusing on child health within the Health and Justice Clinical Reference Group.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Health services",
+        "Medical software package",
+        "Medical imaging services",
+        "Provider services",
+        "Health services",
+        "Justice services",
+        "Childcare services",
+        "Healthcare Services",
+        "Consulting Services",
+        "Trust and custody services",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Advisory architectural services"
+    ]
+}

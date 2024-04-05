@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Shielded Mild Detonating Cord - 1377-00-410-8297 MD17, MF97, MS63, MS64, MS66\n\n ### DESCRIPTION:\n 1377-00-410-8297 MD17, 1377-01-125-6522 MF97, 1377-01-267-2175 MS63, 1377-01-267-2176 MS64, and 1377-01-267-2178 MS66 Shielded Mild Detonating Cord  Paper copies will not be provided.  Procurement is restricted to Pacific Scientific EMC (Hollister, CA) and Rockwell Collins, Inc..  A limited drawing package is available.  Drawings are NOT available on CD.  Items are explosive.  A Safety Survey will be required.  See solicitation for explosive weight and class.",
+    "output": [
+        "Prepared explosives"
+    ],
+    "expected_output": "Ammunition",
+    "output_explanation": "The offer is for Shielded Mild Detonating Cord, which falls under the category of Prepared explosives as it is an explosive item used for detonation purposes.",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Ammunition",
+        "Industrial gases",
+        "Electrical supplies and accessories",
+        "Trade-advertising material, commercial catalogues and manuals",
+        "Defence services",
+        "Prepared explosives",
+        "Miscellaneous textile articles",
+        "Recording systems and exploration devices",
+        "Explosives",
+        "Military equipment",
+        "Safety equipment",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

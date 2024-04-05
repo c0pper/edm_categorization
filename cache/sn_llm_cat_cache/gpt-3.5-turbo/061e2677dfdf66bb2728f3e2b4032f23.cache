@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Electric Utility Truck Rental\n\n ### DESCRIPTION:\n This requirement is a Firm Fixed Price for services under FAR Part 12&13. Please see Performance Work Statement. Basis of award will be Price and other factors.",
+    "output": [
+        "Rental services"
+    ],
+    "expected_output": "Heavy-duty motor vehicles",
+    "output_explanation": "The offer of Electric Utility Truck Rental falls under the category of Rental services as it involves the rental of goods-transport vehicles for a specific purpose.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Construction work for pipelines",
+        "Repair and maintenance services of vehicles",
+        "Electric supplies and accessories",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Hire of goods-transport vehicles with driver",
+        "Miscellaneous services",
+        "Rental services",
+        "Utilities",
+        "Development services of real estate"
+    ]
+}

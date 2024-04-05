@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Transition Assistance Program Support\n\n ### DESCRIPTION:\n To support the enhancement of the TAP, VETS requires a contractor to provide Transitioning Service Members and their spouses on how to enrich their skills, to secure meaningful and successful careers in the civilian labor force, research and identify civilian occupations, establish career goals, learn about credentialing and vocational training programs, while decreasing dependence upon unemployment compensation.",
+    "output": [
+        "Vocational training services"
+    ],
+    "expected_output": "Business and management consultancy services",
+    "output_explanation": "The offer provides support for Transitioning Service Members and their spouses to enrich their skills and secure successful careers in the civilian labor force, focusing on identifying civilian occupations, establishing career goals, and learning about credentialing and vocational training programs. This aligns closely with the category of Vocational training services.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Consultative engineering and construction services",
+        "Specialist training services",
+        "Vocational training services",
+        "Social services",
+        "Personnel services except placement and supply services",
+        "Training facilities",
+        "E-learning services",
+        "General public services",
+        "Training and entertainment software package",
+        "Support services for air transport",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Supporting services for the government",
+        "Development services of real estate",
+        "Advisory architectural services"
+    ]
+}

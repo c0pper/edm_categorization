@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Contract for Short Breaks\n\n ### DESCRIPTION:\n A contract to provide a service for children and young people (CYP) who require specialised support over a specific period of time.",
+    "output": [
+        "Children services"
+    ],
+    "expected_output": "Social work services",
+    "output_explanation": "This offer is related to providing specialized support for children and young people over a specific period of time, making it fall under the category of Children services.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Consultative engineering and construction services",
+        "Youth education services",
+        "Special education services",
+        "Specialized services",
+        "Contracts",
+        "Children and Young People",
+        "Holiday centre and holiday home services",
+        "Miscellaneous fertilisers",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Children services",
+        "Development services of real estate"
+    ]
+}

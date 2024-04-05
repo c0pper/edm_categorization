@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n $249M Unrestricted A-E Environmental MATOC - USACE NWD_Solicitation\n\n ### DESCRIPTION:\n NAICS Code 541330; A-E SVS this is NOT an ERS requirement All SF330s are due on or before 22 Mar 2024 at 2:00pm CENTRAL time in accordance with the instructions found in the attached synopsis. The resulting contract under this solicitation will be a $249M Unrestricted Indefinite Delivery, Indefinite Quantity (IDIQ) Multiple Award Task Order Contract (MATOC) with a targeted pool of five (5) contractors. The contracts will be awarded for a total of seven (7) years; one five (5) year base and one two (2) year option. The NAICS code for this contract will be 541330 \u2013 Engineering Services. This acquisition will be used to procure highly specialized Environmental A-E Services required to primarily support the environmental missions for existing and future customers of the U.S. Army Corps of Engineers (USACE) Northwestern Division (NWD) and other USACE District and Division AORs throughout the Contiguous U.S., Alaska, Hawaii, and outlying areas The contractors are required to be registered under NAICS code 541330 in the System for Award Management (SAM) located at https://www.sam.gov. .All amendments will be posted in https://www.sam.gov. It shall be the contractor's responsibility to check the website for any amendments.",
+    "output": [
+        "Architectural, engineering and planning services"
+    ],
+    "expected_output": "Environmental management",
+    "output_explanation": "The offer is for Engineering Services related to environmental missions for the U.S. Army Corps of Engineers. As such, it falls under the category of Architectural, engineering and planning services.",
+    "shortlisted_categories": [
+        "Consultative engineering and construction services",
+        "Research services",
+        "Architectural, engineering and planning services",
+        "Environmental services",
+        "Technical inspection and testing services",
+        "Construction supervision services",
+        "Engineering Services",
+        "Environmental Services",
+        "Civil engineering machinery",
+        "Database systems",
+        "General public services",
+        "Geological prospecting apparatus",
+        "Engineering Services",
+        "Development services of real estate",
+        "Engineering Services"
+    ]
+}

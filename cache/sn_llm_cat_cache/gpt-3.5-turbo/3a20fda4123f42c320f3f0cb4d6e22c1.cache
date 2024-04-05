@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n TT0019 - Education Taxi and Minibus Framework\n\n ### DESCRIPTION:\n Fife Council requires to appoint Contractors capable of meeting the needs of the Council in relation to the provision of Education Taxi and Minibus Framework. This Lot requires Contractors to undertake School journeys Fife Wide and have the necessary vehicle (Saloon 4 seater passenger vehicle; MPV (5 to 8 passenger seats) vehicle; MPV Wheelchair Access Vehicle (WAV) (5 to 8 passenger seats) vehicle; Minibus (9 to 16 passenger seats) vehicle; Minibus Wheelchair Access Vehicle (WAV) (9 to 16 passenger seats) vehicle; and Large Minibus (17 to 22 passenger seats) vehicle) to undertake these journeys. Journeys may take place wholly within a zone (West, Kirkcaldy, Glenrothes, Levenmouth and North East), between zones or between Fife and locations across the Fife boundary and maybe outwith Fife.",
+    "output": [
+        "Transportation services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The offer pertains to the provision of Education Taxi and Minibus Framework, which involves transporting students to and from school. This falls under the category of Transportation services.",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Transport tickets",
+        "Youth education services",
+        "Special-purpose road passenger-transport services",
+        "Vocational training services",
+        "Transportation services",
+        "Education services",
+        "Non-scheduled passenger transport",
+        "Hire of goods-transport vehicles with driver",
+        "Public transport services by railways",
+        "Various school services",
+        "Scheduled air transport services"
+    ]
+}

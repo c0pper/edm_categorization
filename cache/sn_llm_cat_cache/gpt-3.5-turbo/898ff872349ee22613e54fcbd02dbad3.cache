@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Computer Aided Design (CAD) Technician for the HMS Victory Conservation Project\n\n ### DESCRIPTION:\n Open Procedure",
+    "output": [
+        "Specialized design services"
+    ],
+    "expected_output": "Engineering design services",
+    "output_explanation": "The offer is for a Computer Aided Design (CAD) Technician, which falls under specialized design services specifically for the HMS Victory Conservation Project.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Construction work for water projects",
+        "Consultative engineering and construction services",
+        "Library and archive services",
+        "Technical inspection and testing services",
+        "Specialized design services",
+        "Marine equipment",
+        "Drawing and imaging software package",
+        "Machines and apparatus with individual functions",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Miscellaneous fertilisers",
+        "Development services of real estate",
+        "Woodworking equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

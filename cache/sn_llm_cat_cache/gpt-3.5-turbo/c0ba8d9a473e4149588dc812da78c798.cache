@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n EMIS WEB GPSoC Lot 2 services\n\n ### DESCRIPTION:\n GP Practices depend upon IT systems and services to deliver their services to their patients. Without IT, practices would depend upon manual processes and that would very significantly impact on the ability of the 196 EMIS WEB practices to provide GMS services.  196 Practices use the EMIS WEB clinical system to access patient histories, record consultations, issue prescriptions and maintain electronic patient records within their practice.  These GP IT Clinical Systems then also interface electronically with other HSC systems - E.g. lab results, radiology reports, registration links, Emergency Care Summary, Key Information Summary, Electronic Document Transfer, GPIP etc. The hardware required to access  and update patient records on the EMIS WEB Clinical System must be supported and maintained to ensure continued availability as well as compliance with the latest security patches to prevent cyber security issues. GP Practices also utilise  Envisage Patient Call and Information Display systems so that GP Practice staff or the clinician do not have to spend significant time manually calling the patients when the clinician is ready to see them.",
+    "output": [
+        "Software-related services"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The offer involves providing services related to IT systems used by GP practices, including EMIS WEB clinical system, Envisage Patient Call system, and maintaining hardware for patient record access. This falls under the category of Software-related services as it involves IT services and maintenance for software systems.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Software-related services",
+        "Medical software package",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Information systems",
+        "Network equipment",
+        "Repair and maintenance services of personal computers",
+        "Telephone-answering services",
+        "Database systems",
+        "Communication software package",
+        "Maintenance and repair services of audio-visual and optical equipment",
+        "System, storage and content management software package",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Miscellaneous fire-protection equipment",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Needles Coastguard Rescue Station (CRS) Fit Out Works\n\n ### DESCRIPTION:\n Contract is for the refit  of the Needles Coastguard Rescue Station Additional information:  Jaggaer ITT Title - Contract for Needles Coastguard Rescue Station (CRS) Fit Out Works",
+    "output": [
+        "Building construction work"
+    ],
+    "expected_output": "Building construction work",
+    "output_explanation": "The Needles Coastguard Rescue Station Fit Out Works involve construction work for refitting the station, making it appropriate to categorize it as Building construction work.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Electrical installation work",
+        "Other building completion work",
+        "Construction supervision services",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Building rental or sale services",
+        "Development services of real estate"
+    ]
+}

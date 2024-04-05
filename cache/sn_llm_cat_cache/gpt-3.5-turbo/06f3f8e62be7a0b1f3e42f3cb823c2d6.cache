@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n High Voltage Pre-Planned Maintenance, Technical Support and Call Out Service\n\n ### DESCRIPTION:\n The service provider is to offer 24/7/365 Technical Support and Pre-Planned Preventative Maintenance activities to installed assets on a range of Low, Medium and High Voltage distribution equipment and systems. The University expects the appointed service provider to work to improve, maintain and increase the life span our electrical infrastructure ensuring continued and safe operation.  Comprehensive maintenance service is required to cover old and new equipment, from Protection Relays and System testing, LV & HV Switchgear, HV & LV Circuit Breakers, Busbar Inspections, Power Distribution Transformers, Thermographic Surveys, Power Factor Correction, Partial Discharge Testing, and HV & LV Cabling and provide support for any metering works that may be required. This service will ensure regular maintenance is carried out which serves to preserve trouble free operation and achieve the longest possible working life of our switchgear and electrical assets.",
+    "output": [
+        "Electrical installation work"
+    ],
+    "expected_output": "Repair and maintenance services of machinery",
+    "output_explanation": "The offer involves maintenance and support services for a range of Low, Medium, and High Voltage distribution equipment and systems, including switchgear, circuit breakers, transformers, cabling, and metering works. This falls under the category of Electrical installation work as it focuses on the maintenance and improvement of electrical infrastructure.",
+    "shortlisted_categories": [
+        "Electrical installation work",
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Engineering-related scientific and technical services",
+        "Technical inspection and testing services",
+        "Power distribution cables",
+        "Transformers",
+        "Maintenance services of telecommunications equipment",
+        "Electrical services",
+        "Testing and inspection services",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Maintenance and repair of office machinery",
+        "Metering instruments",
+        "Repair and maintenance services of electrical equipment",
+        "Technical support services",
+        "Power distribution equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n Temporary Agency Staff\n\n ### DESCRIPTION:\n To supply Temporary agency staff",
+    "output": [
+        "Supply services of personnel including temporary staff"
+    ],
+    "expected_output": "Supply services of personnel including temporary staff",
+    "output_explanation": "The offer of providing temporary agency staff falls under the category of 'Supply services of personnel including temporary staff' as it directly involves supplying temporary staff to businesses or organizations in need of such services.",
+    "shortlisted_categories": [
+        "Supply services of personnel including temporary staff",
+        "Administrative services of agencies",
+        "Personnel services except placement and supply services",
+        "Support services for air transport",
+        "Miscellaneous fertilisers",
+        "Services furnished by business, professional and specialist organisations",
+        "Development services of real estate"
+    ]
+}

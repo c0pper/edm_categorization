@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Account Based Ticketing Services\n\n ### DESCRIPTION:\n Extension of contract for the provision of Account Based Ticketing fares calculation engine  for GWR .",
+    "output": [
+        "Transport tickets"
+    ],
+    "expected_output": "Transport tickets",
+    "output_explanation": "The offer is related to the provision of Account Based Ticketing services for GWR, which falls under the category of Transport tickets.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Transport tickets",
+        "Information systems",
+        "Networking software package",
+        "Calculating and accounting machines",
+        "Database systems",
+        "Transport agency services",
+        "Custom software development services",
+        "Public transport services by railways",
+        "Development services of real estate"
+    ]
+}

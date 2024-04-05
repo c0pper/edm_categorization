@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Facilities Management Strategy - FM in Scotland market research\n\n ### DESCRIPTION:\n The Scottish Police Authority (SPA) has released this PIN as a Request for Information (RFI)to gather information and to understand the FM marketplace in Scotland to ensure our strategies remain affordable, aligned to the requirements of the organisation, and continue to support the aims and objectives of the wider Estates Strategy. The results of this exercise will be used to inform SPA's FM strategy. Further information is provided in the RFI document attached to this notice.",
+    "output": [
+        "Market research services"
+    ],
+    "expected_output": "Market research services",
+    "output_explanation": "The offer is focused on conducting market research in the FM marketplace in Scotland, which falls under the category of Market research services.",
+    "shortlisted_categories": [
+        "Market research services",
+        "Business and management consultancy services",
+        "Technical inspection and testing services",
+        "Administrative services of agencies",
+        "Construction consultancy services",
+        "Property management services of real estate on a fee or contract basis",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Research, testing and scientific technical simulator",
+        "Public security, law and order services",
+        "Building rental or sale services",
+        "Environmental training services",
+        "Development services of real estate",
+        "Advisory architectural services"
+    ]
+}

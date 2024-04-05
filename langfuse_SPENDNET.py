@@ -94,6 +94,7 @@ def retry_until_output_categories_present(func):
             
             response = func(*args, **kwargs)
             response["output"] = response["output"].replace("`", "").replace("json","")
+            
         return response
     return wrapper
 
@@ -108,7 +109,7 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm
 
     # Check cache
     md5_hash = hashlib.md5(prompt_dictionary["offer"].encode()).hexdigest()
-    cache_filename = f"cache/sn_llm_cat_cache/{md5_hash}.cache"
+    cache_filename = f"cache/sn_llm_cat_cache/{model}/{md5_hash}.cache"
 
     # Check if file exists in cache
     if os.path.exists(cache_filename):
@@ -116,7 +117,10 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm
             cached_json = json.load(cache_file)
             cached_response = {
                 "input": cached_json["offer"],
-                "output": f"{{\"output_categories\": {json.dumps(cached_json['output'])}, \"explanation\": {json.dumps(cached_json['output_explanation'])}}}",
+                "output": json.dumps({
+                    "output_categories": cached_json['output'],
+                    "explanation": cached_json['output_explanation']
+                }),
                 "prompt_obj": prompt_obj,
                 "prompt_str": prompt_str,
                 "llm": model,
@@ -309,15 +313,13 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
                 md5_hash = hashlib.md5(offer.encode()).hexdigest()
         
                 # Write cache file
-                cache_filename = f"cache/sn_llm_cat_cache/{md5_hash}.cache"
+                cache_filename = f"cache/sn_llm_cat_cache/{l}/{md5_hash}.cache"
                 if not os.path.exists(cache_filename):
                     with open(cache_filename, "w") as cache_file:
                         json.dump(final_data, cache_file, indent=4)
-
-
             
-        with open(f"experiment_{run_id}.csv", "w", newline="") as csvfile:
-            fieldnames = ["offer", "output", "expected_output","output_explanation"]
+        with open(f"experiment_{run_id}.csv", "w", newline="", encoding="utf8") as csvfile:
+            fieldnames = ["offer", "output", "expected_output","output_explanation","shortlisted_categories"]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             for result in csv_results:

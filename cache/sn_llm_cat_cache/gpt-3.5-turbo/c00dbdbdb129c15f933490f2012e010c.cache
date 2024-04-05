@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Y1DA--IFB 519-24-102 Replace Domiciliary Roof building 18\n\n ### DESCRIPTION:\n View Changes The purpose of this amendment is to make the following changes to the solicitation: Bids are due March 29th, 2024 @ 10:00 AM CST, virtual bid opening is March 29th, 2024 @ 2:00 PM CST. The answers to the request for information (RFI's) are included in this amendment. As built drawings are attached as a zip file in this amendment. 4.    All other terms and conditions remain unchanged and in full effect.",
+    "output": [
+        "Roof works and other special trade construction works"
+    ],
+    "expected_output": "Roof works and other special trade construction works",
+    "output_explanation": "The offer is specifically about replacing the domiciliary roof of a building, which falls under the category of Roof works and other special trade construction works.",
+    "shortlisted_categories": [
+        "Building construction work",
+        "Roof works and other special trade construction works",
+        "Other building completion work",
+        "Construction consultancy services",
+        "Repair and maintenance services of precision equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Building rental or sale services",
+        "Repair and maintenance services of buildings",
+        "As built drawings",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

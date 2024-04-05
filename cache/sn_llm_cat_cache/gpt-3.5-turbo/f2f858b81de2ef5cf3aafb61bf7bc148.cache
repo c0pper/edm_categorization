@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Maybury Medical Practice\n\n ### DESCRIPTION:\n Lothian Health Board (more commonly known as NHS Lothian) (\u201cNHS Lothian\u201d) placed an advertisement on the Public Contracts Scotland website for a Route 3 Procurement on 23 February 2024 seeking expressions of interest from any parties interested in providing primary medical services to patients in the Maybury area of Edinburgh. This requirement has arisen as a result of population growth and a need to establish a new GP practice. The practice at Maybury Medical Practice, Suite 2, 13 Turnhouse Road, Edinburgh, EH12 0AX has the potential for a list size of 10,000 patients.  NHS Lothian wishes to select a new service provider with the capacity and capability to meet the needs of these patients and to grow the practice list by delivering high quality, patient-centred clinical services in a primary care setting, all in accordance with NHS Lothian\u2019s requirements set out in Appendix 1 (\u201cRequirement\u201d).  The services will build on existing best practice and focus on a community and health and social care approach.  The clinical services will be delivered in a purpose-built environment that supports a high standard of patient care. Applicants who already hold GMS contracts should be able to demonstrate sufficient capacity so as not to prejudice delivery of primary medical services under any other existing contract. The successful Applicant will be required to enter into a contract with NHS Lothian on the terms of the General Medical Services Contract (\u201cGMS Contract\u201d) the form of which is prescribed by The National Health Service (General Medical Services Contracts) (Scotland) Regulations 2018 as amended or replaced from time to time.  Performance by the successful Applicant under the terms of the GMS Contract will be subject to these Regulations available at www.legislation.gov.uk/ssi/2018/66/contents",
+    "output": [
+        "Medical practice and related services"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "The offer is related to providing primary medical services to patients in the Maybury area of Edinburgh, which aligns with the category of Medical practice and related services.",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Hospital and related services",
+        "Medical practice and related services",
+        "Medical services",
+        "Primary care services",
+        "Healthcare services",
+        "Health and first-aid training services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Medical services",
+        "Medical services",
+        "Facilities management software package and software package suite",
+        "Community and health services",
+        "Medical services",
+        "Healthcare services",
+        "Public services",
+        "Sales, marketing and business intelligence software package",
+        "Development services of real estate"
+    ]
+}

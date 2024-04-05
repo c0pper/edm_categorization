@@ -1,0 +1,28 @@
+{
+    "offer": "### TITLE:\n CEGEDIM GPSoC Lot 1 and Lot 2 services\n\n ### DESCRIPTION:\n The services required are: \u2022\tProvision and support of the Vision GP IT Clinical System to 118 GP practices in NI  \u2022\tHardware and software support on all devices (PCs and laptops, printers, scanners) in 118 GP practices (including supply and installation of consumable parts) \u2022\tClinical Server hardware and software support in 118 GP practices \u2022\tBackup tape verification for 118 practices \u2022\tEngineering and training services to 118 GP practices \u2022\tDocman - EDT Support \u2022\tDocman Data Extraction for Practice Migrations \u2022\tPatient Facing Services Appointments & Repeats Software \u2022\tGPIP Support and Service Charge \u2022\tPractice Merges \u2022\tNI QOF ruleset changes GP Practices depend upon IT systems and services to deliver their services to their patients. Without IT, practices would depend upon manual processes and that would very significantly impact on the ability of the 118 Vision GP practices to provide GMS services.  118 Practices use the Vision GP IT clinical system to access patient histories, record consultations, issue prescriptions and maintain electronic patient records within their practice.  These GP IT Clinical Systems then also interface electronically with other HSC systems - E.g. lab results, radiology reports, registration links, Emergency Care Summary, Key Information Summary, Electronic Document Transfer, GPIP etc. The provision of Patient Facing Services must continue to enable patients to book appointments and order repeat prescriptions online without the requirement to phone the GP Practice. The hardware and software required to host and access the GP IT Clinical System must be supported and maintained to ensure continued availability as well as compliance with the latest security patches to prevent cyber security issues. This ongoing availability of IT to the practices is also managed through regular backup tape verification to maintain business continuity as well as associated engineering services on hardware replacement or fixes. These services are required for a period of 3 years until the Vision Exit plan is implemented and all the practices have then migrated to an alternative solution. The Vision system and its support as well as the associated IT infrastructure services has been provided by Vision to these practices. Due to interoperability requirements these services needed to be provided by the same supplier. The responsibility for resolving any issues of interoperability between these components rests solely with Vision. The supply and support of these services associated with the Vision GP IT Clinical system by another supplier additional 3rd party would introduce risk and uncertainty into the support process where it is likely that both suppliers would blame each other for any failures, so delaying resolution and prolonging disruption to practices.",
+    "output": [
+        "Computer-related equipment"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The offer includes provision and support of the Vision GP IT Clinical System, hardware and software support on all devices, clinical server support, backup tape verification, engineering and training services, and more. These services are related to computer equipment used in GP practices, making it suitable to be categorized under 'Computer-related equipment.'",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Software-related services",
+        "Support services for water transport",
+        "Medical software package",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Data-processing machines (hardware)",
+        "Maintenance services of telecommunications equipment",
+        "Computer-related equipment",
+        "Network equipment",
+        "Computer-related management services",
+        "Backup or recovery software package",
+        "Maintenance and repair services of office machinery",
+        "Custom software development services",
+        "Computer back-up services",
+        "System, storage and content management software package",
+        "Installation services of laboratory equipment",
+        "Scheduled air transport services",
+        "Wide area network services"
+    ]
+}

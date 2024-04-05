@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n The Reach Free School Catering Contact 2024\n\n ### DESCRIPTION:\n The Core ethos of the School is referred to as ACE. Achievement, Community and Enjoyment. This ethos is imbedded in all aspects of school life. The Catering company must become a part of this ethos and must be able to supply freshly produced from scratch, high quality nutritional and exciting food to our pupils. This is a TUPE contract.",
+    "output": [
+        "Catering services"
+    ],
+    "expected_output": "Miscellaneous food products and dried goods",
+    "output_explanation": "The offer is specifically for a catering company to provide high quality and nutritional food to school pupils, aligning with the category of Catering services.",
+    "shortlisted_categories": [
+        "Catering services",
+        "Miscellaneous food products and dried goods",
+        "Youth education services",
+        "Food and catering services",
+        "Canteen services",
+        "Catering equipment",
+        "Various school services",
+        "Food, beverage and tobacco-processing machinery"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n YPO - 001242 Supply of First Aid and Medical Supplies\n\n ### DESCRIPTION:\n Lot 1 is for the provision of first aid products and will be a mix of goods to be delivered into YPO's distribution centre  in Wakefield and direct to the end user.",
+    "output": [
+        "Medical Supplies"
+    ],
+    "expected_output": "Medical consumables",
+    "output_explanation": "The offer is for the supply of first aid and medical supplies, making it fitting to categorize it under 'Medical Supplies'.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Medical devices and products",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Specialized equipment",
+        "Healthcare services",
+        "Miscellaneous goods",
+        "Medical Supplies",
+        "Delivery Services",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Sales",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

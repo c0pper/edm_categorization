@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Gardening Services\n\n ### DESCRIPTION:\n 1.2.\u00a0\u00a0\u00a0\u00a0\u00a0 GENERAL REQUIREMENTS \u00a0 Maintenance and appearance of the grass, shrubbery, garden areas, trees, and related landscape elements of the U.S. Post and properties are an important part of the representational responsibilities of the U.S. mission.\u00a0 The Government will measure the Contractor\u2019s work by the appearance of the landscape covered by this contract.\u00a0 The Contractor shall perform complete gardening and landscape maintenance services as described in this contract for all Government properties listed in 1.13.\u00a0 The Contractor shall include all planning, administration, and management necessary to assure that all services comply with the contract, the COR's schedules and instructions, and all applicable laws and regulations.\u00a0 The Contractor shall meet all of the standards of performance identified in the contract.\u00a0 The Contractor shall perform all related support functions such as supply, subcontracting, quality control, financial oversight, and maintenance of complete records and files.",
+    "output": [
+        "Landscaping services"
+    ],
+    "expected_output": "Planting and maintenance services of green areas",
+    "output_explanation": "The offer for gardening services fits best under the category of 'Landscaping services' as it involves complete gardening and landscape maintenance services, which align with the scope of work typically associated with landscaping services.",
+    "shortlisted_categories": [
+        "Building construction work",
+        "Planting and maintenance services of green areas",
+        "Facility related sanitation services",
+        "Horticultural and nursery products",
+        "Repair and maintenance services of precision equipment",
+        "Landscaping services",
+        "Property management services of real estate on a fee or contract basis",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Miscellaneous gardening equipment",
+        "Tree pruning and hedge trimming",
+        "Maintenance services",
+        "Development services of real estate",
+        "Woodworking equipment"
+    ]
+}

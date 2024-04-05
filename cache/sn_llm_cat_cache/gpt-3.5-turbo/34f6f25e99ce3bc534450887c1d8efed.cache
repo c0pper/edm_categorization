@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n Prior Information Notice \u2013 Service and Repair of Compactors and Balers\n\n ### DESCRIPTION:\n The exact details of the contractual arrangement are yet to be decided.",
+    "output": [
+        "Repair and maintenance services of hotel and restaurant equipment"
+    ],
+    "expected_output": "Repair and maintenance services of machinery",
+    "output_explanation": "The offer is about the service and repair of compactors and balers, which are commonly used in hotels and restaurants for waste management. Therefore, it falls under the category of 'Repair and maintenance services of hotel and restaurant equipment'.",
+    "shortlisted_categories": [
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

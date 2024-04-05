@@ -1,0 +1,16 @@
+{
+    "offer": "### TITLE:\n The London Oratory School\n\n ### DESCRIPTION:\n The school is looking to appoint a contract caterer to provide a compulsory dining service to the whole school population, which includes girls in the 6th Form",
+    "output": [
+        "Catering services"
+    ],
+    "expected_output": "Catering services",
+    "output_explanation": "The offer is related to providing catering services for a school population, making it suitable to be categorized under Catering services.",
+    "shortlisted_categories": [
+        "Catering services",
+        "School furniture",
+        "Canteen services",
+        "Cafeteria services",
+        "Various school services",
+        "Food, beverage and tobacco-processing machinery"
+    ]
+}

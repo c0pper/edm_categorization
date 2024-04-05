@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n AfC Translation and Interpreting Services\n\n ### DESCRIPTION:\n Achieving for Children is using an Open Procedure for this procurement of services categorised as \u2018social and other specific services\u2019 under Schedule 3 of the Public Contracts Regulations 2015 (\u2018PCR 2015\u2019). This procurement exercise will therefore be subject to the Light Touch Regime (\u2018LTR\u2019) under Regulations 74 to 77 as set out in the Public Contracts Regulations 2015. The initial contract period is for 24 months (2 years) from 1st March 2024 - 31st April 2027, with an option to extend for a further period of up to 12 months. The overall contract term is therefore for 36 months (3 years).",
+    "output": [
+        "Interpretation services"
+    ],
+    "expected_output": "Translation services",
+    "output_explanation": "The offer is categorized as 'Interpretation services' because the AfC Translation and Interpreting Services specifically mention the procurement of translation and interpreting services, making it clear that this offer falls under this category.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Social services",
+        "Other services",
+        "Interpretation services",
+        "Miscellaneous services",
+        "Translation services",
+        "Development services of real estate"
+    ]
+}

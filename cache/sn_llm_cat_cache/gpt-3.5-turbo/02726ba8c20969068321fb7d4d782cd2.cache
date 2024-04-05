@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n 5670--Bed Tower 5th Floor Patio Doors    36C24824Q0635\n\n ### DESCRIPTION:\n The U.S. Department of Veterans Affairs (VA) located at the North Florida South Georgia Veterans Healthcare System is seeking a contractor who can remove and replace two (2) Patio Doors at the Malcolm Randall VA Medical Center in the Bed Tower on the 5th Floor located at 1601 SW Archer Road, Gainesville, FL. 32608.",
+    "output": [
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork"
+    ],
+    "expected_output": "Builders' joinery",
+    "output_explanation": "The offer involves the removal and replacement of two patio doors at a medical center, which falls under the category of construction work for buildings.",
+    "shortlisted_categories": [
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Building construction work",
+        "Other building completion work",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Building rental or sale services",
+        "Installation services of laboratory equipment"
+    ]
+}

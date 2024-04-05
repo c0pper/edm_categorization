@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Emergency Electricity Generator Provision & Associated Services\n\n ### DESCRIPTION:\n Via an \"Open Tender\" procurement procedure, the Council wish to procure a single Contractor Framework Agreement for Emergency Electricity Generator Provision & Associated Services. In compliance with all relevant regulatory and legislative requirements, the appointed Contractor will be required to: - supply & deliver an emergency electricity generator & related equipment in the event of an electrical power failure at any of the nine specified core sites (all of which are residential care homes operated by the Council) - provide a site specific Contingency Plan for each of the core sites, which lays out a comprehensive action plan for use in the event of a power failure - provide a fully managed service including technical support and a Customer Service Help Desk function to handle all enquiries and emergencies",
+    "output": [
+        "Emergency services"
+    ],
+    "expected_output": "Repair and maintenance services of machinery",
+    "output_explanation": "The offer of Emergency Electricity Generator Provision & Associated Services clearly falls under the category of Emergency services as it involves providing emergency electricity generators, contingency plans, technical support, and customer service help desk function for power failure situations at residential care homes.",
+    "shortlisted_categories": [
+        "Electrical installation work",
+        "Consultative engineering and construction services",
+        "Electrical supplies and accessories",
+        "Emergency services",
+        "Technical inspection and testing services",
+        "Maintenance services of telecommunications equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Central-heating radiators and boilers and parts",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Backup or recovery software package",
+        "Repair and maintenance services of weapons and weapon systems",
+        "System, storage and content management software package",
+        "Offshore services",
+        "Installation services of laboratory equipment"
+    ]
+}

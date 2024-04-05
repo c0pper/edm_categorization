@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Market Engagement for Library Services\n\n ### DESCRIPTION:\n Provision of library services in Suffolk from 45 static locations and community outreach to meet the statutory requirements of the Public Libraries and Museums Act 1964. Services required include access to printed and digital resources to meet the Universal Libraries offer, assisting in reading and digital literacy, learning and skills development, cultural and creative enrichment, helping everyone to achieve their full potential, leading healthier and happier lives, increasing prosperity and building stronger, more resilient communities.  Public consultation took place between October 2023 and January 2024 to gather views on community needs, both present and future, with the aim of shaping the services accordingly. The current contract for the provision of Library services will end on 31 May 2025.",
+    "output": [
+        "Library services"
+    ],
+    "expected_output": "Library and archive services",
+    "output_explanation": "The offer pertains to the provision of library services in Suffolk from static locations and community outreach, meeting various needs such as access to resources, literacy assistance, skills development, and community building. Therefore, it falls under the category of Library services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Market research services",
+        "Social work services",
+        "Library and archive services",
+        "Social services",
+        "Information systems",
+        "Museum services and preservation services of historical sites and buildings",
+        "Tutorial services",
+        "Library services",
+        "General public services",
+        "Library software package",
+        "Public security, law and order services",
+        "Miscellaneous fire-protection equipment",
+        "Supporting services for the government",
+        "Sales, marketing and business intelligence software package",
+        "Advisory architectural services"
+    ]
+}

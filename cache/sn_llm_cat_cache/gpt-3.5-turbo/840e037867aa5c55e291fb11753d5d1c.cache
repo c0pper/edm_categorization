@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Branded Promotional Merchandise, Branded Apparel and On Campus Gift Shop\n\n ### DESCRIPTION:\n Branded Clothing - items to include but not limited to hoodies, sweatshirts, t-shirts, hats Specification of lot 1 and 2 will vary from entry level to high depending on purpose, i.e for promotional activities or for retail",
+    "output": [
+        "Branded merchandise"
+    ],
+    "expected_output": "Trade-advertising material, commercial catalogues and manuals",
+    "output_explanation": "The offer includes branded promotional merchandise and branded apparel, which fall under the category of branded merchandise.",
+    "shortlisted_categories": [
+        "Branded merchandise",
+        "Retail merchandise",
+        "Trade-advertising material",
+        "Clothing",
+        "Retail",
+        "Special clothing",
+        "Branded merchandise",
+        "Retail",
+        "Clothing accessories",
+        "Catering equipment",
+        "Apparatus for sound, video-recording and reproduction",
+        "Branded merchandise",
+        "Retail",
+        "Apparel",
+        "Sales",
+        "Marketing"
+    ]
+}

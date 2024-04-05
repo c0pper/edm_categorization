@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n W912BU24B0002 - Prompton Boat Launch Paving\n\n ### DESCRIPTION:\n View Changes February 23, 2024 - Amendment 0001 is being issued to clarify that the Bid Opening Date is 14 March 2024 at 2PM. February 13, 2024 - Solicitation for the Prompton Paving Project, located in Prompton, Pennsylvania in Wayne County. Contract work will consist of paving of a newly constructed launch, roadway entrances, and turnaround area. An adjacent gravel visitor lot will also be paved. The lot will be reconstructed to add approximately 20 passenger vehicle parking spots near the visitor pavilion. Diagonal boat trailer parking encompassing approximately 20 spots will be added to the center island area, or maximum allowable. The lot itself will transition from a two-way traffic segment to a single one-way traffic pattern. A pour and push concrete boat ramp will be constructed and installed at the launch site. Additionally, the contractor will be responsible to design a BMP for storm-water management and obtain necessary permits through Wayne County, PA. Bonding will be required; at the time of bid opening, by separate Bid Bonds; and after award but before Notice to Proceed, Performance and Payment Bonds will be required. The award will be made as a whole to one bidder in accordance with FAR Part 14 Procedures. The solicitation will contain FAR provision 52.204-7; therefore a bidder must be registered in the System for Award Management (SAM) database prior to award. Davis Bacon rates will be applicable to the construction. Affirmative action to ensure equal employment opportunity is applicable to the resulting contract.",
+    "output": [
+        "Construction services"
+    ],
+    "expected_output": "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+    "output_explanation": "The offer is related to the construction of a boat launch and paving project, which falls under the category of Construction services.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Engineering-related scientific and technical services",
+        "Consultative engineering and construction services",
+        "Construction equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Civil engineering machinery",
+        "Construction services",
+        "Civil engineering services",
+        "Environmental services",
+        "Development services of real estate",
+        "Installation services of laboratory equipment"
+    ]
+}

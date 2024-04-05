@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n SCC WT School Meal Transportation\n\n ### DESCRIPTION:\n This is an open tender process to identify a provider for a reliable service for the supply of transport for school meals to schools that do not have adequate kitchen facilities to prepare and cook a compliant school meal, which represents value for money. Twelve15 are a department of Surrey County Council who provide school meals to Surrey schools and some nurseries. Whilst most schools have a kitchen facility, some do not and rely on nearby schools with adequate facilities to prepare and cook the school lunch. Twelve15 has a binding agreement with 18 school settings that do not have adequate facilities to prepare and cook a school meal that meets the Government School Food Standards. There is a requirement in each of these settings to provide a transported school meal service from another school.",
+    "output": [
+        "Transport services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The offer is related to providing transport for school meals to schools that do not have adequate kitchen facilities. This falls under the category of Transport services as it involves transporting meals from one school to another.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Catering services",
+        "Civic-amenity services",
+        "Passenger cars",
+        "Social services",
+        "Canteen services",
+        "Transport services",
+        "Specialized chemical products",
+        "Catering equipment",
+        "Transport agency services",
+        "Various school services",
+        "Food, beverage and tobacco-processing machinery",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

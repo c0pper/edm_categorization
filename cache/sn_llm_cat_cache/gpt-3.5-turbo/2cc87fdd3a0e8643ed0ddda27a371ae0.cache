@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Request for Proposal: Adair Stair Replacement and Loading Dock Upgrades\n\n ### DESCRIPTION:\n The purpose of this solicitation is to acquire construction services for the Stair Replacement and Loading Dock Upgrade project at the\u00a0E. Ross Adair Federal Building & U.S. Courthouse in Fort Wayne, Indiana. The project includes, but is not limited to the following work in each location: Mechanical Room (North) Stairs: Replace existing stairs, landing and sidewalk. Repair deteriorated concrete at stairway retaining walls. Remove and replace sealant at retaining wall coping. Loading Dock: Replace two existing loading dock access personnel door, frame, and threshold. Replace existing loading dock stairs. Repair deteriorated concrete at loading dock walls. Install new traffic-bearing membrane. Secured Parking (South) Stair: Replace lower two flights of existing stairs and landings. Install new traffic-bearing membrane to new and existing stairs and landings. West Fa\u00e7ade: Repoint existing mortar joints at north end. Install new sealant at windows, louvers and between dissimilar types of stone. West Plaza: Remove existing concrete topping to allow for proper termination of waterproofing membrane to include new flashing/reglet, end dams. Flood test area. Reinstall concrete. West Employee Entrance: Remove and replace existing deteriorated concrete topping slab. Please review the attached RFP Package and Drawings for further details.",
+    "output": [
+        "Building construction work"
+    ],
+    "expected_output": "Roof works and other special trade construction works",
+    "output_explanation": "The offer is for construction services for stair replacement and loading dock upgrades at a federal building, which falls under building construction work category.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Other building completion work",
+        "Construction consultancy services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Fencing, railing and safety equipment installation work",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Civil engineering machinery",
+        "Repair and maintenance services of buildings",
+        "Construction materials",
+        "Waterproofing products",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

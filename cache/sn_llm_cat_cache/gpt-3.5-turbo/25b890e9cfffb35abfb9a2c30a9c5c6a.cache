@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Sprinkler Head Assemblies, NFES 0999\n\n ### DESCRIPTION:\n View Changes The U.S. Forest Service, Washington Office of Procurement & Property Services, Incident Procurement Operations, Logistics Contracting Branch, at the National Interagency Fire Center (NIFC) in Boise, Idaho, is soliciting quotes for the fabrication, assembly, and delivery of 10,000 ea. Sprinkler Head Assemblies, National Fire Equipment System (NFES) Item 0999. \u00a0Sprinkler assembly fittings and parts to be manufactured, assembled, and packaged in accordance with the specifications and dimensions described in Solicitation 1202SC24Q2703 design specifications and illustrations. This Solicitation is Set-Aside for 100% Total Small Business. \u00a0The Government anticipates awarding a single Fixed-Price Purchase Order for the fabrication, assembly, and delivery of 10,000 Sprinkler Assemblies NFES 0999 to be delivered to the Rocky Mountain Area Incident Support Cache, Denver Federal Center, Lakewood, CO by no later than 06/20/2024.\u00a0 Instructions for the submission of quotes are contained within in the Solicitation.\u00a0 Any questions about this Solicitation must be submitted in writing to Chris Kirk, phone (208) 616-5549, email chris.kirk@usda.gov by no later than 02/16/2024, 2:30 PM (1430) MTN. If you are viewing this notice on any internet site, i.e. a .com or .net, other than SAM.gov, please go to SAM.gov to view the official and free posting of this Solicitation. Amendment 0001 has been posted as part of this Solicitation. Acknoledgement of this amendment is mandatory. Amendment 0002 has been posted as part of this Solicitation. Acknoledgement of this amendment is mandatory.",
+    "output": [
+        "Construction equipment"
+    ],
+    "expected_output": "Construction materials",
+    "output_explanation": "I categorized this offer as Construction equipment because it involves the fabrication, assembly, and delivery of Sprinkler Head Assemblies, which falls under the category of Construction equipment.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Construction work for water projects",
+        "Shipping operations",
+        "Construction equipment",
+        "Repair and maintenance services of precision equipment",
+        "Trade-advertising material, commercial catalogues and manuals",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Miscellaneous special-purpose machinery",
+        "Defence services",
+        "Machines and apparatus with individual functions",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Geological prospecting apparatus",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Plastic products",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

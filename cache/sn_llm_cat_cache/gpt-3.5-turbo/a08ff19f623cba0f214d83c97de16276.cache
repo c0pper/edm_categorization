@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n B38-Pisgah dorm-Bath-Mech-Rehab\n\n ### DESCRIPTION:\n RFI's related to this solicitation are due No-Later-Than 23 February 2024 to: andre.dickson@usda.gov derek.lavey@usda.gov\u00a0 Work for this project requires the Contractor to be responsible for supplying all labor, materials, equipment, utilities, miscellaneous items, freight and delivery and all necessary valid licenses for the work summarized as follows: Base Item No. 0001- Bathroom Rehab Base Item No. 0002- Mechanical Room Rehab",
+    "output": [
+        "Plumbing and sanitary works"
+    ],
+    "expected_output": "Building construction work",
+    "output_explanation": "The offer involves Bathroom Rehab and Mechanical Room Rehab, which are related to plumbing and sanitary works.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Plumbing and sanitary works",
+        "Building construction work",
+        "Other building completion work",
+        "Repair and maintenance services of precision equipment",
+        "Construction supervision services",
+        "Facilities management software package and software package suite",
+        "Machines and apparatus with individual functions",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Test drilling and boring work",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

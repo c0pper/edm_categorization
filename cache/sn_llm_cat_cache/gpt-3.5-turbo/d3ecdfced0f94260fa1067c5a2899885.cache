@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n F--Remediation at Ottawa Radiation\n\n ### DESCRIPTION:\n Ottawa Radiation NPL 8 - DOL MegaProjectOttawa, IL",
+    "output": [
+        "Environmental protection"
+    ],
+    "expected_output": "Environmental protection",
+    "output_explanation": "The offer is related to remediation at Ottawa Radiation, which falls under environmental protection category.",
+    "shortlisted_categories": [
+        "Environmental protection",
+        "Construction work for water projects",
+        "Pollution tracking and monitoring and rehabilitation",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Non-medical equipment based on the use of radiations",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Test drilling and boring work",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Education Network for Northern Ireland \u2014 \u201cEducation Network (NI)\u201d\n\n ### DESCRIPTION:\n This modification will enable the continuation of the existing single contractor managed service arrangement which includes the supply of a broad range of computer and related services (including, without limitation, on-going management, operation and maintenance services), information technology consultancy services and the supply of computer hardware, software and associated products. The systems and services provided via the current contract have been uniquely configured to reflect the varying requirements of the Education Authority. The anticipated modification increase equates to GBP 33 000 000. The original contract value was GBP 350 000 000. The date noted in Section VI.5) reflects the date this notice has been submitted to the OJEU. The Education Authority shall observe a period of no less than 10 days, beginning with the day after the date of publication, before modifying the contract as set out in this notice.",
+    "output": [
+        "Information technology consultancy services",
+        "Supply of computer hardware, software and associated products"
+    ],
+    "expected_output": "Systems and technical consultancy services",
+    "output_explanation": "The offer revolves around the provision of computer and related services, information technology consultancy services, and the supply of computer hardware, software, and associated products. Therefore, it falls under the categories of Information technology consultancy services and Supply of computer hardware, software and associated products.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Software-related services",
+        "Information systems",
+        "Networking software package",
+        "Data-processing machines (hardware)",
+        "Network equipment",
+        "Computer-related equipment",
+        "Maintenance services of telecommunications equipment",
+        "Database systems",
+        "Computer-related management services",
+        "Repair and maintenance services of audio-visual and optical equipment",
+        "System, storage and content management software package",
+        "Custom software development services",
+        "Sales, marketing and business intelligence software package",
+        "Information technology consultancy services",
+        "Supply of computer hardware, software and associated products"
+    ]
+}

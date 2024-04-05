@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n 36C25623R0080 | 598-21-106 Replace AHUs 47, 48, 48B, and 22 at JLM | Amendment 0006\n\n ### DESCRIPTION:\n View Changes Amendment 0006 (02/23/2024): The purpose of amendment 0006 36C25623R0080 is to provide Government responses to amendment 0004 RFIs and provide site visit date and time to all Offerors. The amended documents can be located under the attachments section titled:\u00a036C25623R0080 0006; Attachment A_A0006 RFIs and Responses to A0004. No other changes are made via this amendment.\u00a0 ****************************************************************************************************************************************************** Amendment 0005 (02/20/2024): The purpose of amendment 0005 36C25623R0080 is to provide RFI due date to all Offerors. The amended document can be located under the attachments section titled:\u00a036C25623R0080 0005. No other changes are made via this amendment.\u00a0 ****************************************************************************************************************************************************** Amendment 0004 (02/09/2024): The purpose of amendment 0004 36C25623R0080 is to respond to protested RFIs and extend proposal closing date. The amended documents can be located under the attachments section titled:\u00a036C25623R0080 0004;\u00a0Attachment A_A0004_VA 598-21-106 Protest RFI RESPONSES 02.08.24; and\u00a0Attachment B_A0004_ASBESTOS INSPECTION.JLM-Template. No other changes are made via this amendment.\u00a0 ****************************************************************************************************************************************************** 12 September 2023 - Amendment 0003 -\u00a0The purpose of this amendment is to to amend previous closing date to inform all of potential corrective measures associated with submitted protest. Offerors with submitted proposal will have an opportunity to resubmit. Contractors are to address their bonding accordingly. Further guidance and a new closing date will follow in a forthcoming amendment. See 36C25623R0080 Amendment 0003 attached to this update. ***************************************************************************************************************************************************** 31 August 2023 - Amendment 0002 -\u00a0The purpose of this amendment is to provide additional clarification regarding recently submitted RFI responses.\u00a0 See 36C25623R0080 Amendment 0002 attached to this update. ***************************************************************************************************************************************************** 24 August 2023 - Amendment 0001 -\u00a0The purpose of this amendment is to incorporate the following changes to this solicitation: 1. Update the period of performance to 300 Calendar Days. 2. Extend the proposal due date to 09-06-2023 at 1:00 PM CST. 3. Incorporate the RFI responses as \"Attachment F - RFI Responses 598-21-106 Rplc 47 48 48b n 22 AHUs Final\". 4. Incorporate the site visit attendance sheet as \"Attachment G - 598-21-106 site visit attendance\". 5. Incorporate the asbestos inspection as \"Attachment H - 598-21-106 Asbestos Inspection JLM\". See 36C25623R0080 Amendment 0001 and its attachments attached to this update. **************************************************************************************************************************************************** 598-21-106 Replace AHUs 47, 48, 48B, and 22 at JLM Work includes construction labor and supervision for demolition, plumbing, heating, and interior finishes work, and certain other items as required by provided construction documents. All construction work must be performed without affecting medical center\u2019s operations. Work will be performed at the John L. McClellan Veterans Medical Center, Little Rock, AR. This procurement is 100% set-aside for Service-Disabled Veteran-Owned Small Businesses (SDVOSBs) under Public Law (PL) 109-461.",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Electrical installation work",
+    "output_explanation": "The offer involves the replacement of Air Handling Units (AHUs) at a medical center, which includes construction labor and supervision for demolition, plumbing, heating, and interior finishes work. This aligns closely with the category of 'Construction work for water projects.'",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Plumbing and sanitary works",
+        "Electrical installation work",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Asbestos removal services",
+        "Construction equipment",
+        "Construction supervision services",
+        "Maintenance services of telecommunications equipment",
+        "Defence services",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Civil engineering machinery",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Parts of military vehicles",
+        "Public security, law and order services",
+        "Development services of real estate"
+    ]
+}

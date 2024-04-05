@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n ID 4905649 - PSNI - Provision of Financial and Personal Data / Information\n\n ### DESCRIPTION:\n The Police Service of Northern Ireland (PSNI) referred to herein as the \u201cClient\u201d intends to establish a Framework Agreement for the provision of access to financial and personal data/information to support police investigations. The Supplier(s) shall provide a service through which the Client can access data as shown in the \u2018Data Requirement\u2019 section within the specification document (ID 4905649 \u2013 Contract Specification). The list is indicative and not exhaustive of the provision of data and capability required. It may also be developed further during the Period of Contract on written agreement between the Client and the appointed Supplier(s).",
+    "output": [
+        "Security services"
+    ],
+    "expected_output": "Data-processing services",
+    "output_explanation": "The offer is categorized as Security services because it involves providing access to financial and personal data/information to support police investigations, which is related to security and law enforcement.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Security services",
+        "Data-processing services",
+        "Information systems",
+        "Financial analysis and accounting software package",
+        "Investigation services",
+        "Database systems",
+        "Security services",
+        "Investigation services",
+        "Intelligence, surveillance, target acquisition, and reconnaissance",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

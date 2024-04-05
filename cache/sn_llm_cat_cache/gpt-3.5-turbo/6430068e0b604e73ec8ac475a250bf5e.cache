@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n CJIS Job Order Contract\n\n ### DESCRIPTION:\n This is a solicitation for the Job Order Contract located at the CJIS Division in Clarksburg, WV.\u00a0 A site visit will be held for all interested vendors on Thursday, March 7, 2024 at 10:00 a.m. EST. Only two individuals from each vendor will be able to participate. Please send the name(s) of those interested in attending to Contracting Officer, Logan Swiger, at lswiger2@fbi.gov to receive a Site Access Request Form. All Site Access Request Forms will be due no later than Tuesday, March 5, 2024 by 09:00 a.m. EST to allow time for processing. All questions are due to the Contracting Officer, Logan Swiger, at lswiger2@fbi.gov, by 10:00 a.m. EST on March 15, 2024.\u00a0 Please send all proposals to lswiger2@fbi.gov and alwilson6@fbi.gov via email by 4:00 p.m. EST on April 5, 2024. Any proposals received after 4:00 p.m. EST on April 5, 2024 will NOT be considered",
+    "output": [
+        "Justice services"
+    ],
+    "expected_output": "Supply services of personnel including temporary staff",
+    "output_explanation": "The CJIS Job Order Contract is related to Justice services as it involves solicitation for a contract at the CJIS Division, which deals with criminal justice information and services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Consultative engineering and construction services",
+        "Construction work for pipelines, communication and power lines",
+        "Administrative services of agencies",
+        "Information systems",
+        "Networking software package",
+        "Justice services",
+        "Defence services",
+        "Civil engineering machinery",
+        "Repair and maintenance services of office machinery",
+        "Courier services",
+        "Government services",
+        "Security services",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Schools Bus Franchises Tranche 3\n\n ### DESCRIPTION:\n Lot 1 is referred to as \u201cPackage A - Manchester\u201d. Within the package there is a Peak Vehicle requirement of 6 and the services should be operated using the tenderer\u2019s own vehicles. The estimated value of the contract indicated covers the full term of the contract (55 months) which is the initial term plus renewals.",
+    "output": [
+        "Special-purpose road passenger-transport services"
+    ],
+    "expected_output": "MissingCPV",
+    "output_explanation": "The offer is specifically related to providing transportation services for school buses, which falls under the category of Special-purpose road passenger-transport services.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Non-residential property renting or leasing services",
+        "Miscellaneous business-related services",
+        "Special-purpose road passenger-transport services",
+        "School furniture",
+        "Transportation services",
+        "Vehicle services",
+        "Non-scheduled passenger transport",
+        "Catering equipment",
+        "Transport agency services",
+        "Various school services",
+        "Scheduled air transport services"
+    ]
+}

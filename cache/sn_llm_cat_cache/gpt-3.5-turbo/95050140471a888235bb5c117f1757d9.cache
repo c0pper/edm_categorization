@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n FCI Thomson 3rd Quarter Substenance Order\n\n ### DESCRIPTION:\n A complete delivery of all awarded items is expected during the month of April 2024, unless otherwise specified on the product specification section. Deliveries will be made Monday thru Friday from 7:00 am to 3:30 pm unless otherwise noted in the product specification section. Federal Bureau of Prisons warehouse areas are closed on all Federal holidays, deliveries will not be accepted on these holiday closures. Delivery Requirements All deliveries must be palletized unless arrangements were agreed to by warehouse staff (no side loaded pallets). All non-frozen, perishable foods must be delivered between 34 degrees F and 41 degrees F. All Canned goods must be delivered above 34 degrees F. All frozen foods must be delivered at 0 degrees F or below. \u201cFrozen products after being received is subject to further inspection upon thawing to verify sizes/weights are within the Purchase Order and or BOP National Specifications\u201d. \u00a0All items will be closely inspected. Some items may require thawing and cooking to determine specifications compliance and product wholesomeness. Receipt of delivery may be conditional for a period of three (3) days in order to allow for adequate examination and testing. Items that fail to meet specifications will be refused. Items which are conditionally received and found to be unacceptable, must be picked up at the vendors\u2019 expense within two (2) weeks of noncompliance notification. If the product is not picked up within two (2) weeks) it will be disposed of by warehouse staff.",
+    "output": [
+        "Food delivery services"
+    ],
+    "expected_output": "Miscellaneous food products and dried goods",
+    "output_explanation": "The offer is categorized as Food delivery services because it involves the delivery of food items to a specific location, adhering to specific temperature requirements and inspection processes. This aligns closely with the definition of Food delivery services.",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Medical consumables",
+        "Technical inspection and testing services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Canteen services",
+        "Food delivery services",
+        "Catering equipment",
+        "Processed fruit and vegetables",
+        "Frozen foods",
+        "Miscellaneous fire-protection equipment",
+        "Food and beverages",
+        "Food"
+    ]
+}

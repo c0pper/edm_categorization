@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Moving and Storage of Household Goods (HHG)\n\n ### DESCRIPTION:\n Please see attached RFQ M0068124Q0007 and synopsys for details regarding HHG requirement. Please ensure FAR Provision 52.204-24 and DFARS Provision 252.204-7017 are filled out in their entirety, both of which are included in the RFQ.",
+    "output": [
+        "Moving and Storage Services"
+    ],
+    "expected_output": "Storage and warehousing services",
+    "output_explanation": "The offer is specifically about moving and storage of household goods, which falls under the category of Moving and Storage Services.",
+    "shortlisted_categories": [
+        "Shipping operations",
+        "Storage and warehousing services",
+        "Moving and Storage Services",
+        "Administrative Services of Agencies",
+        "Property management services of real estate on a fee or contract basis",
+        "Hire of goods-transport vehicles with driver",
+        "Facilities management software package and software package suite",
+        "Moving and Storage Services",
+        "Logistics Services",
+        "Development services of real estate"
+    ]
+}

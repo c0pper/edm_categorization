@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Recreation Area Janitorial Services, Townshend Lake, Townshend, VT\n\n ### DESCRIPTION:\n THE WORK CONSISTS OF: Furnish all equipment, materials, labor, and transportation necessary to clean one (1) waterborne restroom, two (2) portable toilets, one (1) gazebo, three (3) shelters, forty-two (42) grills, one hundred (100) picnic tables, and seventy-four (74) picnic table pads at the Townshend Lake Recreation Area, Townshend, VT.\u00a0\u00a0\u00a0 This procurement is set-aside for small business vendors. The applicable NAICS code is 561720 with a Small Business Size Standard of $22 Million. ALL VENDORS MUST HAVE AN ACTIVE REGISTRATION IN SAM.GOV AT THE TIME OF SUBMISSION IN ORDER TO BE CONSIDERED. ANY VENDOR THAT DOES NOT HAVE AN ACTIVE SAM.GOV REGISTRATION WILL BE REJECTED AS NON RESPONSIVE.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Cleaning services",
+    "output_explanation": "The offer involves janitorial services for cleaning various facilities at a recreational area, making it best categorized under 'Cleaning services'.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Administrative services of agencies",
+        "Repair and maintenance services of precision equipment",
+        "Cleaning services",
+        "Recreational-area services",
+        "Cleaning products",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Maintenance and repair of office machinery",
+        "Street-cleaning and sweeping services",
+        "Cleaning services",
+        "Small business vendors",
+        "Outdoor services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Framework for the Provision of Services of Virtual Learning Environment Accessibility for the University of Birmingham\n\n ### DESCRIPTION:\n The University of Birmingham invites tenders for the provision of an integrated solution to support digital accessibility of teaching materials in our Virtual Learning Environment, Canvas VLE. The University has a number of aims with regards to this solution: 1. \tThe solution should be in place and ready to use from August 2024. 2. \tFor staff, the aim is to improve staff engagement with creating accessible teaching content by providing automated identification of accessibility issues with the VLE and to provide means by which they may remedy these issues, for example by serving point of need guidance and to support them in making improvements with the accessibility of their content. 3. For students, the aim is to provide access to automatically produced accessible alternatives of content within the VLE. 4. For the institution, the aim is to access reports on the accessibility of content within the VLE. 5. The preferred solution(s) will fully integrate in Canvas in a way which provides a consistent experience for students and staff. There should be little to no manual interventions required to synchronise data or user permissions between the solution and Canvas. 6. The preferred solution(s) will have experience working with other Higher Education Institutes in the UK and will have a well-developed Roadmap with a proven track record of meeting Roadmap timescales. 7. There are 38,000 students of which circa 32,000 are based in the University Birmingham's Edgbaston campus, circa 2000 in the University's Dubai campus, and circa 4000 on Distance Learning programmes (current published HESA FTE 33,570). There are also circa 900 students at the University's Jinan-Birmingham-Joint-Institute (JBJI) in China. The preferred solution will need to cater to these variations in student populations, programme types and location. Supplier demonstrations are expected to take place during the weeks commencing 29th April 2024 and 6th May 2024.",
+    "output": [
+        "E-learning services"
+    ],
+    "expected_output": "Educational software package",
+    "output_explanation": "The offer is categorized as E-learning services because it specifically pertains to the provision of services for improving digital accessibility in a Virtual Learning Environment (VLE) for the University of Birmingham. The focus is on enhancing staff engagement with creating accessible teaching content, providing accessible alternatives of content for students, and generating reports on the accessibility of content within the VLE. These services align with the scope of E-learning services, making it the most suitable category.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Software-related services",
+        "Information systems",
+        "Educational services",
+        "Technical inspection and testing services",
+        "E-learning services",
+        "Internet and intranet software package",
+        "Database systems",
+        "General public services",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Various school services",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Statistical services"
+    ]
+}

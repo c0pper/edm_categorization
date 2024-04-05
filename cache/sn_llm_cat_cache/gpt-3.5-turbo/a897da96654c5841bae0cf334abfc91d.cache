@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Bikeability Cycle Training\n\n ### DESCRIPTION:\n Bikeability\u202fis the government's national cycle training programme. \u202fThe training enables children to cycle safely around their neighbourhood and on journeys to and from school and for leisure, giving them practical skills for safer on-road cycling. It encourages children to make healthier lifestyle choices and promotes active travel options to improve health - an active lifestyle plays a large part in increasing wellbeing.",
+    "output": [
+        "Public Health"
+    ],
+    "expected_output": "Safety training services",
+    "output_explanation": "I categorized this offer as Public Health because Bikeability Cycle Training promotes active travel options to improve health and encourages children to make healthier lifestyle choices, which aligns with the goal of public health initiatives.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Miscellaneous health services",
+        "Specialist training services",
+        "Vocational training services",
+        "Social services",
+        "Health and first-aid training services",
+        "Personal development training services",
+        "Catering equipment",
+        "General public services",
+        "Fitness Equipment",
+        "Training and Simulation",
+        "Public Health",
+        "Development services of real estate",
+        "Advisory architectural services"
+    ]
+}

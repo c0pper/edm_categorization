@@ -1,0 +1,16 @@
+{
+    "offer": "### TITLE:\n Without Escort\n\n ### DESCRIPTION:\n Without Escort",
+    "output": [
+        "Without Escort"
+    ],
+    "expected_output": "Hire of passenger transport vehicles with driver",
+    "output_explanation": "The offer is directly related to the category 'Without Escort' based on the title and description provided.",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Other services",
+        "Without Escort",
+        "Miscellaneous",
+        "Sales",
+        "Marketing and Business Intelligence Software Package"
+    ]
+}

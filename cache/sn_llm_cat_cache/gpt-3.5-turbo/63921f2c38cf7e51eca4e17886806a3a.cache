@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n L23149-T-LH/SG - Fire Appliance\n\n ### DESCRIPTION:\n As per tender documents.",
+    "output": [
+        "Fire Appliance"
+    ],
+    "expected_output": "Firefighting, rescue and safety equipment",
+    "output_explanation": "The offer is specifically for a Fire Appliance as stated in the title. Therefore, it falls under the category of Fire Appliance.",
+    "shortlisted_categories": [
+        "Firefighting, rescue and safety equipment",
+        "Other building completion work",
+        "Fire Appliance",
+        "Miscellaneous special-purpose machinery",
+        "Fire-brigade and rescue services",
+        "Miscellaneous fire-protection equipment",
+        "Installation services of laboratory equipment"
+    ]
+}

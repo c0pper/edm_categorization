@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Landscape Maintenance Contract\n\n ### DESCRIPTION:\n Landscape Maintenance contract to be carried out to properties / sites owned by Angus Housing Association from 1st April 2024 \u2013 31st March 2027",
+    "output": [
+        "Maintenance services",
+        "Property maintenance services"
+    ],
+    "expected_output": "Landscape architectural services",
+    "output_explanation": "The Landscape Maintenance Contract falls under the categories of Maintenance services and Property maintenance services because it involves the ongoing maintenance and care of green areas within properties owned by Angus Housing Association.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Support services for water transport",
+        "Planting and maintenance services of green areas",
+        "Maintenance services",
+        "Contract services",
+        "Maintenance services of telecommunications equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Maintenance and repair of office machinery",
+        "Repair and maintenance services of landscaping equipment",
+        "Property maintenance services",
+        "Development services of real estate"
+    ]
+}

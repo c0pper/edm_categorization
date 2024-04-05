@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Building 34 Chiller Replacement\n\n ### DESCRIPTION:\n View Changes 02/23/2024: Amendment 0005 posted to correct bid due date from 26 February 2024 to 28 February 2024. There is NO ATTACHMENT associated with this amendment as it is administrative only.02/21/2024: Amendment 0004 posted, please see attachment. 02/15/2024: Amendment 0003 posted, please see attachment. 02/07/2024: Amendment 0002 posted, please see attachment. 02/01/2024: Amendment 0001 posted, please see attachment. The work will include demolishing Building 34 existing chilled water equipment, which includes but not limited to: water cooled chiller, cooling tower, and pumps located in two mechanical rooms adjacent to the building entrance and replace with a similar capacity air cooled chiller with supporting equipment (pumps, expansion tanks, piping system, air separators, etc.) and new electrical infrastructure support (feeder and branch circuit, disconnect switches etc.) extending from B34 to new equipment. The existing diesel generator will be demolished and replaced with a new natural gas generator with Automatic Transfer Switch (ATS) to support back-up operation.The air cooled chiller will be placed outdoor in the outdoor equipment area adjacent to the mechanical room. Existing electrical infrastructure to be demolished along with the existing equipment removed. Minor modification to the building structure/site work will be needed to allow removal of existing equipment and installation of new equipment in mechanical rooms and outdoor equipment yard including but not limited to: capping roofing penetrations after cooling tower is removed, wall demolition and new work, removing existing concrete equipment pads, and new underground gas piping for gas generator.",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery",
+    "output_explanation": "The offer involves the replacement of chilled water equipment in a building, including the installation of a new air-cooled chiller, pumps, and electrical infrastructure. This falls under the category of Construction work for water projects.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Electrical installation work",
+        "Building construction work",
+        "Other building completion work",
+        "Electrical supplies and accessories",
+        "Construction equipment",
+        "Construction works for plants",
+        "Machines and apparatus with individual functions",
+        "Pumps and compressors",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Cooling towers",
+        "Parts for military aerospace equipment",
+        "Installation services of laboratory equipment",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

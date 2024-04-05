@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Libby Dam Electronic Security System (ESS) Components\n\n ### DESCRIPTION:\n The Army Corps of Engineers \u2013 Seattle District is issuing this soliciation for the requirement of Libby Dam Electronic Security System Upgrade supply purchase. The Libby Dam \u00a0will require the contractor to supply all namebrand and non-namebrand supplies listed on the product discription. This soliciation is unrestricted.\u00a0 Please see attached Soliciation.",
+    "output": [
+        "Electronic equipment"
+    ],
+    "expected_output": "Firefighting, rescue and safety equipment",
+    "output_explanation": "The offer is related to the supply purchase for Libby Dam Electronic Security System Upgrade, which involves electronic security components. Therefore, it falls under the category of Electronic equipment.",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Security services",
+        "Electronic equipment",
+        "Electrical supplies and accessories",
+        "Repair and maintenance services of precision equipment",
+        "Networking software package",
+        "Security-type printed matter",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Recording systems and exploration devices",
+        "Communication software package",
+        "Geological prospecting apparatus",
+        "Intelligence, surveillance, target acquisition and reconnaissance",
+        "Repair and maintenance services of security equipment",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n 343_24 Energy Performance of Buildings Services\n\n ### DESCRIPTION:\n Provision of Energy Performance Certificates (EPC) for a wide range of domestic properties owned by public sector organisations.",
+    "output": [
+        "Development services of real estate"
+    ],
+    "expected_output": "Consultative engineering and construction services",
+    "output_explanation": "The offer involves providing Energy Performance Certificates (EPC) for domestic properties, which falls under the category of development services of real estate.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Non-residential property renting or leasing services",
+        "Administrative services of agencies",
+        "Technical inspection and testing services",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Building rental or sale services",
+        "Development services of real estate"
+    ]
+}

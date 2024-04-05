@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Dover Grammar for Boys Catering Tender\n\n ### DESCRIPTION:\n Dover Grammar School for Boys is a very successful Boys Grammar School in Dover, Kent. It has 862 students between the ages of 11 and 19 on roll and 98 teaching and support staff. There is one busy main restaurant, an outside POD and a separate Sixth Form Caf\u00e9. The new school building was completed recently and all facilities are modern and in excellent condition.  All facilities can be seen in the attached Photo Journal in the SQ document pack. The incumbent caterer is Caterlink and the existing contract is at the end of its maximum tenure.The school is forging a bright new future under the leadership of the Headteacher Mr Philip Horstrup. The School Finance & Personnel Manager, Sophie Tourki, is developing the catering services to reflect the high aspirations of the Headteacher and SLT; she is tendering their catering services to deliver the very best service for every student at the school. The contract start date is the 1st of August 2024 and this will be for an initial three-year period. There is an option for both parties to extend the contract for a further two years subject to client satisfaction and client agreement on budgets and service levels. The tender is using a two stage restricted process and all documents are available from this link: https://in-tendhost.co.uk/cohesionconsulting/aspx/Home",
+    "output": [
+        "Catering services"
+    ],
+    "expected_output": "Catering services",
+    "output_explanation": "The offer is related to tendering catering services for a boys grammar school, which falls under the category of catering services.",
+    "shortlisted_categories": [
+        "Catering services",
+        "Catering services",
+        "School services",
+        "Canteen services",
+        "Cafeteria services",
+        "Various school services",
+        "Sales, marketing and business intelligence software package",
+        "Food, beverage and tobacco-processing machinery",
+        "Advisory architectural services"
+    ]
+}

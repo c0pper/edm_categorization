@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Pest Control\n\n ### DESCRIPTION:\n Opportunity to provide pest control services for the City of York Council. Contractors shall have a registered office address within 50 number of miles from YO1 6GA. Contractors who cannot meet this requirement should not submit a tender return",
+    "output": [
+        "Maintenance services"
+    ],
+    "expected_output": "Facility related sanitation services",
+    "output_explanation": "I categorized this offer as 'Maintenance services' because it involves providing pest control services, which fall under the maintenance category. Pest control is essential for maintaining the cleanliness and safety of properties, making it fitting for this category.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Administrative services of agencies",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Public security, law and order services",
+        "Maintenance services",
+        "Installation services",
+        "Repair services"
+    ]
+}

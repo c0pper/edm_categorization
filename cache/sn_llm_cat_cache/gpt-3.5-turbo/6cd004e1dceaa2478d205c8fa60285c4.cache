@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Consultant Led Healthcare Services\n\n ### DESCRIPTION:\n Wirral University Teaching Hospital NHS Foundation Trust (WUTH) is looking to award a contract for the provision of Insourced Consultant Led Healthcare Services to deliver services for a range of specialities including: Anaesthetics Colorectal Surgery CT & MRI Reporting Endoscopy ENT Gastroenterology General Surgery Gynaecology Orthopaedics Urology The contract aims to secure additional clinical capacity to provide additional theatre and clinic activity at times to be agreed. The contract will be delivered on WUTH premises.",
+    "output": [
+        "Hospital and related services"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "The offer is for providing Consultant Led Healthcare Services at a hospital premises, which falls under the category of Hospital and related services.",
+    "shortlisted_categories": [
+        "Hospital and related services",
+        "Consultative engineering and construction services",
+        "Medical practice and related services",
+        "Medical imaging services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Healthcare services",
+        "Anaesthesia and resuscitation",
+        "General public services",
+        "Medical equipment",
+        "Hospital services",
+        "Medical Services",
+        "Advisory architectural services",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

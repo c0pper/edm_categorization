@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n The implementation of a digital Portfolio, Programme and Project Management (PPM) tool for GSTT\n\n ### DESCRIPTION:\n GSTT does not currently have an enterprise-wide PPM tool to support change delivery. Project management and portfolio reporting is generally completed manually and offline using Excel and PowerPoint templates. There is no \u2018golden source\u2019 project list and change data set for the Trust. The as-is position is a barrier to professionalising our approach to PPM, getting the most from limited financial and human resources, and enabling the Trust\u2019s operating model by providing operational and clinical leaders with visibility and grip over their change portfolios. <br/><br/>A previous attempt to implement a digital PPM tool four years ago was unsuccessful. The tool was not fully adopted by project teams and was used in parallel with offline project management and reporting processes. The previous digital PPM tool implementation generated no benefits and was deemed a failure due to a number of factors. This tool has now been decommissioned.",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The offer involves the implementation of a digital Portfolio, Programme and Project Management (PPM) tool, which falls under the category of Information systems.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Software-related services",
+        "Information systems",
+        "Portfolio management services",
+        "Technical inspection and testing services",
+        "Property management services of real estate on a fee or contract basis",
+        "Office automation software package",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Database systems",
+        "Communication software package",
+        "System, storage and content management software package",
+        "Development services of real estate"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Attack Aviation Battalion Complex\n\n ### DESCRIPTION:\n This construction requirement includes a standard design Attack Aviation Battalion Complex (AABC) for rotary wing aircraft. Work includes an aircraft hangar, associated maintenance shops, special foundations, administrative space, parts and tool storage, a hazardous materials storage facility, petroleum, oil, lubricants (POL) storage building, Ground Support Equipment (GSE) enclosed storage building, covered storage, hangar access apron, aircraft washing apron with associated pavement, cyber security measures, building information systems, fire protection and alarm systems, antiterrorism measures, Intrusion Detection System (IDS) installation, and Energy Monitoring Control Systems (EMCS) connection. Supporting facilities include site development, utilities and connections, lighting, paving, parking, walks, curbs and gutters, storm drainage, landscaping, and signage. Heating and air conditioning will be provided by self-contained systems. Utility connections are required for electric distribution, electric generation, natural gas, water, wastewater, central systems.",
+    "output": [
+        "Defence services"
+    ],
+    "expected_output": "Building construction work",
+    "output_explanation": "The product offer of constructing an Attack Aviation Battalion Complex falls under the category of Defence services as it involves the construction of facilities specifically for military aircraft, maintenance, and support operations.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Electrical installation work",
+        "Building construction work",
+        "Other building completion work",
+        "Technical inspection and testing services",
+        "Construction equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Defence services",
+        "Civil engineering machinery",
+        "Maintenance and repair of office machinery",
+        "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+        "Geological prospecting apparatus",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Traffic-monitoring equipment",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

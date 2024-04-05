@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n AAIB Secure File Transfer Software\n\n ### DESCRIPTION:\n Contract Award Notice",
+    "output": [
+        "Security services"
+    ],
+    "expected_output": "Security software package",
+    "output_explanation": "The offer is a Secure File Transfer Software, which falls under the category of Security services.",
+    "shortlisted_categories": [
+        "Security services",
+        "Software-related services",
+        "Consultative engineering and construction services",
+        "Information systems",
+        "Security-type printed matter",
+        "Internet and intranet software package",
+        "Database systems",
+        "Custom software development services",
+        "System, storage and content management software package",
+        "Development services of real estate",
+        "Installation services of laboratory equipment"
+    ]
+}
