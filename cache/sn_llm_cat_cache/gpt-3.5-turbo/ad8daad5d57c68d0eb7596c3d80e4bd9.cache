@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n ITT for Projects   10104871   10107090   10103642\n\n ### DESCRIPTION:\n ITT for Projects   10104871   10107090   10103642",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "The offer mentions ITT for various projects related to water, which indicates a focus on construction work for water projects specifically.",
+    "shortlisted_categories": [
+        "Consultative engineering and construction services",
+        "Construction work for water projects",
+        "Construction work for pipelines, communication and power lines",
+        "Administrative services of agencies",
+        "Information systems",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Defence services",
+        "Research, testing and scientific technical simulator",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Sales, marketing and business intelligence software package",
+        "Development services of real estate"
+    ]
+}

@@ -7,6 +7,7 @@ from uuid import uuid4
 from langfuse import Langfuse
 from openai import OpenAI
 import pandas as pd
+import requests
 from tqdm import tqdm
 from Categorizer import Categorizer, RelevanceEvaluator
 from ragas.metrics import (
@@ -22,6 +23,7 @@ from typing import List
 from ragas import evaluate
 from dotenv import load_dotenv
 import os
+from mlpk_calller import read_txt_file
 
 load_dotenv()
 
@@ -99,7 +101,7 @@ def retry_until_output_categories_present(func):
     return wrapper
 
 @retry_until_output_categories_present
-def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm_config=None):
+def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
     generation_start_time = datetime.now()
     if llm_config is None:
         llm_config = {}
@@ -134,13 +136,49 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model="gpt-3.5-turbo", llm
 
 
     # Create chat completion request
-    response = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt_str}],
-        **llm_config
-    )
+    if model == "gpt-3.5-turbo":
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt_str}],
+            **llm_config
+        )
+        content = response.choices[0].message.content
+    elif model == "elmib":
+        url = "https://elmilab.expertcustomers.ai/elmib/generate"
+        headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        }
 
-    content = response.choices[0].message.content
+        body = {
+            "instruction": "",
+            "input": "",
+            "text": prompt_str,
+            "use_beam_search": True,
+            "num_beams": 2,
+            "temperature": 0,
+            "top_p": 0.75,
+            "top_k": 40,
+            "max_length": 256,
+            "stream": False,
+            "stop_tokens": [],
+            "lang": "en",
+            "input_auto_trunc": False,
+            "custom_profile": "",
+            **llm_config # This line merges the llm_config dictionary into body
+        }
+
+        response = requests.post(url, json=body, headers=headers)
+
+        if response.status_code == 200:
+            result = response.json()
+            # print(result)
+            return {"output": result.strip(), "prompt": prompt_str, "llm_config": llm_config}
+        else:
+            print(f"Error: {response.status_code}, {response.text}")
+            return {"output": response}
+
+
 
     response_data = {
         "input": prompt_str,
@@ -250,7 +288,7 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
     parser = PydanticOutputParser(pydantic_object=Category)
 
     expertiment_uuid = str(uuid4())[:8]
-    llms = ["gpt-3.5-turbo"]#, "elmib"]
+    llms = ["elmib"]#, "gpt-3.5-turbo"]
     for l in llms:
         run_id = f"{l}_{expertiment_uuid}"
         csv_results = []
@@ -259,64 +297,65 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
 
             
             gpt35turbo_shortlisted_categories = []
-            if l == "gpt-3.5-turbo":
-                for idx, subset in enumerate(categories_subsets):
-                    # print(f"\nCategorizing '{offer}'\nModel: {l}")
-                    prompt_obj = langfuse.get_prompt("categorizator_multi")
-                    response = invoke_llm(
-                        client=openai_client,
-                        prompt_obj=prompt_obj,
-                        prompt_dictionary={
-                            "offer": offer,
-                            "categories": ", ".join(subset),
-                            "n_cat": "3",
-                            "output_instructions": parser.get_format_instructions()
-                        }
-                    )
-                    gpt35turbo_shortlisted_categories += json.loads(response["output"])["output_categories"]
-
-                    # shortlist_generation = create_generation(response_dict=response, trace=trace, db_item=item, parent_observation_id=high_level_cat_span.id, run_id=run_id)
-
-
-                # Categorize based on shortlisted categories
-                final_response = invoke_llm(
+            # if l == "gpt-3.5-turbo":
+            for idx, subset in enumerate(categories_subsets):
+                # print(f"\nCategorizing '{offer}'\nModel: {l}")
+                prompt_obj = langfuse.get_prompt("categorizator_multi")
+                response = invoke_llm(
                     client=openai_client,
-                    prompt_obj = prompt_obj,
+                    prompt_obj=prompt_obj,
                     prompt_dictionary={
-                        "offer": offer, 
-                        "categories": ", ".join(gpt35turbo_shortlisted_categories), 
-                        "n_cat": "1", 
+                        "offer": offer,
+                        "categories": ", ".join(subset),
+                        "n_cat": "3",
                         "output_instructions": parser.get_format_instructions()
-                    }
+                    },
+                    model=l
                 )
-                final_category = json.loads(final_response["output"])["output_categories"]
+                gpt35turbo_shortlisted_categories += json.loads(response["output"])["output_categories"]
 
-                trace = langfuse.trace(input=offer, output=final_category, session_id=run_id, metadata={
-                    "gpt35turbo_final_output": json.loads(final_response["output"])["output_categories"],
-                    "gpt35turbo_firstlevel_outputs": gpt35turbo_shortlisted_categories,
-                    "expected_category": item.expected_output,
-                    "output_explanation": json.loads(final_response["output"])["explanation"]
-                })
-                main_span = langfuse.span(trace_id=trace.id, name="main_span", input=offer)
-                high_level_cat_span = langfuse.span(trace_id=trace.id, input=response["prompt_str"], output=gpt35turbo_shortlisted_categories, name="high_level_categorization", parent_observation_id=main_span.id)
-                final_cat_span = langfuse.span(trace_id=trace.id, name="final_categorization", input=offer, output=final_category, parent_observation_id=main_span.id)
-                final_generation = create_generation(response_dict=final_response, trace=trace, db_item=item, parent_observation_id=final_cat_span.id, run_id=run_id)
-                
-                final_data = {
-                    "offer": offer,
-                    "output": final_category,
-                    "expected_output": item.expected_output,
-                    "output_explanation": json.loads(final_response["output"])["explanation"],
-                    "shortlisted_categories": gpt35turbo_shortlisted_categories
+                # shortlist_generation = create_generation(response_dict=response, trace=trace, db_item=item, parent_observation_id=high_level_cat_span.id, run_id=run_id)
+
+
+            # Categorize based on shortlisted categories
+            final_response = invoke_llm(
+                client=openai_client,
+                prompt_obj = prompt_obj,
+                prompt_dictionary={
+                    "offer": offer, 
+                    "categories": ", ".join(gpt35turbo_shortlisted_categories), 
+                    "n_cat": "1", 
+                    "output_instructions": parser.get_format_instructions()
                 }
-                csv_results.append(final_data)
-                md5_hash = hashlib.md5(offer.encode()).hexdigest()
-        
-                # Write cache file
-                cache_filename = f"cache/sn_llm_cat_cache/{l}/{md5_hash}.cache"
-                if not os.path.exists(cache_filename):
-                    with open(cache_filename, "w") as cache_file:
-                        json.dump(final_data, cache_file, indent=4)
+            )
+            final_category = json.loads(final_response["output"])["output_categories"]
+
+            trace = langfuse.trace(input=offer, output=final_category, session_id=run_id, metadata={
+                "gpt35turbo_final_output": json.loads(final_response["output"])["output_categories"],
+                "gpt35turbo_firstlevel_outputs": gpt35turbo_shortlisted_categories,
+                "expected_category": item.expected_output,
+                "output_explanation": json.loads(final_response["output"])["explanation"]
+            })
+            main_span = langfuse.span(trace_id=trace.id, name="main_span", input=offer)
+            high_level_cat_span = langfuse.span(trace_id=trace.id, input=response["prompt_str"], output=gpt35turbo_shortlisted_categories, name="high_level_categorization", parent_observation_id=main_span.id)
+            final_cat_span = langfuse.span(trace_id=trace.id, name="final_categorization", input=offer, output=final_category, parent_observation_id=main_span.id)
+            final_generation = create_generation(response_dict=final_response, trace=trace, db_item=item, parent_observation_id=final_cat_span.id, run_id=run_id)
+            
+            final_data = {
+                "offer": offer,
+                "output": final_category,
+                "expected_output": item.expected_output,
+                "output_explanation": json.loads(final_response["output"])["explanation"],
+                "shortlisted_categories": gpt35turbo_shortlisted_categories
+            }
+            csv_results.append(final_data)
+            md5_hash = hashlib.md5(offer.encode()).hexdigest()
+    
+            # Write cache file
+            cache_filename = f"cache/sn_llm_cat_cache/{l}/{md5_hash}.cache"
+            if not os.path.exists(cache_filename):
+                with open(cache_filename, "w") as cache_file:
+                    json.dump(final_data, cache_file, indent=4)
             
         with open(f"experiment_{run_id}.csv", "w", newline="", encoding="utf8") as csvfile:
             fieldnames = ["offer", "output", "expected_output","output_explanation","shortlisted_categories"]
@@ -338,8 +377,10 @@ if __name__ == "__main__":
 
 
     MODE = "cat"
-    file_name = "SN_20k"
-    dataset_name = "spendnet_500"
+
+    ### CREATING DATASET FROM SPENDNET CSV FILE
+    # file_name = "SN_20k"
+    # dataset_name = "spendnet_500"
     # langfuse.create_dataset(name=dataset_name)
     # with open(f'data/{file_name}.csv', 'r', encoding="UTF8") as csv_file:
     #     csv_reader = csv.reader(csv_file)
@@ -353,6 +394,32 @@ if __name__ == "__main__":
     #             input=f"### TITLE:\n {row[2].strip()}\n\n ### DESCRIPTION:\n {row[3]}",
     #             expected_output=row[4].strip()
     #         )
+
+    ### CREATING DATASET FROM PLATFORM TEST SET FILES
+    dataset_name = "spendnet_200_platform_testset"
+    # directory = r'platform_lib\SN_20k.csv_balanced\test\test'
+    # ann_directory = r'platform_lib\SN_20k.csv_balanced\test\ann'
+    # langfuse.create_dataset(name=dataset_name)
+
+    # file_name = "SN_20k"
+    # csv_rows = set()
+    # with open(f'data/{file_name}.csv', 'r', encoding="utf-8-sig") as csv_file:
+    #     csv_reader = csv.reader(csv_file)
+    #     next(csv_reader)
+    #     for row in csv_reader:
+    #         csv_rows.add(tuple(row)) 
+
+    # for filename in tqdm(os.listdir(directory)[:200]):
+    #     filepath = os.path.join(directory, filename)
+    #     text = read_txt_file(filepath)
+    #     for idx, row in enumerate(csv_rows):
+    #         if row[2] + " " + row[3] in text:
+    #             langfuse.create_dataset_item(
+    #                 dataset_name=dataset_name,
+    #                 input=f"### TITLE:\n {row[2].strip()}\n\n ### DESCRIPTION:\n {row[3]}",
+    #                 expected_output=row[4].strip()
+    #             )
+    #             break
     
     dataset = langfuse.get_dataset(dataset_name)
 

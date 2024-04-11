@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n SEAL, NONMETALLIC\n\n ### DESCRIPTION:\n Request for Quote\u00a0(RFQ)\u00a0from DLA-Maritime, Pearl Harbor Please review and make sure that the solicitation number (SPMYM4-24-Q-01990001) is included in the subject line of any email correspondence. All quotes shall include price(s), FOB destination, a point of contact (name and phone number), Tax I.D. #, Unique Entity I.D., Cage Code, GSA contract number (if applicable), business size, and payment terms. Each response must clearly indicate the vendor\u2019s capability to meet all specifications and requirements. Please review and sign page 1, then return with your quote and best delivery date. Ensure that all questions, are answered and your address and today's date are on your quote.\u00a0 Please provide shipping cost along with quote.\u00a0 If you are unable to meet the deadline, or choose not to bid, please send a brief note and annotate \"NO BID\" on the outer cover and return the cover sheet from the solicitation. Thanks\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0 SOLICITATION: SPMYM4-24-Q-01990001 CLOSES ON \u2013 12 FEB 2024 @1200 PM. Hawaii Standard Time PLEASE RETURN VIA Email",
+    "output": [
+        "Fasteners"
+    ],
+    "expected_output": "Support services for water transport",
+    "output_explanation": "The offer is for nonmetallic seals, which are commonly used in fastening components together. Therefore, it falls under the category of Fasteners.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Technical inspection and testing services",
+        "Repair and maintenance services of precision equipment",
+        "Miscellaneous special-purpose machinery",
+        "Machines and apparatus with individual functions",
+        "Alloys",
+        "Tools",
+        "Miscellaneous fire-protection equipment",
+        "Fasteners"
+    ]
+}

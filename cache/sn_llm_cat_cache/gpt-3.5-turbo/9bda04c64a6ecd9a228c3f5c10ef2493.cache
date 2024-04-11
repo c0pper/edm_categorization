@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n IT Asset Management Solution\n\n ### DESCRIPTION:\n Procurement of the Snow Software Atlas product and wraparound Consultancy Services to be provided by Softcat PLC to assist in the management of Software, Hardware and Software as a Service (SaaS) assets.",
+    "output": [
+        "Software-related services"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The offer involves the procurement of software (Snow Software Atlas) and consultancy services related to the management of software assets, making it fall under the category of Software-related services.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Software-related services",
+        "Various office equipment and supplies",
+        "Information systems",
+        "Provider services",
+        "Consultancy services",
+        "Maintenance services of telecommunications equipment",
+        "Consultancy services",
+        "Software package",
+        "Facilities management software package and software package suite",
+        "Database systems",
+        "System, storage and content management software package",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

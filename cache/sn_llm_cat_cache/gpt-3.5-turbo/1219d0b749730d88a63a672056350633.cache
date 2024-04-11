@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n GSS24110 - Electronic Components\n\n ### DESCRIPTION:\n ***Please note this is an award notice, not a call for competition*** UK Research and Innovation (UKRI) had a requirement for Electronic Components. This procurement has been concluded via a Competitive Quotation (below threshold)",
+    "output": [
+        "Electronic Components"
+    ],
+    "expected_output": "Electronic equipment",
+    "output_explanation": "The offer is specifically for Electronic Components as mentioned in the description. It aligns with one of the categories provided.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Electrical apparatus for switching or protecting electrical circuits",
+        "Electronic Components",
+        "Electronic Components",
+        "Electronic Components",
+        "Electronic Components",
+        "Electronic Components"
+    ]
+}

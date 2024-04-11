@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n ITT for Projects   10105198   10103984   10102363\n\n ### DESCRIPTION:\n ITT for Projects   10105198   10103984   10102363",
+    "output": [
+        "Business and management consultancy services"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "The offer seems to be related to providing consultancy services for various projects, which aligns with the category of Business and management consultancy services.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Consultative engineering and construction services",
+        "Research services",
+        "Administrative services of agencies",
+        "Technical inspection and testing services",
+        "Information systems",
+        "Construction supervision services",
+        "Maintenance services of telecommunications equipment",
+        "Database systems",
+        "General public services",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Mining and quarrying machinery",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n C002021 PEN Testing\n\n ### DESCRIPTION:\n For each agreed testing scope, the NHS Scotland Health Boards requires a written CHECK report with CVSS (latest version throughout the contract) score and recommendations for each reported vulnerability. The report is to be provided to the designated Information Asset Owner for each system and to the NHS Scotland Health Board\u2019s representative (this will be agreed with the winning supplier) within 5 working days of the completion of testing.",
+    "output": [
+        "Security services"
+    ],
+    "expected_output": "Systems and technical consultancy services",
+    "output_explanation": "I categorized it as Security services because the offer is related to PEN Testing, which involves assessing the security vulnerabilities in systems and providing recommendations to improve security. This service is directly related to enhancing the security of NHS Scotland Health Boards' systems.",
+    "shortlisted_categories": [
+        "Security services",
+        "Research services",
+        "Consultative engineering and construction services",
+        "Technical inspection and testing services",
+        "Security-type printed matter",
+        "Investigation services",
+        "Legal documentation and certification services",
+        "Research, testing and scientific technical simulator",
+        "Database systems",
+        "Computer back-up services",
+        "System, storage and content management software package",
+        "Trust and custody services",
+        "Development services of real estate",
+        "Statistical services",
+        "Advisory architectural services"
+    ]
+}

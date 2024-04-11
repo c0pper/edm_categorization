@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n 28--POWER UNIT,GAS TURB\n\n ### DESCRIPTION:\n ITEM UNIQUE IDENTIFICATION AND VALUATION (JAN 2023)|19| | | | | | | | | ||||||||||| HIGHER-LEVEL CONTRACT QUALITY REQUIREMENT|8| | | | | | | | | TIME OF DELIVERY (JUNE 1997)|20| | | | | | | |||||||||||||| STOP-WORK ORDER (AUG 1989)|1| | WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023)|16|tbd| |tbd|tbd|tbd|tbd|tbd|tbd| | |  | ||||| NAVY USE OF ABILITYONE SUPPORT CONTRACTOR - RELEASE OF OFFEROR INFORMATION (3-18))|1| | VALUE ENGINEERING (JUN 2020)|3| | | | EQUAL OPPORTUNITY (SEP 2016)|2| | | SMALL BUSINESS SUBCONTRACTING PLAN (DOD CONTRACTS)- BASIC (DEC 2019)|2| | | INTEGRITY OF UNIT PRICES (NOV 2021)|1| | SMALL BUSINESS SUBCONTRACTING PLAN (SEP 2023)|4| | | | | EQUAL OPPORTUITY FOR WORKERS WITH DISABILITIES (JUN 2020)|2| | | TRANSPORTATION OF SUPPLIES BY SEA (JAN 2023)|2| | | BUY AMERICAN-FREE TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM - BASIC (NOV\\23)|5| | | | | | LIMITATION OF LIABILITY--HIGH-VALUE ITEMS (FEB 1997)|1| | ALTERNATE A, ANNUAL REPRESENTATIONS AND CERTIFICATIONS (NOV 2023)|13| || | | | | | | | | | | | BUY AMERICAN-FREE TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM CERTIFICATE-BASIC (NOV 2023))|5| |  | | | | BUY AMERICAN--BALANCE OF PAYMENTS PROGRAM (NOV 2014)|1| | ANNUAL REPRESENTATIONS AND CERTIFICATIONS (MAR 2023)|13|336413|1250| | | | | | | | |||| FACSIMILE PROPOSALS (OCT 1997)|1| | NOTICE OF PRIORITY RATING FOR NATIONAL DEFENSE, EMERGENCY PREPAREDNESS, ANDENERGY PROGRAM USE (APR 2008))|2| |DO-A1A| ALL CONTRACTUAL DOCUMENTS (I.E. CONTRACTS, PURCHASE ORDERS, TASK ORDERS DELIVERY ORDERS AND MODIFICATIONS) RELATED TO THE INSTANT PROCUREMENT ARE CONSIDERED TO BE \"ISSUED\" BY THE GOVERNMENT WHEN COPIES ARE EITHER DEPOSITED IN THE MAIL, TRANSMITTED BY FACSIMILE, OR  SENT BY OTHER ELECTRONIC COMMERCE METHODS, SUCH AS EMAIL. THE GOVERNMENT'S ACCEPTANCE OF THE CONTRACTOR'S PROPOSAL CONSTITUTES BILATERAL AGREEMENT TO \"ISSUE\" CONTRACTUAL DOCUMENTS AS DETAILED HEREIN. we can't even use the -302 in some aircraft and it should not be bought. It'sthe oldest and least preferred item. We haven't bought any in ten years, and even then I'm not sure it was a definitized contract for a quantity of 1.    Please cancel the buy.  steve lage",
+    "output": [
+        "Turbines and motors"
+    ],
+    "expected_output": "Generators",
+    "output_explanation": "The product/service offer is categorized as 'Turbines and motors' because the title 'POWER UNIT,GAS TURB' and the description mention items related to gas turbines, which fall under this category.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Electrical apparatus for switching or protecting electrical circuits",
+        "Electrical supplies and accessories",
+        "Technical inspection and testing services",
+        "Servers",
+        "Turbines and motors",
+        "Parts for aircraft, spacecraft and helicopters",
+        "Defence services",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Machines and apparatus with individual functions",
+        "Military aircrafts",
+        "Aircraft or spacecraft equipment",
+        "Military vehicles",
+        "Government services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

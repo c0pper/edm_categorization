@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n The purchase of a generator and automatic transfer switch\n\n ### DESCRIPTION:\n THE TEXAS DEPARTMENT OF CRIMINAL JUSTICE (TDCJ) IS CURRENTLY\u00a0 \u00a0 \u00a0 \u00a0\u00a0REQUESTING BIDS TO ESTABLISH A PURCHASE ORDER FOR THE PROCUREMENT OFA GENERATOR AND AUTOMATIC TRANSFER SWITCH.",
+    "output": [
+        "Electrical supplies and accessories"
+    ],
+    "expected_output": "Generators",
+    "output_explanation": "The offer involves the procurement of a generator and automatic transfer switch, which falls under the category of Electrical supplies and accessories.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Electrical installation work",
+        "Electrical supplies and accessories",
+        "Construction equipment",
+        "Specialised chemical products",
+        "Industrial control software package",
+        "Maintenance services of telecommunications equipment",
+        "Machines and apparatus with individual functions",
+        "Installation services of special-purpose machinery and equipment",
+        "System, storage and content management software package",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate",
+        "Installation services of laboratory equipment"
+    ]
+}

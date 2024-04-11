@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Provision of Periodic Fixed Wire Testing\n\n ### DESCRIPTION:\n This contract is required for undertaking a planned programme of cyclical periodic fixed wire inspection, testing and certification to council owned, residential properties located in Derbyshire and the High Peak area, including remedial repairs required to installations detected as result of the Inspection. In addition to this requirement is the installation of hard wired smoke alarms and upgrading of electrical power supply to radon fans.",
+    "output": [
+        "Electrical installation work"
+    ],
+    "expected_output": "Technical inspection and testing services",
+    "output_explanation": "The offer involves periodic fixed wire testing, which falls under electrical installation work category. It includes inspection, testing, certification, and remedial repairs to installations, as well as the installation of hard wired smoke alarms and upgrading of electrical power supply. Therefore, it fits best in the Electrical installation work category.",
+    "shortlisted_categories": [
+        "Electrical installation work",
+        "Security services",
+        "Technical inspection and testing services",
+        "Electrical supplies and accessories",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Installation of hard wired smoke alarms",
+        "Upgrading of electrical power supply",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

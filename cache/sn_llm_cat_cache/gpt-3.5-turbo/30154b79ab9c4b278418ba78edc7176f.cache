@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Specialist Bin Cleaning\n\n ### DESCRIPTION:\n Contract Award Notice for Specialist Bin Cleaning: Service Overview: 1. To steam clean, deodorize and disinfect clinical waste bins onsite 2. To steam clean, deodorize and disinfect general waste, food waste and recycling bins onsite using a specialist vehicle that retains waste water. 8 Main hospital sites across Newcastle, Sunderland, Northumberland & Cumbria.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Cleaning services",
+    "output_explanation": "The offer is primarily focused on specialized cleaning services for various types of bins, including clinical waste, general waste, food waste, and recycling bins. This aligns with the category of 'Cleaning services'.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Cleaning services",
+        "Healthcare services",
+        "Waste management services",
+        "Cleaning products",
+        "Facilities management software package and software package suite",
+        "Waste incinerators",
+        "Street-cleaning and sweeping services",
+        "Cleaning services",
+        "Healthcare services",
+        "Waste management services",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

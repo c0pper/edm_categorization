@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Child Vision Screening Programme\n\n ### DESCRIPTION:\n To undertake visioning screening tests for children aged 4 to 5 years old, which will take place predominantly with schools within the boundaries of Sunderland.  The vision screening test will identify children aged 4 to 5 years with impaired sight, thereby enabling timely intervention.",
+    "output": [
+        "Medical practice and related services"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "This offer involves conducting vision screening tests for children aged 4 to 5 years old, which falls under medical practice and related services category.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Medical practice and related services",
+        "Medical consumables",
+        "Social services",
+        "Eye care products and corrective lenses",
+        "Health and first-aid training services",
+        "Pre-school education services",
+        "Optician services",
+        "Medical equipment",
+        "Children's services",
+        "Various school services",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

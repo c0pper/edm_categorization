@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Works to repair the drainage at Avondale Health Centre\n\n ### DESCRIPTION:\n Works to repair the drainage at Avondale Health Centre",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Building demolition and wrecking work and earthmoving work",
+    "output_explanation": "The offer involves repairing the drainage at a health center, which falls under construction work for water projects category as it is related to water management and infrastructure.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Plumbing and sanitary works",
+        "Other building completion work",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Sewerage management services",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

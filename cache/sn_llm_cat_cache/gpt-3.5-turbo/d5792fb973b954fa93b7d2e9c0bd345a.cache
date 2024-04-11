@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n 49--CONTROLBOXWITHFERRI - AND OTHER REPLACEMENT PARTS\n\n ### DESCRIPTION:\n View Changes CONTACT INFORMATION|4|N792.11|T2T|215-697-5409|katlyn.m.galetto.civ@us.navy.mil| ITEM UNIQUE IDENTIFICATION AND VALUATION (JAN 2023)|19|||||||||||||||||||| INSPECTION AND ACCEPTANCE OF SUPPLIES|26|X||||||||||||X|||||||||||||| TIME OF DELIVERY (JUNE 1997)|20||||||||||||||||||||| STOP-WORK ORDER (AUG 1989)|1|| WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023)|16|TBD|Source|TBD|N00383|TBD|TBD|TBD|TBD||||||||| NAVY USE OF ABILITYONE SUPPORT CONTRACTOR - RELEASE OF OFFEROR INFORMATION (3-18))|1|| VALUE ENGINEERING (JUN 2020)|3|||| EQUAL OPPORTUNITY (SEP 2016)|2||| SMALL BUSINESS SUBCONTRACTING PLAN (DOD CONTRACTS)- BASIC (DEC 2019)|2||| INTEGRITY OF UNIT PRICES (NOV 2021)|1|| WARRANTY OF SUPPLIES OF A NONCOMPLEX NATURE (JUN 2003)|6|12 Months|60 Days After The Discovery of Defect||||| SMALL BUSINESS SUBCONTRACTING PLAN (SEP 2023)|4||||| EQUAL OPPORTUITY FOR WORKERS WITH DISABILITIES (JUN 2020)|2||| TRANSPORTATION OF SUPPLIES BY SEA (JAN 2023)|2||| BUY AMERICAN-FREE TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM - BASIC (JAN 23)|3|||| LIMITATION OF LIABILITY--HIGH-VALUE ITEMS (FEB 1997)|1|| LIMITATIONS ON PASS-THROUGH CHARGES (JUN 2020)|1|| ALTERNATE A, ANNUAL REPRESENTATIONS AND CERTIFICATIONS (NOV 2020)|13|||||||||||||| BUY AMERICAN-FREE TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM CERTIFICATE-BASIC (DEC 2022))|3|||| BUY AMERICAN--BALANCE OF PAYMENTS PROGRAM (NOV 2014)|1|| ROYALTY INFORMATION (APR 1984)|1|| ANNUAL REPRESENTATIONS AND CERTIFICATIONS (MAR 2023)|13|335999|600|||||||||||| FACSIMILE PROPOSALS (OCT 1997)|1|| NOTICE OF PRIORITY RATING FOR NATIONAL DEFENSE, EMERGENCY PREPAREDNESS, ANDENERGY PROGRAM USE (APR 2008))|2||D0-A1A| The Purpose of this Amendment is to address the following quantity change forthe below NIINS: LLR8VC173 from 2 to 0.(PN 1171229)Part is no longer needed. 017107579 from 3 to 1.(PN 1183101) 017122859 from 3 to 0.(PN 1171082) Part is no longer needed. This contract/delivery order/purchase order/modification is issued by the Government when deposited in the mail, transmitted by facsimile or sent by anyelectronic commerce method, including email. The Government's acceptanceof thecontractor's proposal constitutes bilateral agreement to issue thiscontract/delivery order/purchase order/modification. This RFP is for a spares purchase. The Small Business Administration representative at NAVSUP WSS has reviewed this requirement and determined that a set-aside recommendation was not applicable for this procurement. This contract/delivery order/purchase order/modification is issued by the Government when deposited in the mail, transmitted by facsimile or sent by any electronic commerce method, including email. The Government's acceptanceof the contractor's proposal constitutes bilateral agreement to issue this contract/delivery order/purchase order/modification. \\",
+    "output": [
+        "Parts of military vehicles"
+    ],
+    "expected_output": "Parts for warships",
+    "output_explanation": "The offer is related to control box replacement parts, which are commonly used in military vehicles for various functions such as signaling and light equipment. Therefore, it fits best under the category of 'Parts of military vehicles.'",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Repair and maintenance services of precision equipment",
+        "Electrical supplies and accessories",
+        "Networking software package",
+        "Parts of railway or tramway locomotives or rolling stock; railways traffic-control equipment",
+        "Industrial control software package",
+        "Command and control system",
+        "Machines and apparatus with individual functions",
+        "Mechanical spare parts except engines and engine parts",
+        "Parts for warships",
+        "Control, safety, signalling and light equipment",
+        "Parts of military vehicles",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Spare parts for goods vehicles"
+    ]
+}

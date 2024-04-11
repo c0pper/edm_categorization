@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n 65+ years\n\n ### DESCRIPTION:\n 65+ years",
+    "output": [
+        "Social services"
+    ],
+    "expected_output": "Social work services",
+    "output_explanation": "The offer is categorized as Social services because it seems to be related to services targeting individuals aged 65 years and above, which typically fall under the umbrella of social services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Miscellaneous business-related services",
+        "Social services",
+        "Medical education services",
+        "Other services",
+        "General public services",
+        "Miscellaneous fertilisers",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

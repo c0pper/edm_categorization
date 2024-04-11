@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n SPS-01610 Support and Maintenance for SPS's EPOS System\n\n ### DESCRIPTION:\n This contract is for the on-going support and maintenance of SPS's Electronic Point of Sale (EPOS) system currently in use within SPS estate.",
+    "output": [
+        "Maintenance services of telecommunications equipment"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The offer is for the support and maintenance of an Electronic Point of Sale (EPOS) system, which falls under the category of maintenance services of telecommunications equipment.",
+    "shortlisted_categories": [
+        "Support services for water transport",
+        "Repair and maintenance services of precision equipment",
+        "Support services for land transport",
+        "Maintenance services of telecommunications equipment",
+        "Other services",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Database systems",
+        "System, storage and content management software package",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate"
+    ]
+}

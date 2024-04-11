@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n Trauma Informed Pilot Psychological Provision\n\n ### DESCRIPTION:\n Trauma Informed Pilot Psychological Provision",
+    "output": [
+        "Medical education services"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "The offer of Trauma Informed Pilot Psychological Provision seems to be related to providing psychological support and training for pilots who have experienced trauma, hence it falls under the category of Medical education services.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Social services",
+        "Medical education services",
+        "Other services",
+        "Research, testing and scientific technical simulator",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Development services of real estate"
+    ]
+}

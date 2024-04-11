@@ -1,0 +1,16 @@
+{
+    "offer": "### TITLE:\n VOLUNTARY TRANSPARENCY NOTICE - 710689450 - Provision of The Warrior Programme for RN Serving Personnel\n\n ### DESCRIPTION:\n This is a Voluntary Transparency Notice to advise of the MOD&apos;s intent to award a 3 year contract for Provision of the Warrior Programme for RN Serving Personnel",
+    "output": [
+        "Defence services"
+    ],
+    "expected_output": "Specialist training services",
+    "output_explanation": "I categorized this offer as 'Defence services' because it involves the Provision of The Warrior Programme for RN Serving Personnel, which is directly related to defense and military personnel.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Adult-education services at university level",
+        "Defence services",
+        "Training and entertainment software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Development services of real estate"
+    ]
+}

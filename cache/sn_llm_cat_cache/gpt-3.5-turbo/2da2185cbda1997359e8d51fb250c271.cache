@@ -1,0 +1,16 @@
+{
+    "offer": "### TITLE:\n Truax Park Apartments concrete flatwork (Sidewalks)\n\n ### DESCRIPTION:\n Truax Park Apartments concrete flatwork (Sidewalks)",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Roof works and other special trade construction works",
+    "output_explanation": "The offer is about concrete flatwork for sidewalks, which falls under construction work for water projects category as sidewalks are essential for water management and infrastructure development.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Other building completion work",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Civil engineering machinery",
+        "Building rental or sale services",
+        "Development services of real estate"
+    ]
+}

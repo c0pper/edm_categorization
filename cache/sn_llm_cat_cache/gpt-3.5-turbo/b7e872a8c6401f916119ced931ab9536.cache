@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n voyager repair\n\n ### DESCRIPTION:\n various repairs",
+    "output": [
+        "Repair services"
+    ],
+    "expected_output": "Repair, maintenance and associated services related to railways and other equipment",
+    "output_explanation": "The offer of 'voyager repair' falls under the category of repair services because it specifically mentions various repairs, indicating a service focused on repairing different items or machinery.",
+    "shortlisted_categories": [
+        "Repair and maintenance services of machinery",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Repair and maintenance services of precision equipment",
+        "Maintenance services",
+        "Repair services",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

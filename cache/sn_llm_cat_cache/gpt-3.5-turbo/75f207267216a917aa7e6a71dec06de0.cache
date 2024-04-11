@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Minor (adaptations) Works Framework - ASCHIW/2023/454*\n\n ### DESCRIPTION:\n Stoke on Trent City Council wish to appoint providers to carry out small adaptations in peoples homes (to the value of \u00a31000 or less), for example, supply and fitting of grab rails, external metal handrails, shallowing steps, widening doors and/or rehanging doors. There are various specs and requirements to these adaptations with the end result keeping people safe and independent at home",
+    "output": [
+        "Construction work"
+    ],
+    "expected_output": "Construction materials",
+    "output_explanation": "The offer involves carrying out small adaptations in people's homes such as fitting grab rails, handrails, shallowing steps, and widening doors. These tasks fall under the category of construction work related to home modifications and improvements.",
+    "shortlisted_categories": [
+        "Construction work",
+        "Electrical installation work",
+        "Machines and apparatus for testing and measuring",
+        "Other building completion work",
+        "Construction consultancy services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Fencing, railing and safety equipment installation work",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Domestic animal nurseries",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Building rental or sale services",
+        "Supporting services for the government",
+        "Installation services of laboratory equipment"
+    ]
+}

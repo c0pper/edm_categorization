@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n ITT for Projects  10102027   10101710   10101553\n\n ### DESCRIPTION:\n ITT for Projects  10102027   10101710   10101553",
+    "output": [
+        "Consultative engineering and construction services"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "The offer seems to be related to engineering and construction services based on the title and description provided.",
+    "shortlisted_categories": [
+        "Consultative engineering and construction services",
+        "Information systems",
+        "Data-processing machines (hardware)",
+        "Medical software package",
+        "Legal documentation and certification services",
+        "Miscellaneous special-purpose machinery",
+        "Investigation services",
+        "Research, testing and scientific technical simulator",
+        "Communication software package",
+        "Database systems",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate"
+    ]
+}

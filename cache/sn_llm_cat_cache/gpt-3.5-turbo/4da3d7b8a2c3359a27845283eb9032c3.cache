@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Connally Unit: Replace Plumbing & Controls - 3, 4, 7, 10, & 11 Bldgs\n\n ### DESCRIPTION:\n This project is to replace plumbing and add electronic water controls to multiple buildings. The existing system is not in compliance with the current energy efficiency codes and standards.",
+    "output": [
+        "Plumbing and sanitary works"
+    ],
+    "expected_output": "Plumbing and sanitary works",
+    "output_explanation": "The offer involves replacing plumbing and adding electronic water controls to multiple buildings, which falls under the category of Plumbing and sanitary works.",
+    "shortlisted_categories": [
+        "Plumbing and sanitary works",
+        "Electrical installation work",
+        "Construction work for water projects",
+        "Other building completion work",
+        "Technical inspection and testing services",
+        "Repair and maintenance services of precision equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Industrial control software package",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Repair and maintenance services of pumps, valves, taps, and metal containers",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Control, safety, signalling and light equipment",
+        "Installation services of laboratory equipment",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

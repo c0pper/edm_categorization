@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n CT2116 Provision of Vehicle Chassis Pressure Washing/Cleaning\n\n ### DESCRIPTION:\n Provider to carry out vehicle steam cleaning for the Derbyshire County Council mixed fleet of vehicles ranging from cars to 26T HGVs and winter maintenance vehicles.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Repair and maintenance services of motor vehicles and associated equipment",
+    "output_explanation": "The offer is related to vehicle steam cleaning, which falls under the category of cleaning services.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Repair and maintenance services of precision equipment",
+        "Motor vehicles for the transport of goods",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Street-cleaning and sweeping services",
+        "Repair and maintenance services of vehicles",
+        "Public services",
+        "Fleet management services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

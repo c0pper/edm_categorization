@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Purchase and Maintenance of Disability Lifting Apparatus\n\n ### DESCRIPTION:\n Purchase and Maintenance of Disability Lifting Apparatus",
+    "output": [
+        "Maintenance services"
+    ],
+    "expected_output": "Miscellaneous medical devices and products",
+    "output_explanation": "The offer is mainly focused on the purchase and maintenance of disability lifting apparatus, which falls under maintenance services category.",
+    "shortlisted_categories": [
+        "Lifting and handling equipment",
+        "Maintenance services",
+        "Construction work",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Maintenance services",
+        "Specialized machinery",
+        "Machines and apparatus with individual functions",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Maintenance services",
+        "Medical equipment",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

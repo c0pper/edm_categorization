@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n Instant Oatmeal\n\n ### DESCRIPTION:\n THE TEXAS DEPARTMENT OF CRIMINAL JUSTICE (TDCJ) IS CURRENTLY\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0REQUESTING BIDS TO ESTABLISH A PURCHASE ORDER FOR THE PROCUREMENT OF\u00a0\u00a0INSTANT OATMEAL FOR RESALE IN THE TDCJ COMMISSARIES STATEWIDE.",
+    "output": [
+        "Food products"
+    ],
+    "expected_output": "Grain mill products",
+    "output_explanation": "The offer is for the procurement of instant oatmeal, which falls under the category of food products.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Food products",
+        "Retail services",
+        "Canteen services",
+        "Food products",
+        "Catering equipment",
+        "Food and Beverage",
+        "Food"
+    ]
+}

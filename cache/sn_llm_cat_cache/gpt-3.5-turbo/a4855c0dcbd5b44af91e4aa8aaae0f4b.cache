@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n 6515--MICRO-LARYNGOSCOPIC INSTRUMENTS  SMALL BUSINESS SET-ASIDE  BRAND NAME OR EQUAL (TELEFLEX)\n\n ### DESCRIPTION:\n RFQ 36C24624Q0330-MICRO-LARYNGOSCOPIC INSTRUMENTS",
+    "output": [
+        "Medical devices and products"
+    ],
+    "expected_output": "Astronomical and optical instruments",
+    "output_explanation": "The offer is for micro-laryngoscopic instruments, which fall under the category of medical devices and products as they are instruments used for medical purposes related to the larynx.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Medical devices and products",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Medical equipment",
+        "Small business set-aside",
+        "Brand name or equal",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Medical Equipment",
+        "Small Business Set-Aside",
+        "Brand Name or Equal",
+        "Development services of real estate",
+        "Woodworking equipment",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

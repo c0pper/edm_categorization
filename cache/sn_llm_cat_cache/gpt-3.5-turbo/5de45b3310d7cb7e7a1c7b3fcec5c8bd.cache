@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n 23NW SGL 336 Straightwall Herbicide\n\n ### DESCRIPTION:\n The Pennsylvania Game Commission (PGC), Northwest Region, requires the combination of foliar spray AND cut stump treatments on all multiflora rose, autumn olive, Asiatic honeysuckle, Oriental bittersweet, Privet, Burning Bush, and Japanese barberry on 27 acres of State Game Lands 336 located in Lawrence County.",
+    "output": [
+        "Herbicide"
+    ],
+    "expected_output": "Planting and maintenance services of green areas",
+    "output_explanation": "The offer is for a straightwall herbicide being used for foliar spray and cut stump treatments on specific plants in a State Game Lands area. This falls under the category of herbicide, as it is a specialized chemical product designed for vegetation management.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Construction work for water projects",
+        "Miscellaneous engineering services",
+        "Environmental Services",
+        "Herbicide",
+        "Wildlife Management",
+        "Vegetables, fruits and nuts",
+        "Specialised chemical products",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Services incidental to forestry",
+        "Agro-chemical products",
+        "Miscellaneous fertilisers",
+        "Tree pruning and hedge trimming",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

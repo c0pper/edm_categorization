@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Waste & Recycling Collection Services\n\n ### DESCRIPTION:\n The London Borough of Merton is inviting tenders, from those suppliers shortlisted in the initial Supplier Selection stage, to provide Household Waste & Recycling Materials collection including communication of the services, Commercial Waste collection including communication of the services, Winter Maintenance services and Vehicle Maintenance services for the Borough. Please note, that a signed confidentiality letter will need to be signed in order for the full suite of tender documents to be shared.",
+    "output": [
+        "Refuse disposal and treatment"
+    ],
+    "expected_output": "Refuse disposal and treatment",
+    "output_explanation": "The offer is specifically for Waste & Recycling Collection Services, which falls under the category of Refuse disposal and treatment.",
+    "shortlisted_categories": [
+        "Refuse disposal and treatment",
+        "Communication services",
+        "Vehicle maintenance services",
+        "Civic-amenity services",
+        "Property management services of real estate on a fee or contract basis",
+        "Maintenance services of telecommunications equipment",
+        "Operation of a refuse site",
+        "Waste incinerators",
+        "Street-cleaning and sweeping services",
+        "Sewerage management services",
+        "Collection agency services",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Development services of real estate"
+    ]
+}

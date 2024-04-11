@@ -1,0 +1,16 @@
+{
+    "offer": "### TITLE:\n WASHER, FLAT\n\n ### DESCRIPTION:\n SEE ATTACHED",
+    "output": [
+        "Various office equipment and supplies"
+    ],
+    "expected_output": "Ships",
+    "output_explanation": "The offer is categorized as 'Various office equipment and supplies' because it is a description of a flat washer which falls under the category of office equipment and supplies.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Repair and maintenance services of precision equipment",
+        "Miscellaneous special-purpose machinery",
+        "Machines and apparatus with individual functions",
+        "Plastic products",
+        "Installation services of laboratory equipment"
+    ]
+}

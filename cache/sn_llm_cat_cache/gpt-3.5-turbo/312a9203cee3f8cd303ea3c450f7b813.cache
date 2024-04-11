@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Repair of NIIN 01-581-2134 for FMS Norway\n\n ### DESCRIPTION:\n This notice is a solicitation for the repair of 1 EA NIIN 01-581-2134 P/N 312BS101-1 Foreign Military Sales Norway. All responsible sources may submit a capability statement proposal or quotation which shall be considered by the agency. For any questions concerning this notice contact the PCO, Mackenzie Cannataro at mackenzie.cannataro.civ@us.navy.mil.",
+    "output": [
+        "Foreign affairs and other services"
+    ],
+    "expected_output": "Repair and maintenance services of warships",
+    "output_explanation": "The offer is for the repair of a specific item for Foreign Military Sales to Norway, indicating a service related to foreign affairs and other services.",
+    "shortlisted_categories": [
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Foreign affairs and other services",
+        "Repair and maintenance services of precision equipment",
+        "Defence services",
+        "Repair and maintenance services of measuring, testing and checking apparatus",
+        "Miscellaneous special-purpose machinery",
+        "Repair and maintenance services of pumps, valves, taps, and metal containers",
+        "Support services for air transport",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

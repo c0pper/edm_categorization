@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Audio Visual Unit Vehicle\n\n ### DESCRIPTION:\n East Sussex Fire Authority (ESFA) is seeking to award a contract on behalf of East Sussex Fire and Rescue Service (ESFRS) for a single Audio-Visual Unit Vehicle.",
+    "output": [
+        "Vehicle"
+    ],
+    "expected_output": "Heavy-duty motor vehicles",
+    "output_explanation": "The offer is for a single Audio-Visual Unit Vehicle, which falls under the category of Vehicles.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Vehicle",
+        "Public Services",
+        "Specialised chemical products",
+        "Industrial control software package",
+        "Special clothing",
+        "Machines and apparatus with individual functions",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Apparatus for sound, video-recording and reproduction",
+        "Miscellaneous fire-protection equipment",
+        "Development services of real estate"
+    ]
+}

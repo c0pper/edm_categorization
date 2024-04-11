@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Equitas Academies Trust ~ Cleaning Tender\n\n ### DESCRIPTION:\n The successful Supplier will be required to provide Cleaning services for Equitas Academies Trust.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Cleaning services",
+    "output_explanation": "The offer is for providing cleaning services for Equitas Academies Trust, clearly falling under the category of Cleaning services.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Administrative services of agencies",
+        "Cleaning services",
+        "Support services for land transport",
+        "Cleaning products",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Cleaning services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

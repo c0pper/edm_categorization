@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n WLC Scaffolding Framework\n\n ### DESCRIPTION:\n West Lothian Council seeks to award a framework agreement for a minimum of 4 Contractors for each of the two lots. The framework will service a variety of projects ranging in value and specification and call offs will be awarded through a direct award to top ranked Contractors for lot 1 or through a mini competition for larger projects awarded on lot 2, as listed below: Lot 1 for individual projects under 50,000GBP, and Lot 2 for individual projects over the value of 50,000GBP.",
+    "output": [
+        "Construction consultancy services"
+    ],
+    "expected_output": "Structures and parts of structures",
+    "output_explanation": "The offer is related to a framework agreement for construction projects, which falls under the category of Construction consultancy services.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Consultative engineering and construction services",
+        "Construction consultancy services",
+        "Other building completion work",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Civil engineering machinery",
+        "Maintenance and repair of office machinery",
+        "Building rental or sale services",
+        "Development services of real estate",
+        "Installation services of laboratory equipment"
+    ]
+}

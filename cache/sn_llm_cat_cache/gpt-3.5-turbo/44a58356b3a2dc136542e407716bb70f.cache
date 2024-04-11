@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n COV - Sex Workers Support Service (2023)\n\n ### DESCRIPTION:\n Coventry City Council would like to re-commission a service which supports:\u2022on street sex workers (residing and or working in CV1 to CV6) to access the services they need to obtain and retain stable housing, access drug services and access and retain drug substitution prescriptions, access health care at an early rather than acute stage thereby enabling them to exit the sex work industry\u2022a reduction in the number of children born to this cohort and where the individual becomes pregnant to support them to either access a termination, engage with social care to keep their child or through the child removal process\u2022the prevention and control of outbreaks of infectious disease such as Tuberculosis and Sexually Transmitted Infections.\u2022sex workers to recognise that they are victims of modern slavery and enabling them to provide police intelligence to identify modern slavery rings and provide court evidence where relevant",
+    "output": [
+        "Health services"
+    ],
+    "expected_output": "Social services",
+    "output_explanation": "The COV - Sex Workers Support Service falls under the category of Health services as it aims to provide support for sex workers to access health care services, including early intervention for health issues and prevention of infectious diseases.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Health services",
+        "Research services",
+        "Social services",
+        "Medical consumables",
+        "Special education services",
+        "Health services",
+        "Social services",
+        "Legal services",
+        "Support services for air transport",
+        "General public services",
+        "Miscellaneous gardening equipment",
+        "Support Services",
+        "Healthcare Services",
+        "Intelligence",
+        "Advisory architectural services",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

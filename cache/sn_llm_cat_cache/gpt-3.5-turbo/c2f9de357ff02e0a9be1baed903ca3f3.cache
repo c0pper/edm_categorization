@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n Transcription Services\n\n ### DESCRIPTION:\n the desired outcome of this procurement process is to establish a two Lot Framework Agreement that has up to 5 Suppliers on each Lot that can offer Transcription Services to the University Lot 1 English Transcription Lot 2 English & Welsh Transcription",
+    "output": [
+        "Administrative services of agencies"
+    ],
+    "expected_output": "Translation services",
+    "output_explanation": "The offer of Transcription Services falls under the category of Administrative services of agencies because it involves the service of transcribing audio files into written format, which is a task that aids in the administrative work of an organization.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Administrative services of agencies",
+        "Information systems",
+        "Other services",
+        "Interpretation services",
+        "Services furnished by business, professional and specialist organisations",
+        "Custom software development services",
+        "Development services of real estate"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n 23NE SGL 13 Mark It Zero Cutting\n\n ### DESCRIPTION:\n The Pennsylvania Game Commission, Forestry Division, requires the services of an Operator to cut interfering woody vegetation on a location containing 60 acres within one block. Services shall include, but are not limited to, the furnishing of all materials, labor, equipment, tools, superintendence, miscellaneous items, and performing all work necessary to complete the project to the satisfaction of and subject to the approval of the Commission",
+    "output": [
+        "Forestry services"
+    ],
+    "expected_output": "Logging services",
+    "output_explanation": "The offer specifically mentions the cutting of interfering woody vegetation on a location, which falls under the category of Forestry services.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Miscellaneous engineering services",
+        "Forestry services",
+        "Maintenance services",
+        "Forestry services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Services incidental to forestry",
+        "Tools",
+        "Tree pruning and hedge trimming",
+        "Miscellaneous fertilisers",
+        "Development services of real estate",
+        "Woodworking equipment"
+    ]
+}

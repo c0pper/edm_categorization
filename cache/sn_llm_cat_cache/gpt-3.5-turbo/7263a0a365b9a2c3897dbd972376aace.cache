@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n ITT for Project  10102820\n\n ### DESCRIPTION:\n ITT for Project  10102820",
+    "output": [
+        "Research consultancy services"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "The offer is related to an ITT (Invitation to Tender) for a project, which typically requires research consultancy services for analyzing data, conducting studies, and providing expert advice on project implementation.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Business and management consultancy services",
+        "Information systems",
+        "Technical inspection and testing services",
+        "Networking software package",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Miscellaneous textile articles",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Analytical services",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Development services of real estate",
+        "Woodworking equipment",
+        "Fasteners"
+    ]
+}

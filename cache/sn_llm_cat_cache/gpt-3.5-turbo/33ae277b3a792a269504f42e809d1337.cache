@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n University of St Andrews: Design & Manufacture of Safepoint Desks\n\n ### DESCRIPTION:\n Design and Manufacture of Safepoint Desks including delivery and installation. It is anticipated that the requirement will be for c.40 no. desks. A SafePoint is an approved room containing a SafePoint Desk which allows a researcher to access and analyse data. It is a low cost and scalable solution for data access and will become a new service offered by the SafePod Network.  For more information about the SafePod Network visit www.safepodnetwork.ac.uk. A SafePoint Desk houses the SafePod Network IT system securely and includes a CCTV camera, EyeCube (switches off the monitor when no motion is detected at the desk) and dual monitors. It includes a screen barrier to prevent oversight risk of the desk and provides adjustments for researcher comfort and accessibility. A SafePoint Desk would typically be placed in the corner of a room.  The walls in the corner of the room will form a natural barrier on two sides to create a four-wall enclosure with an entrance and exit point on the opposite side to the room walls. Security policies will govern the SafePoint Desk and the room that it is located. Please see ITT (Invitation to Tender) for full details and specification.",
+    "output": [
+        "Specialized furniture and equipment"
+    ],
+    "expected_output": "Tables, cupboards, desk and bookcases",
+    "output_explanation": "I categorized this offer under Specialized furniture and equipment because it involves the design and manufacture of Safepoint Desks, which are specifically designed to house the SafePod Network IT system securely. The desks include special features such as CCTV cameras, EyeCube, dual monitors, screen barriers, and adjustments for researcher comfort and accessibility, making them specialized furniture for data analysis purposes.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Security services",
+        "Library and archive services",
+        "Information systems",
+        "Technical inspection and testing services",
+        "Specialized furniture and equipment",
+        "Security-type printed matter",
+        "Facilities management software package and software package suite",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Custom software development services",
+        "Security, signalling and light equipment",
+        "IT systems and software package",
+        "Development services of real estate"
+    ]
+}

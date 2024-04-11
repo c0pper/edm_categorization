@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n OFF framework Residential placement - 318418\n\n ### DESCRIPTION:\n OFF framework Residential placement - 318418",
+    "output": [
+        "Miscellaneous business-related services"
+    ],
+    "expected_output": "Supply services of personnel including temporary staff",
+    "output_explanation": "The offer description is very vague and does not provide enough detail to categorize it accurately. However, based on the limited information provided, it seems to fall under miscellaneous business-related services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Miscellaneous business-related services",
+        "Social services",
+        "Miscellaneous special-purpose machinery",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Miscellaneous fertilisers",
+        "Plastic products",
+        "Toilet paper, handkerchiefs, hand towels and serviettes",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

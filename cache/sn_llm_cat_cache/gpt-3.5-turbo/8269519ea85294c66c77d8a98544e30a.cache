@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Quantity Surveying Services\n\n ### DESCRIPTION:\n Quantity Surveying Services",
+    "output": [
+        "Consultative engineering and construction services"
+    ],
+    "expected_output": "Engineering design services",
+    "output_explanation": "The offer of Quantity Surveying Services falls under the category of Consultative engineering and construction services as it involves providing expert advice and guidance on construction projects to ensure cost efficiency and quality control.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Consultative engineering and construction services",
+        "Architectural, engineering and planning services",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+        "Miscellaneous fertilisers",
+        "Building rental or sale services",
+        "Supporting services for the government",
+        "Development services of real estate"
+    ]
+}

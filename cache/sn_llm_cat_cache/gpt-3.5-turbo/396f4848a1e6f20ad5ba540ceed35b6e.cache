@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Education Supervisor Training for the Community Pharmacy Workforce\n\n ### DESCRIPTION:\n develop/provide training to support supervisors' development for the pharmacy workforce. LOT 1\u202f&2 Additional information:  CF Updated due to error in original CF notice",
+    "output": [
+        "Vocational training services"
+    ],
+    "expected_output": "Specialist training services",
+    "output_explanation": "I categorized this offer as Vocational training services because it specifically focuses on providing training for supervisors in the pharmacy workforce, which is a vocational skill related to a specific profession.",
+    "shortlisted_categories": [
+        "Specialist training services",
+        "Vocational training services",
+        "Training facilities",
+        "E-learning services",
+        "Personal development training services",
+        "Training and entertainment software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Development services of real estate",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

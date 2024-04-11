@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n N--Electrical Outlets - Tuba City Boarding School\n\n ### DESCRIPTION:\n Electrical Outlets - Tuba City Boarding School",
+    "output": [
+        "Electric supplies and accessories"
+    ],
+    "expected_output": "Electrical installation work",
+    "output_explanation": "The offer of Electrical Outlets at Tuba City Boarding School falls under the category of Electric supplies and accessories because it specifically mentions providing electrical outlets, which are accessories used in electrical installations.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Electrical installation work",
+        "Electric supplies and accessories",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Miscellaneous fire-protection equipment",
+        "Installation services of laboratory equipment"
+    ]
+}

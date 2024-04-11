@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Provision of Cleaning Services for Brodick Terminal\n\n ### DESCRIPTION:\n CalMac Ferries Ltd are looking to award a single supplier the Contract for cleaning at our Brodick site. This service will ensure cleanliness is upheld on-site at Brodick to ensure a satisfactory service is provided to our customers with health and safety at forefront of CalMac\u2019s priorities. Whilst cleaning services are paramount for customer satisfaction, it is also important to ensure that the facilities are upkept so that CalMac employees have clean working facilities.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Cleaning services",
+    "output_explanation": "The offer specifically mentions the provision of cleaning services for Brodick Terminal, focusing on cleanliness for customer satisfaction and health and safety. Therefore, it falls under the category of Cleaning services.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Cleaning services",
+        "Health and safety services",
+        "Facilities maintenance services",
+        "Cleaning products",
+        "Facilities management software package and software package suite",
+        "Cleaning services",
+        "Maintenance and repair services of pumps, valves, taps and metal containers",
+        "Cleaning services",
+        "Maintenance services",
+        "Facility management services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

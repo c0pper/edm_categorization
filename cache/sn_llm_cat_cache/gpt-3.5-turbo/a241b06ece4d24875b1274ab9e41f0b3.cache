@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n NRTS3 National Roadside Telecommunications Service\n\n ### DESCRIPTION:\n This opportunity relates to the provision, operation and maintenance of telecommunications services between the roadside and various central locations for National Highways , the body responsible for England's strategic road network.  The National Roads Telecommunications Services (NRTS) project currently provides services to over 30,000 end devices on 3 500 + km of the strategic road network. These telecommunications services provide connectivity between control rooms and roadside devices such as variable message signs, emergency telephones and CCTV cameras.",
+    "output": [
+        "Telecommunications cable and equipment"
+    ],
+    "expected_output": "Telecommunications cable and equipment",
+    "output_explanation": "The offer relates to the provision, operation, and maintenance of telecommunications services for the National Highway network, specifically providing connectivity between control rooms and roadside devices. Therefore, it is categorized under 'Telecommunications cable and equipment'.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Miscellaneous engineering services",
+        "Electrical installation work",
+        "Information systems",
+        "Technical inspection and testing services",
+        "Telephone equipment",
+        "Maintenance services of telecommunications equipment",
+        "Telecommunications cable and equipment",
+        "Communications equipment",
+        "Telecommunication services except telephone and data transmission services",
+        "Repair and maintenance services of audio-visual and optical equipment",
+        "Civil engineering machinery",
+        "Traffic-monitoring equipment",
+        "System, storage and content management software package",
+        "Development services of real estate",
+        "Wide area network services"
+    ]
+}

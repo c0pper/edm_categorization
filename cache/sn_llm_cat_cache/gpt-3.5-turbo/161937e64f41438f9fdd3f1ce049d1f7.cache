@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n EDC/2023/3838 Early Learning and Childcare Flexible Framework (Nurseries)\n\n ### DESCRIPTION:\n The provision of early learning and childcare services.",
+    "output": [
+        "Education services"
+    ],
+    "expected_output": "Pre-school education services",
+    "output_explanation": "The offer is related to the provision of early learning and childcare services, which falls under education services category.",
+    "shortlisted_categories": [
+        "Social work services",
+        "Education services",
+        "Social services",
+        "Pre-school education services",
+        "Domestic animal nurseries",
+        "Various school services",
+        "Primary batteries",
+        "Development services of real estate"
+    ]
+}

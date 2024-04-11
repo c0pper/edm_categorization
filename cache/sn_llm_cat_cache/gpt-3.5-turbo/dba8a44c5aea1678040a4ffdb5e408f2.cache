@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n 34859 - MOSAIC\n\n ### DESCRIPTION:\n TAXI SERVICES",
+    "output": [
+        "Taxi services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The offer of Taxi Services falls directly under the category of Taxi services as described in the provided list.",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Civic-amenity services",
+        "Other services",
+        "Non-scheduled passenger transport",
+        "Catering equipment",
+        "Public transport services by railways",
+        "Scheduled air transport services"
+    ]
+}

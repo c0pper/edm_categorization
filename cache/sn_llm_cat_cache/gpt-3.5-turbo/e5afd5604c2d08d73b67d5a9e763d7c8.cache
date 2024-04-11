@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Replace Closed Circuit Evaporative Cooler, Building 350, Dam Neck Annex\n\n ### DESCRIPTION:\n The work consists of: Demolish the existing closed circuit evaporative cooler and sump (basin) evaporative water treatment systems in their entirety and provide closed circuit evaporative cooler and sump (basin) evaporative water treatment systems in the same general area to provide a complete and operational water source heat pump system for Building 350. The existing water source heat pump equipment and piping systems in Building 350 are existing to remain. Existing Delta direct digital controls (DDC) shall remain and provide modifications for the closed circuit evaporative cooler and unit control panel. Provide electrical work in accordance with manufacturer requirements and latest edition of National Electric Code (NEC) to support the mechanical scope of work. Provide a temporary closed circuit evaporative cooler to provide uninterrupted condenser water service in the water source heat pump system for the duration of this contract.",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Plumbing and sanitary works",
+    "output_explanation": "The offer involves the replacement of a closed circuit evaporative cooler and sump (basin) evaporative water treatment systems in a building, which falls under construction work for water projects category.",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Electrical installation work",
+        "Building construction work",
+        "Construction equipment",
+        "Electrical supplies and accessories",
+        "Repair and maintenance services of precision equipment",
+        "Construction works for plants",
+        "Maintenance services of telecommunications equipment",
+        "Machines and apparatus with individual functions",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Cooling towers",
+        "Electrical equipment and supplies",
+        "Installation services of laboratory equipment",
+        "Development services of real estate"
+    ]
+}

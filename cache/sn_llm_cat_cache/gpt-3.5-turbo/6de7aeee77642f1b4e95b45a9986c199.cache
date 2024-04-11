@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n GB-Craven Arms: TPPL Connexus HCC Contract Hire Lot 2 - Contract Hire of Up to 140 x LCVs (17030)\n\n ### DESCRIPTION:\n Contract Hire of up to 48 x LCVs",
+    "output": [
+        "Vehicle Rental Services"
+    ],
+    "expected_output": "Motor vehicles for the transport of goods",
+    "output_explanation": "The offer is for the contract hire of vehicles, specifically up to 48 x LCVs, which falls under the category of Vehicle Rental Services.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Motor vehicles for the transport of goods",
+        "Vehicle Rental Services",
+        "Transportation Services",
+        "Hire of goods-transport vehicles with driver",
+        "Repair and maintenance services of vehicles",
+        "Custom software development services",
+        "Sales",
+        "Scheduled air transport services",
+        "Spare parts for goods vehicles, vans and cars"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n CWC23163 Supply of Combi Nicotine Replacement Therapy (NRT)\n\n ### DESCRIPTION:\n Provision of a range of NRT products that meet the requirements of City of Wolverhampton  (combination NRT products at a quantity that ensures adequate supply for up to 900 smokers per year)",
+    "output": [
+        "Medical devices and products"
+    ],
+    "expected_output": "Various medicinal products",
+    "output_explanation": "This offer involves the supply of Combi Nicotine Replacement Therapy (NRT) products, which are utilized for medical purposes to help smokers quit smoking. Therefore, it falls under the category of Medical devices and products.",
+    "shortlisted_categories": [
+        "Medical devices and products",
+        "Health services",
+        "Miscellaneous medical devices and products",
+        "Medical consumables",
+        "Healthcare products",
+        "Pharmaceutical products",
+        "Medicinal products",
+        "Healthcare services",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

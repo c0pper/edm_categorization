@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n CAB20240131 MS Surface Go 3s\n\n ### DESCRIPTION:\n 100 devices: Microsoft Surface Laptop Go 3 - i5 8GB 256GB SSD.   100 warranties: MICROSOFT EXTENDED HARDWARE SERVICE PLAN- EXTENDED SERVICE AGREEMENT - REPLACEMENT - 3 YEARS (FROM ORIGINAL PURCHASE DATE OF THE EQUIPMENT) - RESPONSE TIME: 3-5 BUSINESS DAYS - COMMERCIAL - FOR SURFACE LAPTOP GO   100 Generic laptop bags to house MS Surface Go 3.",
+    "output": [
+        "Computer Hardware"
+    ],
+    "expected_output": "Data-processing machines (hardware)",
+    "output_explanation": "The offer includes Microsoft Surface Laptop Go 3s, which are laptops. Therefore, it falls under the category of Computer Hardware.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Networking software package",
+        "Laptops and light fittings",
+        "Provider services",
+        "Computer-related equipment",
+        "Maintenance services of telecommunications equipment",
+        "Articles for the bathroom and kitchen",
+        "General public services",
+        "Computer-related management services",
+        "Computer back-up services",
+        "System, storage and content management software package",
+        "Plastic products",
+        "Sales",
+        "Computer Hardware",
+        "Accessories"
+    ]
+}

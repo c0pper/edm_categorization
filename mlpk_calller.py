@@ -1,4 +1,6 @@
+import csv
 import os
+import uuid
 import requests
 import json
 
@@ -11,7 +13,7 @@ def read_txt_file(filepath):
 
 
 def load_cpk():
-    endpoint = "http://localhost:9090/apis/cogito"
+    endpoint = "http://localhost:8000/apis/cogito"
     headers = {
         'accept': 'application/json',
         'content-type': 'application/json'
@@ -28,7 +30,7 @@ def load_cpk():
 
 # Function to load the model
 def load_model():
-    endpoint = "http://localhost:9090/apis/model"
+    endpoint = "http://localhost:8000/apis/model"
     headers = {
         'accept': 'application/json',
         'content-type': 'application/json'
@@ -45,7 +47,7 @@ def load_model():
 
 # Function to post data to the endpoint
 def post_data_to_endpoint(text):
-    endpoint = "http://localhost:9090/apis/analyze_and_apply/sync/ee69d4ab-ef9c-456a-9e2d-3a8c71441dea"
+    endpoint = "http://localhost:8000/apis/analyze_and_apply/sync/ee69d4ab-ef9c-456a-9e2d-3a8c71441dea"
     payload = {
         "text_document": text,
         "configuration": {
@@ -56,19 +58,30 @@ def post_data_to_endpoint(text):
     response = requests.post(endpoint, json=payload).json()
     print("Posted:", text)
     categories = list(json.loads(response["results"])[0]["annotations_list"]["winners"].keys())
-    category = ", ".join(categories) if categories else ""
-    print("Response:", category)
+    categories_str = ", ".join(categories) if categories else ""
+    print("Response:", categories_str)
+    return categories_str
 
 # Main function
 def main():
     load_cpk()
     load_model()
     directory = r'platform_lib\SN_20k.csv_balanced\test\test'
-    for filename in tqdm(os.listdir(directory)):
-        if filename.endswith(".txt"):
-            filepath = os.path.join(directory, filename)
-            text = read_txt_file(filepath)
-            post_data_to_endpoint(text)
+    ann_directory = r'platform_lib\SN_20k.csv_balanced\test\ann'
+    output_file = f'experiment_linear_svm_{str(uuid.uuid4())[:8]}.csv'
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['text', 'categories', 'expected_category']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for filename in tqdm(os.listdir(directory)[:200]):
+            if filename.endswith(".txt"):
+                filepath = os.path.join(directory, filename)
+                text = read_txt_file(filepath)
+                ann_filepath = os.path.join(ann_directory, filename)[:-3] + "ann"
+                ann = read_txt_file(ann_filepath).split("\t\t")[1].strip()
+                categories = post_data_to_endpoint(text)
+                writer.writerow({'text': text, 'categories': categories, 'expected_category': ann})
+                print("Processed:", filename)
 
 if __name__ == "__main__":
     main()

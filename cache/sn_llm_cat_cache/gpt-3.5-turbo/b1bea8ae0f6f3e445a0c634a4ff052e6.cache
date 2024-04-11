@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n Provision of bus service - Route EL2\n\n ### DESCRIPTION:\n Provision of bus service route EL2 for 5 years. Please note, cost posted on Contracts Finder sometimes differ from those on the internet, this is due to post award negotiations.",
+    "output": [
+        "Transport services"
+    ],
+    "expected_output": "MissingCPV",
+    "output_explanation": "The offer is for the provision of bus service route EL2, which falls under the category of Transport services.",
+    "shortlisted_categories": [
+        "Transport services",
+        "Contractual services",
+        "Public transportation services",
+        "Special-purpose road passenger-transport services",
+        "Support services for land transport",
+        "Non-scheduled air transport services",
+        "Non-scheduled passenger transport",
+        "Public transport services by railways",
+        "Scheduled air transport services"
+    ]
+}

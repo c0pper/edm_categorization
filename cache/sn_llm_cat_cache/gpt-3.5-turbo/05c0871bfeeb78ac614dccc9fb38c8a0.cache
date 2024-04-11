@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n 2nd MRI Works at Lincoln County Hospital\n\n ### DESCRIPTION:\n Refurbish and upgrade the existing building to facilitate the installation of a second MRI Scanner at Lincoln County Hospital Additional information:  Refurbish and upgrade the existing building to facilitate the installation of a second MRI Scanner at Lincoln County Hospital",
+    "output": [
+        "Construction services"
+    ],
+    "expected_output": "Other building completion work",
+    "output_explanation": "The offer involves refurbishing and upgrading the existing building to facilitate the installation of a second MRI Scanner, which falls under construction services.",
+    "shortlisted_categories": [
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "Imaging equipment for medical, dental and veterinary use",
+        "Medical imaging services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Construction supervision services",
+        "Facilities management software package and software package suite",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Medical equipment",
+        "Construction services",
+        "Development services of real estate",
+        "Installation services of laboratory equipment"
+    ]
+}

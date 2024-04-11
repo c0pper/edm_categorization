@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n RFQ # 19KU2024Q0005-Embassy Compound Landscaping Services\n\n ### DESCRIPTION:\n ar Prospective Quoter: Subject: Request for Quotations number 19KU2024Q0005 Enclosed is a Request for Quotations (RFQ) to Provide periodical maintenance services to approximately 278 Date Palm Trees services at the Embassy Compound. If you would like to submit quotation, follow the instructions in Section 3 of the solicitation, complete the required portions of the attached document, and submit it to the address shown on the Standard Form 1449 that follows this letter. The U.S. Government intends to award a contract/purchase order to the responsible company submitting an acceptable offer at the lowest price. We intend to award a contract/purchase order based on initial quotations, without holding discussions, although we may hold discussions with companies in the competitive range if there is a need to do so.",
+    "output": [
+        "Planting and maintenance services of green areas"
+    ],
+    "expected_output": "Planting and maintenance services of green areas",
+    "output_explanation": "The offer is specifically for the maintenance services of Date Palm Trees at the Embassy Compound, which falls under the category of Planting and maintenance services of green areas.",
+    "shortlisted_categories": [
+        "Building construction work",
+        "Planting and maintenance services of green areas",
+        "Repair and maintenance services of precision equipment",
+        "Horticultural and nursery products",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package and software package suite",
+        "Maintenance and repair of office machinery",
+        "Tree pruning and hedge trimming",
+        "Maintenance services",
+        "Development services of real estate"
+    ]
+}

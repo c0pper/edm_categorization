@@ -1,0 +1,17 @@
+{
+    "offer": "### TITLE:\n 34862 - ALLEXTON DAY NURSERY\n\n ### DESCRIPTION:\n TAXI SERVICES",
+    "output": [
+        "Taxi services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The offer is categorized as Taxi services because the description specifically mentions 'TAXI SERVICES'.",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Other building completion work",
+        "Taxi services",
+        "Miscellaneous services",
+        "Taxi services",
+        "Taxi services",
+        "Taxi Services"
+    ]
+}

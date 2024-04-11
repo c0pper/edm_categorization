@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n Provision of bus service - Route EL1/NEL1\n\n ### DESCRIPTION:\n Provision of bus service route EL1/NEL1 for 5 years. Please note, cost posted on Contracts Finder sometimes differ from those on the internet, this is due to post award negotiations.",
+    "output": [
+        "Transport tickets"
+    ],
+    "expected_output": "MissingCPV",
+    "output_explanation": "The offer is specifically for the provision of bus service route EL1/NEL1, which falls under the category of Transport tickets.",
+    "shortlisted_categories": [
+        "Transport tickets",
+        "Special-purpose road passenger-transport services",
+        "Local area network",
+        "Civic-amenity services",
+        "Urban planning services",
+        "Non-scheduled passenger transport",
+        "Public transport services by railways",
+        "Scheduled air transport services"
+    ]
+}

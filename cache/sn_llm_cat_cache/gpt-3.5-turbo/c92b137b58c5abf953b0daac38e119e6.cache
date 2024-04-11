@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n HIOWC HR Case Management System\n\n ### DESCRIPTION:\n RM1557.13 G-cloud 13 process was followed",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The offer is related to a HR Case Management System, which falls under Information systems category.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Research services",
+        "Administrative services of agencies",
+        "Information systems",
+        "Other services",
+        "Database systems",
+        "Custom software development services",
+        "System, storage and content management software package",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Scheduled air transport services"
+    ]
+}

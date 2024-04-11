@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n Refuse and Recycling Services- Red Bank, NJ 07701 (NJ015).\n\n ### DESCRIPTION:\n The purpose of this solicitation is to procure Refuse and Recycling Services in support of the 99th Readiness Division. Services shall be performed at the US Marine Reserve Training Center, 338 Newman Springs Road, Red Bank, NJ 07701 (NJ015). Please propose all pricing on the conformed copy.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Refuse disposal and treatment",
+    "output_explanation": "The offer is for Refuse and Recycling Services, which involves cleaning up waste and recycling materials. Therefore, it falls under the category of Cleaning services.",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Civic-amenity services",
+        "Property management services of real estate on a fee or contract basis",
+        "Operation of a refuse site",
+        "Cleaning products",
+        "Waste incinerators",
+        "Facilities management software package and software package suite",
+        "Miscellaneous fire-protection equipment",
+        "Repair and maintenance services of security equipment",
+        "Environmental training services",
+        "Development services of real estate"
+    ]
+}

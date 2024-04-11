@@ -12,7 +12,7 @@ from openai import OpenAI
 from uuid import uuid4
 import pandas as pd
 from pathlib import Path
-import prompts
+from legacy import prompts
 import json
 
 

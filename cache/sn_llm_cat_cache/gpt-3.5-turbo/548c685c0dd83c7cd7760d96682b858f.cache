@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Amendment #2 : Austin BK Medical Ultrasound services\n\n ### DESCRIPTION:\n Contractor will provide BK Medical Ultrasound services.",
+    "output": [
+        "Medical services"
+    ],
+    "expected_output": "Imaging equipment for medical, dental and veterinary use",
+    "output_explanation": "The offer is specifically for BK Medical Ultrasound services, which fall under the category of medical services.",
+    "shortlisted_categories": [
+        "Medical services",
+        "Detection and analysis apparatus",
+        "Medical imaging services",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Medical services",
+        "Contract services",
+        "Ultrasound services",
+        "Medical Equipment",
+        "Services",
+        "Ultrasound Services",
+        "Medical services",
+        "Ultrasound services",
+        "Medical Services"
+    ]
+}

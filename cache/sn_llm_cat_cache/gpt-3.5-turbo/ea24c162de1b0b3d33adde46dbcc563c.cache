@@ -1,0 +1,21 @@
+{
+    "offer": "### TITLE:\n ITT for Project  10105019\n\n ### DESCRIPTION:\n ITT for Project  10105019",
+    "output": [
+        "Research consultancy services"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "The offer seems to be related to a specific project requiring research consultancy services.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Administrative services of agencies",
+        "Technical inspection and testing services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Miscellaneous textile articles",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Apparatus for sound, video-recording and reproduction",
+        "Miscellaneous fertilisers",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Development services of real estate",
+        "Installation services of laboratory equipment"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Payment Service Providr\n\n ### DESCRIPTION:\n Award of a Payment Service Provider to take secure payments for the sale of tram tickets. Direct award using the Crown Commercial Framework RM6118",
+    "output": [
+        "Provider services"
+    ],
+    "expected_output": "Banking services",
+    "output_explanation": "The offer is related to the award of a Payment Service Provider to take secure payments for tram tickets, which falls under the category of Provider services.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Financial analysis and accounting software package",
+        "Provider services",
+        "Banking services",
+        "Financial consultancy",
+        "Legal documentation and certification services",
+        "Facilities management software package and software package suite",
+        "Collection agency services",
+        "Custom software development services",
+        "Sales"
+    ]
+}

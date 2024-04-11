@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Military Engineer Survey Equipment - Contracts Finder - Awarded Contract\n\n ### DESCRIPTION:\n This &apos;Contracts Finder - Awarded Contract&apos; Notice announces the procurement and through life support of military engineer survey equipment, including ancillaries and spares (Commercial Off the Shelf - COTS - equipment). It includes redacted Contract documents for Transparency purposes.",
+    "output": [
+        "Defence services"
+    ],
+    "expected_output": "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+    "output_explanation": "The offer is related to military engineer survey equipment procurement and support, which falls under Defence services category.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Miscellaneous engineering services",
+        "Technical inspection and testing services",
+        "Repair and maintenance services of precision equipment",
+        "Defence services",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+        "Military aircrafts",
+        "Geological prospecting apparatus",
+        "Repair and maintenance services of weapons and weapon system",
+        "Development services of real estate",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

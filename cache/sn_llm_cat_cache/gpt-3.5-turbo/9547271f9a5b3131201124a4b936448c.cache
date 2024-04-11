@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n PROMIS (Property Management Information Service) Reports and Data Subscription\n\n ### DESCRIPTION:\n The VOA has a requirement to renew its PROMIS (Property Management Information Service) subscription. The PROMIS service provides over 450 reports across 321 local markets across the UK.  These reports provide the VOA with independent in-depth analysis, covering the local economy, demand, supply, rents and yields and cover Offices, Logistics and Retail over an extensive list of locations, to give the VOA advantage when conducting Reval for rating purposes and also for defending the rating list. It can also be used by DVS for investment valuations such as capital gains Tax or accounting valuations.",
+    "output": [
+        "Research consultancy services"
+    ],
+    "expected_output": "Subscription services",
+    "output_explanation": "The PROMIS subscription service provides over 450 reports across different local markets, offering in-depth analysis on local economies, demand, supply, rents, and yields. This falls under research consultancy services as it involves providing detailed analysis and information to support decision-making.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Various office equipment and supplies",
+        "Business and management consultancy services",
+        "Information systems",
+        "Subscription services",
+        "Property management services of real estate on a fee or contract basis",
+        "Maintenance services of telecommunications equipment",
+        "Investigation services",
+        "Database systems",
+        "Research, testing and scientific technical simulator",
+        "Investment banking services and related services",
+        "Intelligence, surveillance, target acquisition and reconnaissance",
+        "Real estate services",
+        "Sales, marketing and business intelligence software package",
+        "Development services of real estate"
+    ]
+}

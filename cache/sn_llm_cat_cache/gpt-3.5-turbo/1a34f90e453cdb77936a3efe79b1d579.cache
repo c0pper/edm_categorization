@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n ITT for Project  10105431\n\n ### DESCRIPTION:\n ITT for Project  10105431",
+    "output": [
+        "Architectural, engineering and planning services"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "The ITT for Project 10105431 seems to be related to architectural, engineering, and planning services based on the description provided.",
+    "shortlisted_categories": [
+        "Research consultancy services",
+        "Miscellaneous business-related services",
+        "Technical inspection and testing services",
+        "Architectural, engineering and planning services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Investigation services",
+        "General public services",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Development services of real estate"
+    ]
+}

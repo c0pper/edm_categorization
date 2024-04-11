@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n MLCSU Digital Project Consultancy\n\n ### DESCRIPTION:\n Digital Project Consultancy",
+    "output": [
+        "Digital services"
+    ],
+    "expected_output": "Systems and technical consultancy services",
+    "output_explanation": "The offer is categorized as 'Digital Services' because it specifically mentions providing digital project consultancy services.",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Information systems",
+        "Technical inspection and testing services",
+        "Consultancy services",
+        "Digital services",
+        "General public services",
+        "Communication software package",
+        "Custom software development services",
+        "Development services of real estate"
+    ]
+}
