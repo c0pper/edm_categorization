@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n NECS BMC Helix (SBS23-209)\n\n ### DESCRIPTION:\n NECS (North of England Care System Support) has a requirement to purchase renewed BMC licencing until December 2025, based on the specification provided in the scope of services.",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Networking software package",
+    "output_explanation": "The offer is about purchasing renewed BMC licencing until December 2025, based on the specification provided in the scope of services. This is clearly related to information systems as BMC is a software company that provides IT solutions, including software for IT service management, automation, cloud management, and more.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Information systems",
+        "System and support services",
+        "Computer support services",
+        "Network equipment",
+        "Telecommunications cable and equipment",
+        "Command and control system, printing, graphics, office automation and information-processing equipment",
+        "Facilities management software package and software package suite",
+        "Database systems",
+        "Computer-related management services",
+        "System, storage and content management software package",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

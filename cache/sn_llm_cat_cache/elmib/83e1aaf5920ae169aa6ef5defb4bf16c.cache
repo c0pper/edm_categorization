@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Global Financial Data and Market/Industry Research  Platform\n\n ### DESCRIPTION:\n The United States Military Academy at West Point - NY has a requirement for a Global Financial Data and Market/ Industry Research Platformas listed in the attached Solicitation# W911SD24R0061.\u00a0 The Federal Government now requires all vendors to complete (fill in) the Solicitation (SF1449) with all quoted offers.\u00a0 Quotes will not be accepted unless I receive a completed and signed / dated SF1449 to go with your own company quote (no exceptions).\u00a0 The SF1449 must be completed as follows: \u00a0\u00a0 PAGE 1:\u00a0 Block 12, 17a, and *24 (*Combined Overall Total for the entire Contract)\u00a0\u00a0\u00a0\u00a0 PAGE 1:\u00a0 Block 30 a / b / c\u00a0 (***must be SIGNED/DATED; can't accept quote w/o signature***)\u00a0 PAGE 5\u00a0through\u00a06:\u00a0 All the Unit Prices, Overall Amount for each individual Line Item (a total of 4) PAGE 18:\u00a0 Clause# 52.204-26 (fill in applicable slots)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 PAGE 20\u00a0through\u00a054:\u00a0 Clause# 52.212-3 (fill in applicable slots) RFQ is considered \"completed\".\u00a0\u00a0 Completion and submittal of the SF1449 is mandatory in order for your quote to be considered (no exceptions).",
+    "output": [
+        "Subscription services"
+    ],
+    "expected_output": "Database systems",
+    "output_explanation": "The offer is for a Global Financial Data and Market/Industry Research Platform, which is a service that provides access to financial data and market research for a certain period of time. This aligns with the definition of a subscription service.' }",
+    "shortlisted_categories": [
+        "Market research services",
+        "Business and management consultancy services",
+        "Library and archive services",
+        "Information systems",
+        "Subscription services",
+        "Investigation services",
+        "Printed books",
+        "Network equipment",
+        "Database systems",
+        "Research, testing and scientific technical simulator",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Wide area network services",
+        "Statistical services"
+    ]
+}

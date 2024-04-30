@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n voyager repair\n\n ### DESCRIPTION:\n various repairs",
+    "output": [
+        "Repair",
+        "maintenance and associated services related to aircraft and other equipment",
+        "Repair and maintenance services of precision equipment"
+    ],
+    "expected_output": "Repair, maintenance and associated services related to railways and other equipment",
+    "output_explanation": "The product/service offer is called 'voyager repair' and the description is 'various repairs'. The name and the description suggest that the product/service offer is about repairing something. The name 'voyager repair' suggests that the product/service offer is about repairing aircrafts or other equipment. The description 'various repairs' suggests that the product/service offer is about repairing different types of equipment. Therefore, the product/service offer can be categorized as 'Repair', 'maintenance and associated services related to aircraft and other equipment' and 'Repair and maintenance services of precision equipment'.",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Repair and maintenance services of machinery",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Repair and maintenance services of personal computers",
+        "Telecommunications cable and equipment",
+        "Repair and maintenance services of cooler groups",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of warships",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

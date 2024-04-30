@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n ACIS Group ltd EA-PD-Cow services at Beverley Road, Harworth, Doncaster\n\n ### DESCRIPTION:\n The employer appoints a consultant to provide employers agent, principal designer and clerk of work services through EN procure consultancy framework Call-off with reference number 2020/S 089-213588 from Lot 1B-Employer's agent/quantity surveying services together with principal designer (lot 6B)& clerk of works services relating to a project at Beverley road, harworth, Doncaster.",
+    "output": [
+        "Construction consultancy services"
+    ],
+    "expected_output": "Construction consultancy services",
+    "output_explanation": "The offer is for the appointment of a consultant to provide employers agent, principal designer and clerk of work services through EN procure consultancy framework Call-off. This falls under construction consultancy services.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Construction consultancy services",
+        "Administrative services of agencies",
+        "Accounting and auditing services",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Research, testing and scientific technical simulator",
+        "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+        "Repair and maintenance services of weapons and weapon systems",
+        "System, storage and content management software package",
+        "Public security, law and order services",
+        "Development services of real estate"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n CAB20240131 MS Surface Go 3s\n\n ### DESCRIPTION:\n 100 devices: Microsoft Surface Laptop Go 3 - i5 8GB 256GB SSD.   100 warranties: MICROSOFT EXTENDED HARDWARE SERVICE PLAN- EXTENDED SERVICE AGREEMENT - REPLACEMENT - 3 YEARS (FROM ORIGINAL PURCHASE DATE OF THE EQUIPMENT) - RESPONSE TIME: 3-5 BUSINESS DAYS - COMMERCIAL - FOR SURFACE LAPTOP GO   100 Generic laptop bags to house MS Surface Go 3.",
+    "output": [
+        "Computer-related equipment"
+    ],
+    "expected_output": "Data-processing machines (hardware)",
+    "output_explanation": "The offer is for 100 devices of Microsoft Surface Laptop Go 3, which is a computer-related equipment.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+    "shortlisted_categories": [
+        "Various office equipment and supplies",
+        "Management-related services",
+        "Information systems",
+        "Computer support services",
+        "Computer-related equipment",
+        "Personnel services except placement and supply services",
+        "Training facilities",
+        "Machines and apparatus with individual functions",
+        "Computer-related management services",
+        "System, storage and content management software package",
+        "Computer back-up services",
+        "Wide area network services"
+    ]
+}

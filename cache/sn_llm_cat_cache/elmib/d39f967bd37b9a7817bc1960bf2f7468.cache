@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n 15--Office of Aviation Services (OAS) Unmanned Aircraf\n\n ### DESCRIPTION:\n RFI for DOI UAS Resource Flight Services",
+    "output": [
+        "Aerial and related services"
+    ],
+    "expected_output": "Helicopters, aeroplanes, spacecraft and other powered aircraft",
+    "output_explanation": "The offer is for Unmanned Aircraft Services, which falls under Aerial and related services.' }",
+    "shortlisted_categories": [
+        "Systems and technical consultancy services",
+        "Radioactive-, toxic-, medical- and hazardous waste services",
+        "Aerial and related services",
+        "Information systems",
+        "Networking software package",
+        "Non-scheduled air transport services",
+        "Telecommunications cable and equipment",
+        "Machinery for cleaning bottles, packing and weighing and spraying machinery",
+        "Communication software package",
+        "Internet and intranet software package",
+        "Intelligence, surveillance, target acquisition and reconnaissance",
+        "Aircraft or spacecraft equipment, trainers, simulators and associated parts",
+        "Scheduled air transport services"
+    ]
+}

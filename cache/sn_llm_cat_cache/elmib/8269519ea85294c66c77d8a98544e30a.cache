@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Quantity Surveying Services\n\n ### DESCRIPTION:\n Quantity Surveying Services",
+    "output": [
+        "Consultative engineering and construction services"
+    ],
+    "expected_output": "Engineering design services",
+    "output_explanation": "Quantity Surveying Services is a type of consultative engineering and construction service as it provides expert advice on construction costs and contractual obligations.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Consultative engineering and construction services",
+        "Administrative services of agencies",
+        "Accounting and auditing services",
+        "Construction consultancy services",
+        "Construction supervision services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Surveying, hydrographic, oceanographic and hydrological instruments and appliances",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Development services of real estate"
+    ]
+}

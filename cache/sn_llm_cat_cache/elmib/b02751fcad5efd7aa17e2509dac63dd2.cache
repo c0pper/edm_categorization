@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Trauma Informed Pilot Psychological Provision\n\n ### DESCRIPTION:\n Trauma Informed Pilot Psychological Provision",
+    "output": [
+        "Physical well-being services"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "The offer is about a Trauma Informed Pilot Psychological Provision, which is a service that aims to provide psychological support and care for individuals who have experienced trauma. This falls under the category of Physical well-being services as it directly impacts the mental and emotional health of individuals, which in turn affects their overall well-being.' }",
+    "shortlisted_categories": [
+        "Social work services",
+        "Business and management consultancy services",
+        "Administrative services of agencies",
+        "Vocational training services",
+        "Special education services",
+        "Justice services",
+        "Personnel services except placement and supply services",
+        "Health and first-aid training services",
+        "Research, testing and scientific technical simulator",
+        "Database systems",
+        "Communication software package",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Physical well-being services",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system",
+        "Advisory architectural services",
+        "Statistical services"
+    ]
+}

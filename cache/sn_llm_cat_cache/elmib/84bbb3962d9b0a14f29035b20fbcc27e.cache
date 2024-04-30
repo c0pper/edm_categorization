@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Child Vision Screening Programme\n\n ### DESCRIPTION:\n To undertake visioning screening tests for children aged 4 to 5 years old, which will take place predominantly with schools within the boundaries of Sunderland.  The vision screening test will identify children aged 4 to 5 years with impaired sight, thereby enabling timely intervention.",
+    "output": [
+        "Eye care products and corrective lenses"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "The Child Vision Screening Programme falls under the category of Eye care products and corrective lenses because it is a service that aims to identify children aged 4 to 5 years with impaired sight, thereby enabling timely intervention.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
+    "shortlisted_categories": [
+        "Social work services",
+        "Medical practice and related services",
+        "Medical consumables",
+        "Medical imaging services",
+        "Medical education services",
+        "Eye care products and corrective lenses",
+        "Pre-school education services",
+        "Health and first-aid training services",
+        "Optician services",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "Various school services",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system",
+        "Advisory architectural services",
+        "Wide area network services"
+    ]
+}

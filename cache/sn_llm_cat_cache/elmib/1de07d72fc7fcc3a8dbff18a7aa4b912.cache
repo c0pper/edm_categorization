@@ -1,0 +1,28 @@
+{
+    "offer": "### TITLE:\n UKRI-3505 Drainage Maintenance for Daresbury Laboratory\n\n ### DESCRIPTION:\n Provision of drainage maintenance for Daresbury Laboratory.",
+    "output": [
+        "Plumbing and sanitary works"
+    ],
+    "expected_output": "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+    "output_explanation": "Provision of drainage maintenance for Daresbury Laboratory. This is a plumbing and sanitary work.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Plumbing and sanitary works",
+        "Administrative services of agencies",
+        "Repair and maintenance services of precision equipment",
+        "System and support services",
+        "Property management services of real estate on a fee or contract basis",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Maintenance services of telecommunications equipment",
+        "Sewerage management services",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Test drilling and boring work",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Scheduled air transport services"
+    ]
+}

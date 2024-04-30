@@ -1,0 +1,28 @@
+{
+    "offer": "### TITLE:\n South East Consortium Lifts Framework\n\n ### DESCRIPTION:\n This is a framework covering servicing, maintenance and installations of passenger and mobility lifts.",
+    "output": [
+        "Lift-maintenance services"
+    ],
+    "expected_output": "Lift-maintenance services",
+    "output_explanation": "The framework covers servicing, maintenance and installations of passenger and mobility lifts. This is clearly a lift-maintenance service.' }",
+    "shortlisted_categories": [
+        "Lifting and handling equipment",
+        "Electrical installation work",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Repair and maintenance services of precision equipment",
+        "Electrical supplies and accessories",
+        "Lift-maintenance services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of security equipment",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Scheduled air transport services"
+    ]
+}

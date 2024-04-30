@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n CA13579 - MAINT4571-NMUH-GP Validation\n\n ### DESCRIPTION:\n 3 year water testing and sampling agreement run via Multiquote ref: RA334399 To access this competition:  Registered: Login to https://suppliers.multiquote.com and view the opportunity CA13579. Not registered: Visit https://suppliers.multiquote.com then register and quote CA13579 as the reason for registration.   Any queries please contact MultiQuote on 0151 482 9230.",
+    "output": [
+        "Maintenance services of telecommunications equipment"
+    ],
+    "expected_output": "Repair and maintenance services of personal computers",
+    "output_explanation": "The offer is about a 3-year water testing and sampling agreement. The agreement is run via Multiquote, which is a platform that allows suppliers to quote for various services. The service being offered here is water testing and sampling, which falls under the category of maintenance services of telecommunications equipment, as it involves regular testing and monitoring of water quality to ensure it is safe for use.' }",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Construction work for water projects",
+        "Consultative engineering and construction services",
+        "Administrative services of agencies",
+        "Accounting and auditing services",
+        "Drinking water",
+        "Maintenance services of telecommunications equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Research, testing and scientific technical simulator",
+        "Sewerage management services",
+        "Waste incinerators",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Test drilling and boring work",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Statistical services"
+    ]
+}

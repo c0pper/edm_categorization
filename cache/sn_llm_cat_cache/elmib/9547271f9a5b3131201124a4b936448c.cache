@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n PROMIS (Property Management Information Service) Reports and Data Subscription\n\n ### DESCRIPTION:\n The VOA has a requirement to renew its PROMIS (Property Management Information Service) subscription. The PROMIS service provides over 450 reports across 321 local markets across the UK.  These reports provide the VOA with independent in-depth analysis, covering the local economy, demand, supply, rents and yields and cover Offices, Logistics and Retail over an extensive list of locations, to give the VOA advantage when conducting Reval for rating purposes and also for defending the rating list. It can also be used by DVS for investment valuations such as capital gains Tax or accounting valuations.",
+    "output": [
+        "Property management services of real estate on a fee or contract basis"
+    ],
+    "expected_output": "Subscription services",
+    "output_explanation": "The PROMIS service provides over 450 reports across 321 local markets across the UK. These reports provide the VOA with independent in-depth analysis, covering the local economy, demand, supply, rents and yields and cover Offices, Logistics and Retail over an extensive list of locations, to give the VOA advantage when conducting Reval for rating purposes and also for defending the rating list. It can also be used by DVS for investment valuations such as capital gains Tax or accounting valuations. This is a property management service of real estate on a fee or contract basis.' }",
+    "shortlisted_categories": [
+        "Market research services",
+        "Business and management consultancy services",
+        "Library and archive services",
+        "Administrative services of agencies",
+        "Information systems",
+        "Property management services of real estate on a fee or contract basis",
+        "Investigation services",
+        "Legal advisory and information services",
+        "Facilities management software package",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Public security, law and order services",
+        "Statistical services",
+        "Advisory architectural services",
+        "Wide area network services"
+    ]
+}

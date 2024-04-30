@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n EDC/2023/3838 Early Learning and Childcare Flexible Framework (Nurseries)\n\n ### DESCRIPTION:\n The provision of early learning and childcare services.",
+    "output": [
+        "Pre-school education services"
+    ],
+    "expected_output": "Pre-school education services",
+    "output_explanation": "The Early Learning and Childcare Flexible Framework (Nurseries) is a service that provides early learning and childcare services, which falls under the category of Pre-school education services.' }",
+    "shortlisted_categories": [
+        "Non-residential property renting or leasing services",
+        "Educational software package",
+        "Youth education services",
+        "Adult-education services at university level",
+        "Vocational training services",
+        "Pre-school education services",
+        "Museum services and preservation services of historical sites and buildings",
+        "Personnel services except placement and supply services",
+        "Facilities management software package and software package suite",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "Various school services",
+        "Advisory architectural services"
+    ]
+}

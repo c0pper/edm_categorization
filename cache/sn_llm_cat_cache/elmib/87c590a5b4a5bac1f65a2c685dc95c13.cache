@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n MLCSU Digital Project Consultancy\n\n ### DESCRIPTION:\n Digital Project Consultancy",
+    "output": [
+        "Business and management consultancy services"
+    ],
+    "expected_output": "Systems and technical consultancy services",
+    "output_explanation": "The offer is for a consultancy service, which is a business and management consultancy service. It is not a research consultancy service because it does not mention research. It is not an administrative service because it does not mention administration. It is not a system and support service because it does not mention systems or support. It is not a construction service because it does not mention construction. It is not an investigation service because it does not mention investigation. It is not a facilities management software package because it does not mention facilities management. It is not a research, testing and scientific technical simulator because it does not mention research, testing or simulators. It is not a database service because it does not mention databases. It is not a system, storage and content management software package because it does not mention systems, storage or content management. It is not a custom software development service because it does not mention custom software development. It is not a training and simulation in aircrafts, missiles and spacecrafts because it does not mention training or simulations in aircrafts, missiles or spacecrafts. It is not a sales, marketing and business intelligence software package because it does not mention sales, marketing or business intelligence. It is not an advisory architectural service because it does not mention architecture. It is not a wide area network service because it does not mention wide area networks.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Research consultancy services",
+        "Administrative services of agencies",
+        "Information systems",
+        "System and support services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Construction supervision services",
+        "Investigation services",
+        "Facilities management software package",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "System, storage and content management software package",
+        "Custom software development services",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Sales, marketing and business intelligence software package",
+        "Advisory architectural services",
+        "Wide area network services"
+    ]
+}

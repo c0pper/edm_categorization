@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Works to repair the drainage at Avondale Health Centre\n\n ### DESCRIPTION:\n Works to repair the drainage at Avondale Health Centre",
+    "output": [
+        "Plumbing and sanitary works"
+    ],
+    "expected_output": "Building demolition and wrecking work and earthmoving work",
+    "output_explanation": "Plumbing and sanitary works is the most appropriate category because the offer is about repairing the drainage at Avondale Health Centre.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "shortlisted_categories": [
+        "Plumbing and sanitary works",
+        "Construction work for water projects",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Other building completion work",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of personal computers",
+        "Sewerage management services",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

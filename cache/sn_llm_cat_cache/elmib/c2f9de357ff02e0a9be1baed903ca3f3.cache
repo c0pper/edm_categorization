@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Transcription Services\n\n ### DESCRIPTION:\n the desired outcome of this procurement process is to establish a two Lot Framework Agreement that has up to 5 Suppliers on each Lot that can offer Transcription Services to the University Lot 1 English Transcription Lot 2 English & Welsh Transcription",
+    "output": [
+        "Interpretation services"
+    ],
+    "expected_output": "Translation services",
+    "output_explanation": "Transcription Services are a type of Interpretation Services, as they involve converting spoken language into written text, which is a form of interpretation.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Library and archive services",
+        "Adult-education services at university level",
+        "Vocational training services",
+        "Miscellaneous special-purpose machinery",
+        "Printed books",
+        "Interpretation services",
+        "Database services",
+        "System, storage and content management software package",
+        "Custom software development services",
+        "Wide area network services",
+        "Statistical services"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Tritium Analysis Lab Fume Hood\n\n ### DESCRIPTION:\n This ITT covers The United Kingdom Atomic Energy Authority (\"the Authority's\") requirement for the design, manufacture, deliver and install a fume cupboard on the Culham site in building J1W room 005. The fume cupboard shall include electrical supplies sufficient to power the pyrolyser and associated equipment and shall incorporate suitable lighting for operations within the fume cupboard. There is no requirement for a water supply or drainage within the fume cupboard.  The UKAEA will be responsible for connecting the fume cupboard supplied to the existing ventilation system within J1W room 005. The ventilation will provide extract at 0.56 m3/sec for the fume cupboard. The supplier shall ensure that the fume cupboard design can meet all requirements of BS EN 14175 using this extract flowrate.",
+    "output": [
+        "Laboratory furniture",
+        "Ventilation equipment"
+    ],
+    "expected_output": "Radiotherapy, mechanotherapy, electrotherapy and physical therapy devices",
+    "output_explanation": "The Tritium Analysis Lab Fume Hood is a piece of laboratory furniture that provides a controlled environment for the analysis of tritium. It includes a ventilation system that provides extract at 0.56 m3/sec to meet the requirements of BS EN 14175.' }",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Electrical installation work",
+        "Other building completion work",
+        "Electrical supplies and accessories",
+        "Technical inspection and testing services",
+        "Miscellaneous special-purpose machinery",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Laboratory furniture",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Research, testing and scientific technical simulator",
+        "Ventilation equipment",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Mineral-processing machinery",
+        "Installation services of laboratory equipment"
+    ]
+}

@@ -24,6 +24,7 @@ from ragas import evaluate
 from dotenv import load_dotenv
 import os
 from mlpk_calller import read_txt_file
+import re
 
 load_dotenv()
 
@@ -81,24 +82,77 @@ def create_generation(response_dict, trace, db_item, parent_observation_id=None,
     return generation
 
 
+def process_json_string(string):
+
+    string = string\
+        .replace("`", "")\
+        .replace("json", "")\
+        .replace("&quot;", "\"")\
+        .replace("&gt;", "\"")\
+        .replace(".\n}", ".\"\n}")\
+        .replace("\n", " ")\
+        .replace("\'", "\"")\
+        .replace("|", "\"")\
+        .replace("\'output", "\"output").replace("categories\'", "categories\"")
+    
+    if string.endswith(','):
+        string = string[:-1] + "]}"
+    if not string.endswith('"}') and not string.endswith('"\n}'):
+        if not string.endswith(']}'):
+            string += '"}'
+
+    array_start_index = string.find(': [') + len(': [')
+    array_end_index = string.find(']')+1
+    array_str = string[array_start_index:array_end_index]
+    array_str = re.sub(r'\\\',\s+\'', '", "', array_str)
+    string = string[:array_start_index] + string[array_start_index:array_end_index].replace('\'', "\"") + string[array_end_index:]
+
+    # Removing double quotes from explanation to prevent breaking the json string
+    explanation_start_index = string.find('explanation": "') + len('"explanation": "')
+    explanation_end_index = string.rfind('"')
+    processed_string = string[:explanation_start_index] + string[explanation_start_index:explanation_end_index].replace('"', "'") + string[explanation_end_index:]
+    
+    return processed_string
+        
+
 def retry_until_output_categories_present(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
-        response = {"output": "{}"}
+        response = {"output": ""}
+
         valid_json = False
+
         while not valid_json:
             try:
                 json_data = json.loads(response["output"])
                 if "output_categories" in json_data.keys():
                     valid_json = True
             except json.JSONDecodeError:
-                print(f'invalid json\n{response["output"]}')  # Ignore JSONDecodeError and continue retrying
-            
-            response = func(*args, **kwargs)
-            response["output"] = response["output"].replace("`", "").replace("json","")
+                if len(response["output"]) > 5:
+                    print(f'invalid json\n{response["output"]}')  # Ignore JSONDecodeError and continue retrying
+                    response["output"] = fix_invalid_json(response["output"])
+                    response["output"] = process_json_string(response["output"])
+                    continue
+                    
+            if not valid_json:
+                response = func(*args, **kwargs)  # Call the response function again if JSON is invalid
+                response["output"] = process_json_string(response["output"])
             
         return response
     return wrapper
+
+
+def fix_invalid_json(output):
+    end_array_idx = output.find("]") + 1
+    start_explanation_key_idx = output.find("explanation")
+    if not start_explanation_key_idx == -1:
+        raw_explanation = output[start_explanation_key_idx:]
+        start_explanation_value_idx = raw_explanation.find(":") + 1
+        explanation = raw_explanation[start_explanation_value_idx:].replace("]", "").replace("}", "").replace("\"", "'")
+    else:
+        explanation = "No explanation provided"
+    return output[:end_array_idx] + f", \"explanation\": \"{explanation}\"" + "}"
+
 
 @retry_until_output_categories_present
 def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
@@ -107,7 +161,7 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
         llm_config = {}
 
     # Get prompt object
-    prompt_str = prompt_obj.compile(**prompt_dictionary)
+    prompt_str = prompt_obj.compile(**prompt_dictionary).replace("&quot;", "\"")
 
     # Check cache
     md5_hash = hashlib.md5(prompt_dictionary["offer"].encode()).hexdigest()
@@ -156,10 +210,10 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
             "text": prompt_str,
             "use_beam_search": True,
             "num_beams": 2,
-            "temperature": 0,
+            "temperature": 0.5,
             "top_p": 0.75,
             "top_k": 40,
-            "max_length": 256,
+            "max_length": 1000,
             "stream": False,
             "stop_tokens": [],
             "lang": "en",
@@ -171,9 +225,7 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
         response = requests.post(url, json=body, headers=headers)
 
         if response.status_code == 200:
-            result = response.json()
-            # print(result)
-            return {"output": result.strip(), "prompt": prompt_str, "llm_config": llm_config}
+            content = process_json_string(response.json())
         else:
             print(f"Error: {response.status_code}, {response.text}")
             return {"output": response}
@@ -197,16 +249,6 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
 def evaluate_generation(generation, response_dict, db_item, trace):
     print(f"\n[+] Evaluating {response_dict['llm']} response...")
     
-    # # evaluation ragas  ---- require whole dataset, not single item
-    # # result = evaluate(
-    # #     dataset,
-    # #     metrics=[
-    # #         context_precision,
-    # #         faithfulness,
-    # #         answer_relevancy,
-    # #         context_recall,
-    # #     ],
-    # # )
 
     evaluator = RelevanceEvaluator(mode=MODE)
     ground_truth = db_item["ground_truth"] if isinstance(db_item, dict) else db_item.expected_output
@@ -258,15 +300,7 @@ def evaluate_generation(generation, response_dict, db_item, trace):
         juror_generation.end(output=score_info["explanation"])
 
     
-def llm_generate_and_evaluate(response_dict, db_item, run_id, using_LF_dataset):
-    trace = create_trace(response_dict, run_id)
-    generation = create_generation(response_dict, trace)
-    evaluate_generation(generation, response_dict, db_item, trace)
 
-    if using_LF_dataset:
-        db_item.link(generation, run_id)
-
-    langfuse.flush()
 
 
 def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=None, elmib_config=None):
@@ -291,53 +325,109 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
     llms = ["elmib"]#, "gpt-3.5-turbo"]
     for l in llms:
         run_id = f"{l}_{expertiment_uuid}"
+
+        if l == "gpt-3.5-turbo":
+            prompt_obj = langfuse.get_prompt("categorizator_multi")
+            output_instructions = parser.get_format_instructions()
+        elif l == "elmib":
+            prompt_obj = langfuse.get_prompt("categorizator_multi_elmi")
+            prompt_obj_final_cat = langfuse.get_prompt("categorizator_uni_elmi")
+            output_instructions = """
+### EXPECTED_OUTPUT_FORMAT:
+ 
+The output should be formatted as a JSON instance that conforms to the JSON schema below.
+
+ 
+Here is the output schema:
+ 
+{
+    "properties": {
+        "output_categories": {
+            "title": "Output Categories",
+            "description": "list of categories in which the offer has been categorized",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "explanation": {
+            "title": "Explanation",
+            "description": "explanation of the reason why the text was categorized this way. DO NOT use double quotes in here.",
+            "type": "string"
+        }
+    },
+    "required": ["output_categories", "explanation"]
+}
+"""
+
         csv_results = []
-        for item in tqdm(dataset.items[:200]):
+        ds_subset = dataset.items[:200]
+        for idx, item in enumerate(ds_subset):
+            print(f"################ Dataset item {str(idx +1)} of {str(len(ds_subset))}")
             offer = item.input.strip()
 
             
-            gpt35turbo_shortlisted_categories = []
+            shortlisted_categories = []
             # if l == "gpt-3.5-turbo":
             for idx, subset in enumerate(categories_subsets):
-                # print(f"\nCategorizing '{offer}'\nModel: {l}")
-                prompt_obj = langfuse.get_prompt("categorizator_multi")
+                print(f"[+] Categories subset {str(idx + 1)} of {str(len(categories_subsets))}")
                 response = invoke_llm(
                     client=openai_client,
                     prompt_obj=prompt_obj,
                     prompt_dictionary={
                         "offer": offer,
-                        "categories": ", ".join(subset),
+                        "categories": "; ".join(subset),
                         "n_cat": "3",
-                        "output_instructions": parser.get_format_instructions()
+                        "output_instructions": output_instructions
                     },
                     model=l
                 )
-                gpt35turbo_shortlisted_categories += json.loads(response["output"])["output_categories"]
+                shortlisted_categories += json.loads(response["output"])["output_categories"]
 
                 # shortlist_generation = create_generation(response_dict=response, trace=trace, db_item=item, parent_observation_id=high_level_cat_span.id, run_id=run_id)
 
 
             # Categorize based on shortlisted categories
-            final_response = invoke_llm(
-                client=openai_client,
-                prompt_obj = prompt_obj,
-                prompt_dictionary={
-                    "offer": offer, 
-                    "categories": ", ".join(gpt35turbo_shortlisted_categories), 
-                    "n_cat": "1", 
-                    "output_instructions": parser.get_format_instructions()
-                }
-            )
+            print("[+] Getting final categories from shortlist")
+            if l == "gpt-3.5-turbo":
+                final_response = invoke_llm(
+                    client=openai_client,
+                    prompt_obj = prompt_obj,
+                    prompt_dictionary={
+                        "offer": offer, 
+                        "categories": "; ".join(shortlisted_categories), 
+                        "n_cat": "1", 
+                        "output_instructions": output_instructions
+                    },
+                    model=l
+                )
+            if l == "elmib":
+                final_response = invoke_llm(
+                    client=openai_client,
+                    prompt_obj = prompt_obj_final_cat,
+                    prompt_dictionary={
+                        "offer": offer, 
+                        "categories": "; ".join(shortlisted_categories), 
+                        "n_cat": "1", 
+                        "output_instructions": output_instructions
+                    },
+                    model=l
+                )
             final_category = json.loads(final_response["output"])["output_categories"]
+            explanation = json.loads(final_response["output"])["explanation"]
+            print(f"[+] Offer:\n ```{offer[:300]} [...] ```\n")
+            print(f"[+] Final categories: {final_category}")
+            print(f"[+] Explanation: {explanation}")
+            print(f"\n\n\n -------------------------------- \n\n\n")
 
             trace = langfuse.trace(input=offer, output=final_category, session_id=run_id, metadata={
-                "gpt35turbo_final_output": json.loads(final_response["output"])["output_categories"],
-                "gpt35turbo_firstlevel_outputs": gpt35turbo_shortlisted_categories,
+                f"{l}_final_output": json.loads(final_response["output"]).get("output_categories", []),
+                f"{l}_firstlevel_outputs": shortlisted_categories,
                 "expected_category": item.expected_output,
-                "output_explanation": json.loads(final_response["output"])["explanation"]
+                "output_explanation": json.loads(final_response["output"]).get("explanation", "No explanation provided")
             })
             main_span = langfuse.span(trace_id=trace.id, name="main_span", input=offer)
-            high_level_cat_span = langfuse.span(trace_id=trace.id, input=response["prompt_str"], output=gpt35turbo_shortlisted_categories, name="high_level_categorization", parent_observation_id=main_span.id)
+            high_level_cat_span = langfuse.span(trace_id=trace.id, input=response["prompt_str"], output=shortlisted_categories, name="high_level_categorization", parent_observation_id=main_span.id)
             final_cat_span = langfuse.span(trace_id=trace.id, name="final_categorization", input=offer, output=final_category, parent_observation_id=main_span.id)
             final_generation = create_generation(response_dict=final_response, trace=trace, db_item=item, parent_observation_id=final_cat_span.id, run_id=run_id)
             
@@ -345,8 +435,8 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
                 "offer": offer,
                 "output": final_category,
                 "expected_output": item.expected_output,
-                "output_explanation": json.loads(final_response["output"])["explanation"],
-                "shortlisted_categories": gpt35turbo_shortlisted_categories
+                "output_explanation": json.loads(final_response["output"]).get("explanation", "No explanation provided"),
+                "shortlisted_categories": shortlisted_categories
             }
             csv_results.append(final_data)
             md5_hash = hashlib.md5(offer.encode()).hexdigest()

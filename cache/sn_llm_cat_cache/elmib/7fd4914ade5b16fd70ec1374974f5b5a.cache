@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Purchase and Maintenance of Disability Lifting Apparatus\n\n ### DESCRIPTION:\n Purchase and Maintenance of Disability Lifting Apparatus",
+    "output": [
+        "Lifting and handling equipment"
+    ],
+    "expected_output": "Miscellaneous medical devices and products",
+    "output_explanation": "The product/service offer is about purchasing and maintaining disability lifting apparatus, which is a type of lifting and handling equipment.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ",
+    "shortlisted_categories": [
+        "Lifting and handling equipment",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Medical consumables",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Special education services",
+        "Special clothing",
+        "Maintenance services of telecommunications equipment",
+        "Personnel services except placement and supply services",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Machines and apparatus with individual functions",
+        "Distilling, filtering or rectifying apparatus",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Advisory architectural services"
+    ]
+}

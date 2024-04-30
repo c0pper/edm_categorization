@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n voyager repair\n\n ### DESCRIPTION:\n various repairs",
+    "output": [
+        "Repair and maintenance services of motor vehicles and associated equipment"
+    ],
+    "expected_output": "Repair, maintenance and associated services related to railways and other equipment",
+    "output_explanation": "The product/service offer is about 'voyager repair' which is a type of 'repair and maintenance services' and it is related to 'motor vehicles and associated equipment'.",
+    "shortlisted_categories": [
+        "Repair and maintenance services of motor vehicles and associated equipment",
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Repair and maintenance services of personal computers",
+        "Telecommunications cable and equipment",
+        "Machinery for cleaning bottles, packing and weighing and spraying machinery",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Cargo handling services",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of security equipment",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Advisory architectural services"
+    ]
+}

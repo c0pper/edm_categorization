@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Facilities Management Services (Paterson)\n\n ### DESCRIPTION:\n 1.2\tThe Christie NHS Foundation Trust is looking to procure a Facilities Management Service Provider to maintain the Paterson Building, Manchester. The ten storey 200,000 sq. ft research and office facility will be home to approximately 780 staff from the Trust, University of Manchester and Cancer Research UK",
+    "output": [
+        "Property management services of real estate on a fee or contract basis"
+    ],
+    "expected_output": "Miscellaneous business-related services",
+    "output_explanation": "The service offer is about maintaining a research and office facility for the Christie NHS Foundation Trust, University of Manchester and Cancer Research UK. The service provider will be responsible for maintaining the Paterson Building, Manchester which is a 10 storey 200,000 sq. ft research and office facility. This is a property management service on a contract basis.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",
+    "shortlisted_categories": [
+        "Building construction work",
+        "Non-residential property renting or leasing services",
+        "Other building completion work",
+        "Administrative services of agencies",
+        "Construction consultancy services",
+        "Property management services of real estate on a fee or contract basis",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Maintenance services of telecommunications equipment",
+        "Facilities management software package",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Sewerage management services",
+        "Building rental or sale services",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Advisory architectural services",
+        "Installation services of laboratory equipment"
+    ]
+}

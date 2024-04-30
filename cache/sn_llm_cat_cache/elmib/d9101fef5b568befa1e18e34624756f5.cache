@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Refuse and Recycling Services- Red Bank, NJ 07701 (NJ015).\n\n ### DESCRIPTION:\n The purpose of this solicitation is to procure Refuse and Recycling Services in support of the 99th Readiness Division. Services shall be performed at the US Marine Reserve Training Center, 338 Newman Springs Road, Red Bank, NJ 07701 (NJ015). Please propose all pricing on the conformed copy.",
+    "output": [
+        "Refuse disposal and treatment"
+    ],
+    "expected_output": "Refuse disposal and treatment",
+    "output_explanation": "Refuse and Recycling Services is a type of Refuse Disposal and Treatment.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Refuse disposal and treatment",
+        "Civic-amenity services",
+        "Administrative services of agencies",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Telecommunications cable and equipment",
+        "Sewerage management services",
+        "Waste incinerators",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of warships",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Advisory architectural services"
+    ]
+}

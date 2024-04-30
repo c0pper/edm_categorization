@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Gas Appliance Servicing & Repairs\n\n ### DESCRIPTION:\n Contract for Periodic Servicing and Inspection and Responsive Maintenance of Individual and Communal Heating Appliances and Heating Installations, including Out of Hours Emergency Callout",
+    "output": [
+        "Repair and maintenance services of central heating"
+    ],
+    "expected_output": "Repair and maintenance services of machinery",
+    "output_explanation": "The offer is about servicing and repairing heating appliances and installations, which falls under the category of 'Repair and maintenance services of central heating'.' }",
+    "shortlisted_categories": [
+        "Plumbing and sanitary works",
+        "Repair and maintenance services of motor vehicles and associated equipment",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of central heating",
+        "Gaseous fuels",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of security equipment",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Scheduled air transport services"
+    ]
+}

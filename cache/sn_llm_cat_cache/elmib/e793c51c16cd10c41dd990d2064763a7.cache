@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Equitas Academies Trust ~ Cleaning Tender\n\n ### DESCRIPTION:\n The successful Supplier will be required to provide Cleaning services for Equitas Academies Trust.",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Cleaning services",
+    "output_explanation": "The offer is for the provision of Cleaning services for Equitas Academies Trust.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Administrative services of agencies",
+        "Cleaning services",
+        "Cleaning products",
+        "Maintenance services of telecommunications equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Sewerage management services",
+        "Cargo handling services",
+        "Repair and maintenance services",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Advisory architectural services"
+    ]
+}
