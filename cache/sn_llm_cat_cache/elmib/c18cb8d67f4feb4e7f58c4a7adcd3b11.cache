@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Geography & Sustainable Development:  Design & Manufacture of SafePoint Desk\n\n ### DESCRIPTION:\n Design and Manufacture of Safepoint Desks.  A SafePoint is an approved room containing a SafePoint Desk which allows a researcher to access and analyse data. It is a low cost and scalable solution for data access and will become a new service offered by the SafePod Network. For  more information about the SafePod Network visit www.safepodnetwork.ac.uk.",
+    "output": [
+        "Miscellaneous furniture and equipment"
+    ],
+    "expected_output": "Goods used in construction",
+    "output_explanation": "The product/service offer is about the design and manufacture of Safepoint Desks, which is a type of furniture. It does not fit into any of the other categories provided.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Consultative engineering and construction services",
+        "Office furniture",
+        "Data-processing machines (hardware)",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Miscellaneous furniture and equipment",
+        "Facilities management software package",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Development services of real estate",
+        "Installation services of laboratory equipment",
+        "Advisory architectural services"
+    ]
+}

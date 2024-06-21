@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Look Ahead Care and Support - Provision of cleaning services\n\n ### DESCRIPTION:\n Procurement of a multi-lot contract for provision of cleaning services for a maximum of 7 years across LACS estate",
+    "output": [
+        "Cleaning services"
+    ],
+    "expected_output": "Cleaning services",
+    "output_explanation": "The offer is for the procurement of a multi-lot contract for provision of cleaning services for a maximum of 7 years across LACS estate.' }",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Administrative services of agencies",
+        "Civic-amenity services",
+        "Procurement software package",
+        "Property management services of real estate on a fee or contract basis",
+        "Cleaning products",
+        "Facilities management software package and software package suite",
+        "Sewerage management services",
+        "Civil engineering machinery",
+        "Building rental or sale services",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Advisory architectural services"
+    ]
+}

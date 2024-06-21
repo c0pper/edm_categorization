@@ -5,12 +5,7 @@ from langfuse import Langfuse
 import pandas as pd
 from tqdm import tqdm
 from Categorizer import Categorizer, RelevanceEvaluator
-from ragas.metrics import (
-    answer_relevancy,
-    faithfulness,
-    context_recall,
-    context_precision,
-)
+import pandas as pd
 from datasets import Dataset, Features, Value, Sequence
 from ragas import evaluate
 from dotenv import load_dotenv
@@ -137,7 +132,12 @@ def run_bosch_qa_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_
     using_LF_dataset = not isinstance(dataset, Dataset)
 
     expertiment_uuid = str(uuid4())[:8]
-    llms = ["gpt-3.5-turbo-instruct", "gpt-3.5-turbo", "elmib"]
+    
+    # #all llms
+    # llms = ["gpt-3.5-turbo-instruct", "gpt-3.5-turbo", "elmib"]
+    #just elmi
+    llms = ["elmib"]
+    
     for l in llms:
         run_id = f"{l}_{expertiment_uuid}"
         for item in tqdm(dataset if not using_LF_dataset else dataset.items):
@@ -185,11 +185,6 @@ def run_bosch_qa_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_
 
 
 if __name__ == "__main__":
-    # langfuse = Langfuse(
-    #     secret_key=os.getenv("LANGFUSE_PRIVATE"),
-    #     public_key=os.getenv("LANGFUSE_PUBLIC"),
-    #     host="https://cloud.langfuse.com"
-    # )
     langfuse = Langfuse(
         secret_key=os.getenv("LOCAL_LANGFUSE_PRIVATE"),
         public_key=os.getenv("LOCAL_LANGFUSE_PUBLIC"),
@@ -199,18 +194,15 @@ if __name__ == "__main__":
     MODE = "nestor_cgpt"
     dataset_name = "bosch-samples-bullets"
     # langfuse.create_dataset(name=dataset_name)
-    # with open(f'data/{dataset_name}.csv', 'r') as csv_file:
-    #     csv_reader = csv.reader(csv_file)
-    #     next(csv_reader)
+    # df = pd.read_excel(f"data/{dataset_name}.xlsx")
         
-    #     for row in csv_reader:
-    #         langfuse.create_dataset_item(
-    #             dataset_name=dataset_name,
-    #             input=f"{row[0].strip()} CONTEXT {row[2]}",
-    #             expected_output=row[1].strip()
-    #         )
+    # for index, row in list(df.iterrows())[1:]:
+    #     langfuse.create_dataset_item(
+    #         dataset_name=dataset_name,
+    #         input=f"{row[0].strip()} CONTEXT {row[2]}",
+    #         expected_output=row[1].strip()
+    #     )
     
-    # dataset = langfuse.get_dataset("bosch-samples")
     dataset = langfuse.get_dataset(dataset_name)
 
     run_bosch_qa_experiment(dataset, gpt35turboinstruct_config={

@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Fame and Orbis, Contract Award Notice, Contracts Finder\n\n ### DESCRIPTION:\n This is a notice for the awarded contract for Fame and Orbis Licenses. The contract was awarded to Moody&apos;s Analytics.",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Networking software package",
+    "output_explanation": "The contract is for Fame and Orbis Licenses, which are information systems.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Information systems",
+        "Administrative services of agencies",
+        "Legal advisory and information services",
+        "Telecommunications cable and equipment",
+        "Communication software package",
+        "Database services",
+        "Database systems",
+        "System, storage and content management software package",
+        "Custom software development services",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

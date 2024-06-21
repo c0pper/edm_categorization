@@ -1,0 +1,16 @@
+{
+    "offer": "### TITLE:\n 34859 - MOSAIC\n\n ### DESCRIPTION:\n TAXI SERVICES",
+    "output": [
+        "Taxi services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The title of the offer is '34859 - MOSAIC' and the description is 'TAXI SERVICES'. The title is not descriptive enough to categorize the offer, but the description clearly states that it is a taxi service. Therefore, the offer is categorized as 'Taxi services'.' }",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Taxi Services",
+        "Taxi Services",
+        "Hire of goods-transport vehicles with driver",
+        "Taxi Services",
+        "Taxi Services"
+    ]
+}

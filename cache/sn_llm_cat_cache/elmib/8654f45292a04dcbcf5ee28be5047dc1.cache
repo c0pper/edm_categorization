@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n 34862 - ALLEXTON DAY NURSERY\n\n ### DESCRIPTION:\n TAXI SERVICES",
+    "output": [
+        "Taxi Services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The title of the offer is 34862 - ALLEXTON DAY NURSERY and the description is TAXI SERVICES. Therefore, it is a taxi service.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Administrative services of agencies",
+        "Vocational training services",
+        "Support services for land transport",
+        "Personnel services except placement and supply services",
+        "Pre-school education services",
+        "Training facilities",
+        "E-learning services",
+        "Personal development training services",
+        "Holiday centre and holiday home services",
+        "Domestic animal nurseries",
+        "Miscellaneous fertilisers",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Sport-related services",
+        "Taxi Services"
+    ]
+}

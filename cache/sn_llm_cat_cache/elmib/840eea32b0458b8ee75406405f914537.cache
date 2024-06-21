@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Z2DZ--621-23-100 - Renovate Bldg. 200 Atrium\n\n ### DESCRIPTION:\n Renovate Bldg 200 Atrium",
+    "output": [
+        "Building construction work"
+    ],
+    "expected_output": "Other building completion work",
+    "output_explanation": "The offer is to renovate a building atrium, which falls under the category of building construction work.' }",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Building demolition and wrecking work and earthmoving work",
+        "Other building completion work",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Building rental or sale services",
+        "Development services of real estate"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Amendment #2 : Austin BK Medical Ultrasound services\n\n ### DESCRIPTION:\n Contractor will provide BK Medical Ultrasound services.",
+    "output": [
+        "Medical imaging services"
+    ],
+    "expected_output": "Imaging equipment for medical, dental and veterinary use",
+    "output_explanation": "Ultrasound services are a type of medical imaging service.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ",
+    "shortlisted_categories": [
+        "Miscellaneous medical devices and products",
+        "Medical practice and related services",
+        "Medical consumables",
+        "Medical imaging services",
+        "Medical education services",
+        "Miscellaneous special-purpose machinery",
+        "Telecommunications cable and equipment",
+        "Command and control system, printing, graphics, office automation and information-processing equipment",
+        "Office automation software package",
+        "Machines and apparatus with individual functions",
+        "Research, testing and scientific technical simulator",
+        "Medical equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "offer": "### TITLE:\n IFB 2024-B06 Sentinel Peak - Asbestos Abatement & Building Demolition\n\n ### DESCRIPTION:\n \ufeffHays County (County) is seeking bids from qualified, licensed, and experienced General Abatement Contractors to provide all labor, materials, and equipment necessary for the permitting, abatement, demolition, removal and environmentally appropriate disposal of all structures and debris located at Sentinel Peak.",
+    "output": [
+        "Building demolition and wrecking work and earthmoving work",
+        "Environmental protection",
+        "Asbestos removal services"
+    ],
+    "expected_output": "Building demolition and wrecking work and earthmoving work",
+    "output_explanation": "The product/service offer is for the permitting, abatement, demolition, removal and environmentally appropriate disposal of all structures and debris located at Sentinel Peak. This falls under the category of Building demolition and wrecking work and earthmoving work as it involves the demolition and removal of structures and debris. It also falls under Environmental protection as the disposal of the debris needs to be environmentally appropriate. Lastly, it falls under Asbestos removal services as the abatement of asbestos is mentioned in the offer.' }",
+    "shortlisted_categories": [
+        "Building demolition and wrecking work and earthmoving work",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Environmental protection",
+        "Asbestos removal services",
+        "Building demolition services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Maintenance services of telecommunications equipment",
+        "Cleaning products",
+        "Facilities management software package and software package suite",
+        "Sewerage management services",
+        "Waste incinerators",
+        "Building rental or sale services",
+        "Repair and maintenance services of security equipment",
+        "Public security, law and order services",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Advisory architectural services"
+    ]
+}

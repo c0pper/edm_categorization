@@ -1,0 +1,19 @@
+{
+    "offer": "### TITLE:\n 65+ years\n\n ### DESCRIPTION:\n 65+ years",
+    "output": [
+        "Social services"
+    ],
+    "expected_output": "Social work services",
+    "output_explanation": "The title '65+ years' suggests that the offer is related to the age group of 65 years and above. The most appropriate category from the provided list is 'Social services', as it is related to the provision of social welfare and assistance to this age group.' }",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Adult-education services at university level",
+        "Social services",
+        "Personnel services except placement and supply services",
+        "Pre-school education services",
+        "General public services",
+        "Miscellaneous fertilisers",
+        "Environmental training services",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

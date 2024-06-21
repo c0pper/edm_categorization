@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n ITT for Project  10105019\n\n ### DESCRIPTION:\n ITT for Project  10105019",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "ITT for Project 10105019 is an offer for a project, which is an information technology task. Therefore, it can be categorized as Information systems.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Research consultancy services",
+        "Administrative services of agencies",
+        "Information systems",
+        "System and support services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Construction supervision services",
+        "Machines and apparatus with individual functions",
+        "Research, testing and scientific technical simulator",
+        "Installation services of special-purpose machinery and equipment",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Mineral-processing machinery",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n Chemical Analysis of Nitrogen Gas Cylinders\n\n ### DESCRIPTION:\n Chemical Analysis of Nitrogen Gas Cylinders",
+    "output": [
+        "Engineering-related scientific and technical services"
+    ],
+    "expected_output": "Pollution tracking and monitoring and rehabilitation",
+    "output_explanation": "The product/service offer is about the chemical analysis of nitrogen gas cylinders. This is a scientific and technical service that is related to engineering. It is not a detection and analysis apparatus because it is a service, not a device. It is not industrial gases or specialised chemical products because it is a service, not a product. It is not a research, testing and scientific technical simulator because it is not a simulator. It is not installation services of special-purpose machinery and equipment because it is not an installation service. It is not experimental development services because it is not experimental development. It is not miscellaneous fertilisers because it is not a fertiliser. It is not test drilling and boring work because it is not drilling or boring. It is not installation services of laboratory equipment because it is not an installation service.' }",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Engineering-related scientific and technical services",
+        "Industrial gases",
+        "Specialised chemical products",
+        "Research, testing and scientific technical simulator",
+        "Installation services of special-purpose machinery and equipment",
+        "Experimental development services",
+        "Miscellaneous fertilisers",
+        "Test drilling and boring work",
+        "Installation services of laboratory equipment"
+    ]
+}

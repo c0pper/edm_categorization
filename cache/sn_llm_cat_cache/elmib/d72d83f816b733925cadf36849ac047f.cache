@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n 61--POWER SUPPLY\n\n ### DESCRIPTION:\n CONTACT INFORMATION|4|N721.06 |B1C |215-697-3566 |kelly.m.lynch5.civ@us.navy.mil | ITEM UNIQUE IDENTIFICATION AND VALUATION (JAN 2023)|19|||||||||||||||||||| HIGHER-LEVEL CONTRACT QUALITY REQUIREMENT|8|X|||||||| INSPECTION AND ACCEPTANCE OF SUPPLIES|26|X||||||||||||X|||||||||||||| FMS DELIVERY AND SHIPPING INSTRUCTIONS|3|||X| WIDE AREA WORKFLOW PAYMENT INSTRUCTIONS (JAN 2023)|16|INVOICE AND RECEIVING REPORT COMBO TYPE |N/A |TBD |N00383 |TBD |TBD |See Schedule |TBD ||||||||| NAVY USE OF ABILITYONE SUPPORT CONTRACTOR - RELEASE OF OFFEROR INFORMATION (3-18))|1|| EQUAL OPPORTUNITY (SEP 2016)|2||| WARRANTY OF SUPPLIES OF A NONCOMPLEX NATURE (JUN 2003)|6|12 months |60 days after discovery of defect ||||| EQUAL OPPORTUITY FOR WORKERS WITH DISABILITIES (JUN 2020)|2||| BUY AMERICAN-FREE TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM - BASIC (NOV\\23)|5|||||| ALTERNATE A, ANNUAL REPRESENTATIONS AND CERTIFICATIONS (NOV 2023)|13|||||||||||||| BUY AMERICAN-FREE TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM CERTIFICATE-BASIC (NOV 2023))|5|||||| BUY AMERICAN--BALANCE OF PAYMENTS PROGRAM (NOV 2014)|1|| ROYALTY INFORMATION (APR 1984)|1|| ANNUAL REPRESENTATIONS AND CERTIFICATIONS (MAR 2023)|13|335931|600|||||||||||| FACSIMILE PROPOSALS (OCT 1997)|1|| NOTICE OF PRIORITY RATING FOR NATIONAL DEFENSE, EMERGENCY PREPAREDNESS, ANDENERGY PROGRAM USE (APR 2008))|2||X| All contractual documents (i.e. contracts, purchase orders, task orders,delivery orders and modifications) related to the instant procurement areconsidered to be \"issued\" by the Government when copies are either deposited in the mail, transmitted by facsimile, or sent by other electronic commercemethods, such as email.  The Government's acceptance of the contractor'sproposal constitutes bilateral agreement to \"issue\" contractual documents asdetailed herein. Early and incremental deliveries accepted and preferred. This is a spares requirement for FMS in support of the MH-60R HELICOPTER DCRPS System. \\",
+    "output": [
+        "Power distribution cables",
+        "Electrical supplies and accessories"
+    ],
+    "expected_output": "Electricity",
+    "output_explanation": "The offer is for a 61--POWER SUPPLY, which includes power distribution cables and electrical supplies and accessories for switching or protecting electrical circuits.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ",
+    "shortlisted_categories": [
+        "Electrical installation work",
+        "Electrical apparatus for switching or protecting electrical circuits",
+        "Power distribution cables",
+        "Electrical supplies and accessories",
+        "Special clothing",
+        "Miscellaneous special-purpose machinery",
+        "Telecommunications cable and equipment",
+        "Machines and apparatus with individual functions",
+        "Mechanical spare parts except engines and engine parts",
+        "Military aircrafts",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military vehicles",
+        "Repair and maintenance services of warships",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Spares for goods vehicles, vans and cars"
+    ]
+}

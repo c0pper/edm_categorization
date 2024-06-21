@@ -1,0 +1,27 @@
+{
+    "offer": "### TITLE:\n Connally Unit: Replace Plumbing & Controls - 3, 4, 7, 10, & 11 Bldgs\n\n ### DESCRIPTION:\n This project is to replace plumbing and add electronic water controls to multiple buildings. The existing system is not in compliance with the current energy efficiency codes and standards.",
+    "output": [
+        "Construction work for water projects"
+    ],
+    "expected_output": "Plumbing and sanitary works",
+    "output_explanation": "The project is to replace plumbing and add electronic water controls to multiple buildings. The existing system is not in compliance with the current energy efficiency codes and standards.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ",
+    "shortlisted_categories": [
+        "Plumbing and sanitary works",
+        "Construction work for water projects",
+        "Other building completion work",
+        "Electrical supplies and accessories",
+        "System and support services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Sewerage management services",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Pipeline, piping, pipes, casing, tubing and related items",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Plastering work",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Advisory architectural services"
+    ]
+}

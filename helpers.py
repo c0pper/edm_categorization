@@ -14,7 +14,7 @@ def reorder_csv_results(reference_file, experiment_file):
     # Read the experiment CSV file and reorder rows based on the reference
     experiment_rows = set()
     with open(experiment_file, 'r', encoding="utf-8-sig") as exp_csv:
-        exp_reader = csv.reader(exp_csv)
+        exp_reader = csv.reader(exp_csv, delimiter=";")
         next(exp_reader)
         for row in exp_reader:
             experiment_rows.add(tuple(row))
@@ -30,11 +30,11 @@ def reorder_csv_results(reference_file, experiment_file):
     # Write reordered rows to a new CSV file
     output_file = experiment_file[:-4] + "_reordered.csv"
     with open(output_file, 'w', newline='', encoding="utf-8") as output_csv:
-        writer = csv.writer(output_csv)
+        writer = csv.writer(output_csv, delimiter=";")
         writer.writerows(reordered_rows)
 
 
 
 
 if __name__ == "__main__":
-    reorder_csv_results('experiment_linear_svm_6a523988.csv', 'experiment_gpt-3.5-turbo_2c2f620e.csv')
+    reorder_csv_results('experiment_linear_svm_6a523988.csv', 'experiment_elmib_6b2091b0.csv')

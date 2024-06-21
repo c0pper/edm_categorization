@@ -1,0 +1,23 @@
+{
+    "offer": "### TITLE:\n Black Park, Wexham\n\n ### DESCRIPTION:\n Develop Design Detail Modular Build",
+    "output": [
+        "Building construction work"
+    ],
+    "expected_output": "Structures and parts of structures",
+    "output_explanation": "Black Park, Wexham is a location. Develop Design Detail Modular Build is a service offer. The service offer is related to building construction. Therefore, it is categorized as Building construction work.' }",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Building demolition and wrecking work and earthmoving work",
+        "Other building completion work",
+        "Construction consultancy services",
+        "Construction management services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Holiday centre and holiday home services",
+        "Catering equipment",
+        "Building rental or sale services",
+        "Development services of real estate"
+    ]
+}

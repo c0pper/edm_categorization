@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Audio Visual Unit Vehicle\n\n ### DESCRIPTION:\n East Sussex Fire Authority (ESFA) is seeking to award a contract on behalf of East Sussex Fire and Rescue Service (ESFRS) for a single Audio-Visual Unit Vehicle.",
+    "output": [
+        "Television and audio-visual equipment"
+    ],
+    "expected_output": "Heavy-duty motor vehicles",
+    "output_explanation": "The Audio Visual Unit Vehicle is a vehicle equipped with television and audio-visual equipment for the purpose of providing audio-visual services.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Consultative engineering and construction services",
+        "Road equipment",
+        "Telephone equipment",
+        "Miscellaneous special-purpose machinery",
+        "Telecommunications cable and equipment",
+        "Television and audio-visual equipment",
+        "Machines and apparatus with individual functions",
+        "Communication software package",
+        "Traffic-monitoring equipment",
+        "Television services",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Wide area network services",
+        "Advisory architectural services"
+    ]
+}

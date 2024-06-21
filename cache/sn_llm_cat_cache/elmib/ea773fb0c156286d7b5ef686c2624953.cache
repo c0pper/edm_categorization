@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n WASHER, FLAT\n\n ### DESCRIPTION:\n SEE ATTACHED",
+    "output": [
+        "Articles for the bathroom and kitchen"
+    ],
+    "expected_output": "Ships",
+    "output_explanation": "The product is a washer, which is an appliance used in the bathroom or kitchen. It is not a cleaning service, building construction work, electrical supplies and accessories, power distribution cables, maintenance services of telecommunications equipment, telecommunications cable and equipment, machines and apparatus with individual functions, repair and maintenance services of hotel and restaurant equipment, repair and maintenance services of weapons and weapon systems, system, storage and content management software package, or wide area network services.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Building construction work",
+        "Electrical supplies and accessories",
+        "Power distribution cables",
+        "Articles for the bathroom and kitchen",
+        "Maintenance services of telecommunications equipment",
+        "Telecommunications cable and equipment",
+        "Machines and apparatus with individual functions",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "System, storage and content management software package",
+        "Wide area network services"
+    ]
+}

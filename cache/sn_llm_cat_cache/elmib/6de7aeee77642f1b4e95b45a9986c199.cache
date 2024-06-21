@@ -1,0 +1,20 @@
+{
+    "offer": "### TITLE:\n GB-Craven Arms: TPPL Connexus HCC Contract Hire Lot 2 - Contract Hire of Up to 140 x LCVs (17030)\n\n ### DESCRIPTION:\n Contract Hire of up to 48 x LCVs",
+    "output": [
+        "Hire of goods-transport vehicles with driver"
+    ],
+    "expected_output": "Motor vehicles for the transport of goods",
+    "output_explanation": "GB-Craven Arms: TPPL Connexus HCC Contract Hire Lot 2 - Contract Hire of Up to 140 x LCVs (17030) is categorized as 'Hire of goods-transport vehicles with driver' because it is a contract hire of up to 140 light commercial vehicles (LCVs).' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
+    "shortlisted_categories": [
+        "Non-residential property renting or leasing services",
+        "Motor vehicles for the transport of 10 or more persons",
+        "Hire of passenger transport vehicles with driver",
+        "Transportation services",
+        "Information systems",
+        "Telecommunications cable and equipment",
+        "Network equipment",
+        "Hire of goods-transport vehicles with driver",
+        "Repair and maintenance services of military vehicles",
+        "Wide area network services"
+    ]
+}

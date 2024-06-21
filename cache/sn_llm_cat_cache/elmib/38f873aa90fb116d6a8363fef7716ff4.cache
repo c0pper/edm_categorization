@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n CEFAS24-33 Contract for license and warranty package for GridION sequencing instrument for Cefas laboratory\n\n ### DESCRIPTION:\n Provision of software and hardware license and warranty for GridION sequencing instrument for Cefas laboratory.",
+    "output": [
+        "Analytical, scientific, mathematical or forecasting software package"
+    ],
+    "expected_output": "Detection and analysis apparatus",
+    "output_explanation": "The offer is for a software and hardware license and warranty for GridION sequencing instrument for Cefas laboratory. The GridION sequencing instrument is used for DNA sequencing, which is an analytical process. Therefore, the offer falls under the category of Analytical, scientific, mathematical or forecasting software package.' }",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Analytical, scientific, mathematical or forecasting software package",
+        "Software-related services",
+        "Repair and maintenance services of precision equipment",
+        "Medical software package",
+        "System and support services",
+        "Specialised chemical products",
+        "Telecommunications cable and equipment",
+        "Command and control system, printing, graphics, office automation and information-processing equipment",
+        "Facilities management software package",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Research, testing and scientific technical simulator",
+        "System, storage and content management software package",
+        "Installation services of laboratory equipment"
+    ]
+}

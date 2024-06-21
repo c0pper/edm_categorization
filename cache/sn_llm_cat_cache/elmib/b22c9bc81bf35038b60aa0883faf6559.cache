@@ -1,0 +1,18 @@
+{
+    "offer": "### TITLE:\n 34867- HOME TO SAMWORTH ACADEMY\n\n ### DESCRIPTION:\n TAXI SERVICES",
+    "output": [
+        "Taxi services"
+    ],
+    "expected_output": "Taxi services",
+    "output_explanation": "The title of the offer is 34867- HOME TO SAMWORTH ACADEMY and the description is TAXI SERVICES. Therefore, it is a taxi service.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",
+    "shortlisted_categories": [
+        "Taxi services",
+        "Taxi Services",
+        "Taxi Services",
+        "Hire of goods-transport vehicles with driver",
+        "Traffic-monitoring equipment",
+        "Public transport services by railways",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Taxi Services"
+    ]
+}

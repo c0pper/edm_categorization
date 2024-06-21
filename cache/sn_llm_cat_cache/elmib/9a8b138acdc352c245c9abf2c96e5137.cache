@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n CWC23163 Supply of Combi Nicotine Replacement Therapy (NRT)\n\n ### DESCRIPTION:\n Provision of a range of NRT products that meet the requirements of City of Wolverhampton  (combination NRT products at a quantity that ensures adequate supply for up to 900 smokers per year)",
+    "output": [
+        "Medical consumables"
+    ],
+    "expected_output": "Various medicinal products",
+    "output_explanation": " Medical consumables are products that are used in the medical field and are not intended for long-term use. Nicotine Replacement Therapy (NRT) products fall under this category as they are used to help people quit smoking and are not intended for long-term use.' '",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Various office equipment and supplies",
+        "Supply services of personnel including temporary staff",
+        "Medical consumables",
+        "Medical software package",
+        "Medical education services",
+        "Miscellaneous special-purpose machinery",
+        "Personnel services except placement and supply services",
+        "Health and first-aid training services",
+        "Facilities management software package and software package suite",
+        "Research, testing and scientific technical simulator",
+        "Database services",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Sport-related services",
+        "Medicinal products for the blood, blood-forming organs and the cardiovascular system"
+    ]
+}

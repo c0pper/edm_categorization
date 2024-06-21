@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n ITT for Projects  10102027   10101710   10101553\n\n ### DESCRIPTION:\n ITT for Projects  10102027   10101710   10101553",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Management-related services",
+    "output_explanation": "ITT stands for Invitation to Tender, which is a process of selecting a contractor for a project. ITT for Projects is a service that helps companies to find contractors for their projects. Therefore, it falls under the category of Information Systems, as it is a system that helps to manage information related to the process of selecting contractors for projects.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Administrative services of agencies",
+        "Information systems",
+        "System and support services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Construction supervision services",
+        "Investigation services",
+        "Machines and apparatus with individual functions",
+        "Distilling, filtering or rectifying apparatus",
+        "Civil engineering machinery",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "offer": "### TITLE:\n Waste & Recycling Collection Services\n\n ### DESCRIPTION:\n The London Borough of Merton is inviting tenders, from those suppliers shortlisted in the initial Supplier Selection stage, to provide Household Waste & Recycling Materials collection including communication of the services, Commercial Waste collection including communication of the services, Winter Maintenance services and Vehicle Maintenance services for the Borough. Please note, that a signed confidentiality letter will need to be signed in order for the full suite of tender documents to be shared.",
+    "output": [
+        "Environmental protection",
+        "Environmental management",
+        "Waste incinerators",
+        "Sewerage management services"
+    ],
+    "expected_output": "Refuse disposal and treatment",
+    "output_explanation": "This offer is for waste and recycling collection services, which falls under the category of environmental protection and management. The offer also includes the provision of waste incinerators and sewerage management services.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork; Individual equipment",
+        "Environmental protection; Environmental management; Operating techniques; Miscellaneous health services",
+        "Civic-amenity services",
+        "Road equipment",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Network equipment",
+        "Waste incinerators",
+        "Sewerage management services",
+        "Civil engineering machinery",
+        "Public security, law and order services",
+        "Environmental training services",
+        "Wide area network services",
+        "Installation services of laboratory equipment",
+        "Advisory architectural services"
+    ]
+}

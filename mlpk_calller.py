@@ -71,15 +71,25 @@ def main():
     output_file = f'experiment_linear_svm_{str(uuid.uuid4())[:8]}.csv'
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['text', 'categories', 'expected_category']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=";")
         writer.writeheader()
         for filename in tqdm(os.listdir(directory)[:200]):
+            cache_filename = f"cache\sn_llm_cat_cache\linearsvm\{filename[:-3] + 'cache'}"
             if filename.endswith(".txt"):
                 filepath = os.path.join(directory, filename)
                 text = read_txt_file(filepath)
                 ann_filepath = os.path.join(ann_directory, filename)[:-3] + "ann"
                 ann = read_txt_file(ann_filepath).split("\t\t")[1].strip()
-                categories = post_data_to_endpoint(text)
+                
+                if os.path.exists(cache_filename):
+                    with open(cache_filename, "r") as cache_file:
+                        cached_json = json.load(cache_file)
+                        categories = cached_json["categories"]
+                else:
+                    categories = post_data_to_endpoint(text)
+                    json_dict = {'text': text, 'categories': categories, 'expected_category': ann}
+                    with open(cache_filename, "w", encoding="utf8") as cachefile:
+                        json.dump(json_dict, cachefile, indent=4)
                 writer.writerow({'text': text, 'categories': categories, 'expected_category': ann})
                 print("Processed:", filename)
 

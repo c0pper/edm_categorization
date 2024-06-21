@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n HIOWC HR Case Management System\n\n ### DESCRIPTION:\n RM1557.13 G-cloud 13 process was followed",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Software-related services",
+    "output_explanation": "The HIOWC HR Case Management System is a software system that manages HR cases, which falls under the category of Information systems.' }",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Consultative engineering and construction services",
+        "Information systems",
+        "Administrative services of agencies",
+        "System and support services",
+        "Personnel services except placement and supply services",
+        "Telecommunications cable and equipment",
+        "Command and control system, printing, graphics, office automation and information-processing equipment",
+        "Office automation software package",
+        "Facilities management software package and software package suite",
+        "Database systems",
+        "Computer-related management services",
+        "System, storage and content management software package",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

@@ -91,9 +91,9 @@ def process_json_string(string):
         .replace("&gt;", "\"")\
         .replace(".\n}", ".\"\n}")\
         .replace("\n", " ")\
-        .replace("\'", "\"")\
         .replace("|", "\"")\
         .replace("\'output", "\"output").replace("categories\'", "categories\"")
+        # .replace("\'", "\"")\
     
     if string.endswith(','):
         string = string[:-1] + "]}"
@@ -105,7 +105,7 @@ def process_json_string(string):
     array_end_index = string.find(']')+1
     array_str = string[array_start_index:array_end_index]
     array_str = re.sub(r'\\\',\s+\'', '", "', array_str)
-    string = string[:array_start_index] + string[array_start_index:array_end_index].replace('\'', "\"") + string[array_end_index:]
+    string = string[:array_start_index] + string[array_start_index:array_end_index] + string[array_end_index:]
 
     # Removing double quotes from explanation to prevent breaking the json string
     explanation_start_index = string.find('explanation": "') + len('"explanation": "')
@@ -169,6 +169,8 @@ def invoke_llm(client, prompt_obj, prompt_dictionary, model, llm_config=None):
 
     # Check if file exists in cache
     if os.path.exists(cache_filename):
+        if "049543bb312e0941b02b3a9cf84517cd" in cache_filename:
+            print("!")
         with open(cache_filename, "r") as cache_file:
             cached_json = json.load(cache_file)
             cached_response = {
@@ -300,9 +302,6 @@ def evaluate_generation(generation, response_dict, db_item, trace):
         juror_generation.end(output=score_info["explanation"])
 
     
-
-
-
 def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=None, elmib_config=None):
     # df = pd.read_csv( "data/bosch-samples_3_with_answers.csv", encoding='cp1252')
     if not gpt35turboinstruct_config:
@@ -322,7 +321,8 @@ def run_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_config=No
     parser = PydanticOutputParser(pydantic_object=Category)
 
     expertiment_uuid = str(uuid4())[:8]
-    llms = ["elmib"]#, "gpt-3.5-turbo"]
+    # llms = ["elmib"]
+    llms = ["gpt-3.5-turbo"]
     for l in llms:
         run_id = f"{l}_{expertiment_uuid}"
 
@@ -449,7 +449,7 @@ Here is the output schema:
             
         with open(f"experiment_{run_id}.csv", "w", newline="", encoding="utf8") as csvfile:
             fieldnames = ["offer", "output", "expected_output","output_explanation","shortlisted_categories"]
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=";")
             writer.writeheader()
             for result in csv_results:
                 writer.writerow(result)

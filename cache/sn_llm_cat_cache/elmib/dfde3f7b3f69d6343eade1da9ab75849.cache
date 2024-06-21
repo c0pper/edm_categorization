@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Instant Oatmeal\n\n ### DESCRIPTION:\n THE TEXAS DEPARTMENT OF CRIMINAL JUSTICE (TDCJ) IS CURRENTLY\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0REQUESTING BIDS TO ESTABLISH A PURCHASE ORDER FOR THE PROCUREMENT OF\u00a0\u00a0INSTANT OATMEAL FOR RESALE IN THE TDCJ COMMISSARIES STATEWIDE.",
+    "output": [
+        "Cereals and potatoes"
+    ],
+    "expected_output": "Grain mill products",
+    "output_explanation": "Instant oatmeal is a type of cereal. The fact that it's instant doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ doesn't change the fact that it's a cereal. The fact that it's for resale doesn't change the fact that it's a cereal. The fact that it's for commissaries doesn't change the fact that it's a cereal. The fact that it's statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries doesn't change the fact that it's a cereal. The fact that it's for resale in the TDCJ commissaries statewide doesn't change the fact that it's a cereal. The fact that it's for the TDCJ commissaries statewide doesn't change",
+    "shortlisted_categories": [
+        "Miscellaneous business-related services",
+        "Various office equipment and supplies",
+        "Bread products, fresh pastry goods and cakes",
+        "Articles for the bathroom and kitchen",
+        "Hotel meeting and conference services",
+        "Personnel services except placement and supply services",
+        "Miscellaneous textile articles",
+        "Cereals and potatoes",
+        "Cafeteria services",
+        "Plastic products",
+        "Miscellaneous fertilisers",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Food, beverage and tobacco-processing machinery",
+        "Sugar and related products",
+        "Food"
+    ]
+}

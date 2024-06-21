@@ -1,0 +1,24 @@
+{
+    "offer": "### TITLE:\n Student Dashboard System\n\n ### DESCRIPTION:\n Texas A&M University, subsequently referred to as TAMU, School of Medicine is seeking proposals and intends to enter into an agreement with a qualified vendor to provide a Student Dashboard System.",
+    "output": [
+        "E-learning services"
+    ],
+    "expected_output": "Educational software package",
+    "output_explanation": "The Student Dashboard System is a tool that allows students to manage their academic life, such as viewing their grades, schedules, and other academic information. This is a clear example of an e-learning service.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",
+    "shortlisted_categories": [
+        "Business and management consultancy services",
+        "Market research services",
+        "Administrative services of agencies",
+        "Information systems",
+        "System and support services",
+        "Personnel services except placement and supply services",
+        "E-learning services",
+        "Facilities management software package and software package suite",
+        "Database systems",
+        "Database services",
+        "System, storage and content management software package",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Physical well-being services",
+        "Sales, marketing and business intelligence software package"
+    ]
+}

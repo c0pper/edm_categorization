@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n 23NE SGL 13 Mark It Zero Cutting\n\n ### DESCRIPTION:\n The Pennsylvania Game Commission, Forestry Division, requires the services of an Operator to cut interfering woody vegetation on a location containing 60 acres within one block. Services shall include, but are not limited to, the furnishing of all materials, labor, equipment, tools, superintendence, miscellaneous items, and performing all work necessary to complete the project to the satisfaction of and subject to the approval of the Commission",
+    "output": [
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry"
+    ],
+    "expected_output": "Logging services",
+    "output_explanation": "The service offer is for cutting interfering woody vegetation on a location containing 60 acres within one block. This is a construction work for buildings relating to the oil and gas industry because the Pennsylvania Game Commission, Forestry Division, which requires the services, is under the Department of Conservation and Natural Resources, which manages resources that can be used for oil and gas industry.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "shortlisted_categories": [
+        "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways",
+        "Electrical installation work",
+        "Miscellaneous engineering services",
+        "Other building completion work",
+        "Administrative services of agencies",
+        "Construction consultancy services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Property management services of real estate on a fee or contract basis",
+        "Fencing, railing and safety equipment installation work",
+        "Facilities management software package and software package suite",
+        "Sewerage management services",
+        "Services incidental to forestry",
+        "Tree pruning and hedge trimming",
+        "Test drilling and boring work",
+        "Woodworking equipment"
+    ]
+}

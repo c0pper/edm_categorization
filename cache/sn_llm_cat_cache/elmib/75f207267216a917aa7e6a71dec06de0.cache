@@ -1,0 +1,26 @@
+{
+    "offer": "### TITLE:\n Minor (adaptations) Works Framework - ASCHIW/2023/454*\n\n ### DESCRIPTION:\n Stoke on Trent City Council wish to appoint providers to carry out small adaptations in peoples homes (to the value of \u00a31000 or less), for example, supply and fitting of grab rails, external metal handrails, shallowing steps, widening doors and/or rehanging doors. There are various specs and requirements to these adaptations with the end result keeping people safe and independent at home",
+    "output": [
+        "Fencing, railing and safety equipment installation work"
+    ],
+    "expected_output": "Construction materials",
+    "output_explanation": "The product/service offer is about installing grab rails, external metal handrails, etc. These are types of fencing and safety equipment.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Other building completion work",
+        "Repair and maintenance services of precision equipment",
+        "Joinery and carpentry installation work",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Fencing, railing and safety equipment installation work",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Facilities management software package and software package suite",
+        "Building rental or sale services",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Test drilling and boring work",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Advisory architectural services"
+    ]
+}

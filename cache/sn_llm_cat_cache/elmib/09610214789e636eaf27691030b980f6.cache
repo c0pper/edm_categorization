@@ -1,0 +1,28 @@
+{
+    "offer": "### TITLE:\n RFQ # 19KU2024Q0005-Embassy Compound Landscaping Services\n\n ### DESCRIPTION:\n ar Prospective Quoter: Subject: Request for Quotations number 19KU2024Q0005 Enclosed is a Request for Quotations (RFQ) to Provide periodical maintenance services to approximately 278 Date Palm Trees services at the Embassy Compound. If you would like to submit quotation, follow the instructions in Section 3 of the solicitation, complete the required portions of the attached document, and submit it to the address shown on the Standard Form 1449 that follows this letter. The U.S. Government intends to award a contract/purchase order to the responsible company submitting an acceptable offer at the lowest price. We intend to award a contract/purchase order based on initial quotations, without holding discussions, although we may hold discussions with companies in the competitive range if there is a need to do so.",
+    "output": [
+        "Planting and maintenance services of green areas"
+    ],
+    "expected_output": "Planting and maintenance services of green areas",
+    "output_explanation": "The RFQ is for periodical maintenance services to approximately 278 Date Palm Trees at the Embassy Compound. This falls under the category of Planting and maintenance services of green areas.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+    "shortlisted_categories": [
+        "Cleaning services",
+        "Plumbing and sanitary works",
+        "Planting and maintenance services of green areas",
+        "Other building completion work",
+        "Administrative services of agencies",
+        "Construction consultancy services",
+        "Maintenance services of telecommunications equipment",
+        "Property management services of real estate on a fee or contract basis",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Facilities management software package and software package suite",
+        "Sewerage management services",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Tree pruning and hedge trimming",
+        "System, storage and content management software package",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Installation services of laboratory equipment",
+        "Advisory architectural services"
+    ]
+}

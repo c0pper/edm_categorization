@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n The Supply, Delivery, Warranty and Support of Tri-Axial Sensors\n\n ### DESCRIPTION:\n The Supply, Delivery, Warranty and Support of Tri-Axial Sensors",
+    "output": [
+        "Information systems"
+    ],
+    "expected_output": "Surveillance and security systems and devices",
+    "output_explanation": "The product/service offer is about the supply, delivery, warranty and support of Tri-Axial Sensors. Tri-Axial Sensors are used to measure acceleration in three axes, and are used in various applications such as vibration monitoring, motion tracking, and structural health monitoring. These sensors are typically connected to a data acquisition system or a computer for data processing and analysis. Therefore, the product/service offer falls under the category of Information systems.' }",
+    "shortlisted_categories": [
+        "Detection and analysis apparatus",
+        "Electrical installation work",
+        "Electrical supplies and accessories",
+        "Information systems",
+        "System and support services",
+        "Miscellaneous special-purpose machinery",
+        "Telecommunications cable and equipment",
+        "Command and control system, printing, graphics, office automation and information-processing equipment",
+        "Instruments for measuring flow, level and pressure of liquids and gases",
+        "Machines and apparatus with individual functions",
+        "Distilling, filtering or rectifying apparatus",
+        "Geological prospecting apparatus",
+        "Test drilling and boring work",
+        "Mineral-processing machinery",
+        "Wide area network services"
+    ]
+}

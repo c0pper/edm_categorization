@@ -1,0 +1,30 @@
+{
+    "offer": "### TITLE:\n Y1DA--558-21-106 |  Correct Atrium Fire Protection Issues\n\n ### DESCRIPTION:\n The contractor shall install a new smoke exhaust system, new supply system, and roof replacement to meet the design\u00a0requirements. New ducting, electrical, and fire alarm system upgrades will need to be done for the new system\u00a0The contractor will have to coordinate the installation schedule with Durham VA, it is anticipated that all roof\u00a0replacement will have to be done on weekends.\u00a0 The contractor is responsible for providing all supervision, materials,\u00a0labor, equipment, transportation, testing, and storage for this project.",
+    "output": [
+        "Building construction work",
+        "Roof works and other special trade construction works",
+        "Construction supervision services"
+    ],
+    "expected_output": "Fencing, railing and safety equipment installation work",
+    "output_explanation": "         The contractor is responsible for providing all supervision, materials, labor, equipment, transportation, testing, and storage for this project.         The contractor shall install a new smoke exhaust system, new supply system, and roof replacement to meet the design requirements.         New ducting, electrical, and fire alarm system upgrades will need to be done for the new system.         The contractor will have to coordinate the installation schedule with Durham VA, it is anticipated that all roof replacement will have to be done on weekends.' }",
+    "shortlisted_categories": [
+        "Construction work for water projects",
+        "Building construction work",
+        "Roof works and other special trade construction works",
+        "Other building completion work",
+        "Repair and maintenance services of precision equipment",
+        "Construction consultancy services",
+        "Construction works for plants, mining and manufacturing and for buildings relating to the oil and gas industry",
+        "Construction supervision services",
+        "Property management services of real estate on a fee or contract basis",
+        "Facilities management software package and software package suite",
+        "Repair and maintenance services of hotel and restaurant equipment",
+        "Installation services of special-purpose machinery and equipment",
+        "Repair and maintenance services of weapons and weapon systems",
+        "System, storage and content management software package",
+        "Plastering work",
+        "Installation services of laboratory equipment",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts",
+        "Advisory architectural services"
+    ]
+}

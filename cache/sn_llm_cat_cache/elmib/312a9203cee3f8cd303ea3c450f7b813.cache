@@ -1,0 +1,22 @@
+{
+    "offer": "### TITLE:\n Repair of NIIN 01-581-2134 for FMS Norway\n\n ### DESCRIPTION:\n This notice is a solicitation for the repair of 1 EA NIIN 01-581-2134 P/N 312BS101-1 Foreign Military Sales Norway. All responsible sources may submit a capability statement proposal or quotation which shall be considered by the agency. For any questions concerning this notice contact the PCO, Mackenzie Cannataro at mackenzie.cannataro.civ@us.navy.mil.",
+    "output": [
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ],
+    "expected_output": "Repair and maintenance services of warships",
+    "output_explanation": "The offer is for the repair of NIIN 01-581-2134 for FMS Norway. NIIN 01-581-2134 is a part number for a military aircraft. Therefore, it falls under the category of Repair and maintenance services of military aircrafts, missiles and spacecrafts.' }",
+    "shortlisted_categories": [
+        "Repair, maintenance and associated services related to aircraft and other equipment",
+        "Supply services of personnel including temporary staff",
+        "Repair and maintenance services of precision equipment",
+        "Repair and maintenance services of medical and surgical equipment",
+        "Maintenance services of telecommunications equipment",
+        "Repair and maintenance services of personal computers",
+        "Repair and maintenance services of measuring, testing and checking apparatus",
+        "Repair and maintenance services of pumps, valves, taps and metal containers",
+        "Installation services of special-purpose machinery and equipment",
+        "Machine tools operated by laser and machining centres",
+        "Repair and maintenance services of weapons and weapon systems",
+        "Repair and maintenance services of military aircrafts, missiles and spacecrafts"
+    ]
+}

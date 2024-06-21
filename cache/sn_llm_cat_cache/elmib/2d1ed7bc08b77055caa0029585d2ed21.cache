@@ -1,0 +1,25 @@
+{
+    "offer": "### TITLE:\n Community Audiology \u2013 Support Services\n\n ### DESCRIPTION:\n Voluntary Sector Support to Community Audiology Patients within North East Essex",
+    "output": [
+        "Support services"
+    ],
+    "expected_output": "Medical practice and related services",
+    "output_explanation": "The service offer is about providing support to community audiology patients within North East Essex. It does not fit into any of the other categories provided.' }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+    "shortlisted_categories": [
+        "Social work services",
+        "Medical practice and related services",
+        "Youth education services",
+        "Medical consumables",
+        "Medical software package",
+        "Medical imaging services",
+        "Justice services",
+        "Personnel services except placement and supply services",
+        "Training facilities",
+        "Communication software package",
+        "Support services for air transport",
+        "Medicinal products for dermatology and the musculo-skeletal system",
+        "Training and simulation in aircrafts, missiles and spacecrafts",
+        "Public security, law and order services",
+        "Advisory architectural services"
+    ]
+}
