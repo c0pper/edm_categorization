@@ -8,7 +8,7 @@ def keep_n_samples(df: pd.DataFrame, n_samples: int):
 def filter_out_exact_matches():
     # Load the CSV file
     input_file_path = 'full_SN_categorization_all_methods.xlsx'
-    output_file_path = 'full_sn_cat_evaluation_samples.xlsx'
+    output_file_path = 'full_sn_cat_evaluation_samples1.xlsx'
 
     # Read the CSV file
     df = pd.read_excel(input_file_path)

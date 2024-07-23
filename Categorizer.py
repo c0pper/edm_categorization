@@ -1,10 +1,11 @@
 from collections import Counter
 import os
+from pydantic import BaseModel, Field
 import requests
 from langchain_core.prompts.prompt import PromptTemplate
 from langchain.smith import RunEvalConfig, run_on_dataset
 from langchain.evaluation import StringEvaluator
-from typing import Any, Optional
+from typing import Any, List, Optional
 import re
 import langchain_openai
 from langsmith import Client
@@ -13,7 +14,8 @@ from uuid import uuid4
 import pandas as pd
 from pathlib import Path
 from legacy import prompts
-import json
+from langchain_openai import ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
 
 
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
@@ -22,8 +24,69 @@ os.environ["LANGCHAIN_PROJECT"] = "Enrich My Data"
 # add openai and langsmith api key to .env
 
 
+def invoke_structured_llm(structurer_cls, input_dict:dict, llm=ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)):
+    llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
+    structured_llm_grader = llm.with_structured_output(structurer_cls)
+
+    system_prompt = structurer_cls.get_system_prompt()
+    user_prompt = structurer_cls.get_user_prompt()
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", system_prompt),
+            ("human", user_prompt)
+        ]
+    )
+    structured_llm = prompt | structured_llm_grader
+    result = structured_llm.invoke(input_dict)
+    return result
 
 
+class LLMResponseFactChecker(BaseModel):
+    """Component responsible for checking whether a pieace of information is satisfactorily covered in a larger text."""
+
+    grade: bool = Field(
+        description="The grade based on whether a pieace of information is satisfactorily covered in a larger text. True if it's covered, false if not covered."
+    )
+    explanation: str = Field(description="An explanation of the reasoning that led to assigning the grade.")
+    
+    
+    @staticmethod
+    def get_system_prompt() -> str:
+        return """
+        You are an LLM Response Fact Checker. Your task is to determine whether a given piece of information is satisfactorily covered in a provided larger text. 
+
+        Instructions:
+        1. You will be given a specific piece of information (the fact).
+        2. You will also be given a larger text where this information is supposed to be covered.
+        3. Assess whether the fact is explicitly and satisfactorily mentioned in the larger text.
+        4. If the fact is covered, return `True`. If it is not covered, return `False`.
+
+        Criteria for Coverage:
+        - The fact must be clearly and explicitly stated.
+        - Partial or ambiguous references do not count as satisfactory coverage.
+        - The context provided in the larger text must align with the fact to consider it covered.
+
+        Example:
+        - Fact: "The nominal DC voltage of the transformer PSG 6170 is 9.5 V."
+        - Larger Text: "Nominal DC Voltage of PSG 6170 Transformer: The nominal DC voltage of the PSG 6170 transformer is 9.5 V. The PSG 6170 is a medium-frequency transformer that is part of the PSG 6000 series."
+        - Result: True
+
+        Your goal is to ensure the integrity and accuracy of the information coverage in the provided text.
+        """
+        
+    @staticmethod
+    def get_user_prompt() -> str:
+        return """
+        Fact: "{fact}"
+        Larger Text: "{larger_text}"
+
+        Instructions:
+        - Assess whether the fact is explicitly and satisfactorily mentioned in the larger text.
+        - If the fact is covered, return `True`. If it is not covered, return `False`.
+        - The fact must be clearly and explicitly stated in the larger text.
+        - Partial or ambiguous references do not count as satisfactory coverage.
+        - The context provided in the larger text must align with the fact to consider it covered.
+        """
 
 
 class RelevanceEvaluator(StringEvaluator):
@@ -114,6 +177,7 @@ Then explain all the criteria you went through step by step <EXPLANATION: (EXPLA
         # input: Optional[str] = None,
         # reference: Optional[str] = None,
         evaluation_prompt = None,
+        evalautor_prompt_dict = None,
         **kwargs: Any
     ) -> dict:
         # if self.mode != "cat":
@@ -125,7 +189,11 @@ Then explain all the criteria you went through step by step <EXPLANATION: (EXPLA
         # eval_chain = PromptTemplate.from_template(evaluation_prompt) | self.llm
 
         # CORRECT/INCORRECT
-        juror_scores = {'juror1': {"score": "None", "explanation":"Not interrogated"}, 'juror2': {"score": "None", "explanation":"Not interrogated"}, 'juror3': {"score": "None", "explanation":"Not interrogated"}}
+        juror_scores = {
+            'juror1': {"score": "None", "explanation":"Not interrogated"}, 
+            'juror2': {"score": "None", "explanation":"Not interrogated"}, 
+            'juror3': {"score": "None", "explanation":"Not interrogated"}
+        }
         
         correct_count = 0
         incorrect_count = 0
@@ -136,65 +204,59 @@ Then explain all the criteria you went through step by step <EXPLANATION: (EXPLA
                 break
 
             # evaluator_result = eval_chain.invoke(evaluation_data, kwargs)
-
-            client = OpenAI()
-            evaluator_result = client.chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "user", "content": evaluation_prompt}
-                ]
-            )
-            evaluator_result = evaluator_result.choices[0].message.content
-
-            matches = list(re.finditer(r'INCORRECT|CORRECT', evaluator_result))
-
-            if matches:
-                score = matches[0].group(0).strip()
-                juror_scores[f'juror{i+1}'] = {"score": score, "explanation": evaluator_result}
-        
-                if score == "CORRECT":
-                    correct_count += 1
-                elif score == "INCORRECT":
-                    incorrect_count += 1
+            fact_checker_result = invoke_structured_llm(LLMResponseFactChecker, evalautor_prompt_dict)
+            grade = fact_checker_result["grade"]
+            explanation = fact_checker_result["explanation"]
+            if grade == True:
+                correct_count += 1
             else:
-                print("evalutar result\n\n" + evaluator_result)
-                print("matches\n\n")
-                for match in matches:
-                    print(match)
-                print("No grade text found.")
-                return {"score": 0, "value": "INCORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data), "juror_scores": juror_scores}
+                incorrect_count += 1
+            juror_scores[f'juror{i+1}'] = {"score": grade, "explanation": explanation}
+
+            # client = OpenAI()
+            # evaluator_result = client.chat.completions.create(
+            #     model="gpt-3.5-turbo",
+            #     messages=[
+            #         {"role": "user", "content": evaluation_prompt}
+            #     ]
+            # )
+            # evaluator_result = evaluator_result.choices[0].message.content
+
+            # matches = list(re.finditer(r'INCORRECT|CORRECT', evaluator_result))
+
+            # if matches:
+            #     score = matches[0].group(0).strip()
+            #     juror_scores[f'juror{i+1}'] = {"score": score, "explanation": evaluator_result}
+        
+            #     if score == "CORRECT":
+            #         correct_count += 1
+            #     elif score == "INCORRECT":
+            #         incorrect_count += 1
+            # else:
+            #     print("evalutar result\n\n" + evaluator_result)
+            #     print("matches\n\n")
+            #     for match in matches:
+            #         print(match)
+            #     print("No grade text found.")
+            #     response_dict = {
+            #         "score": 0, 
+            #         "value": "INCORRECT", 
+            #         "explanation": evaluator_result, 
+            #         "prompt": evaluation_prompt, 
+            #         "juror_scores": juror_scores
+            #     }
+            #     return response_dict
 
         # Construct the response dictionary with the juror scores
         response_dict = {
             "score": float(1) if correct_count >= 2 else float(0),
             "value": "CORRECT" if correct_count >= 2 else "INCORRECT",
-            "explanation": evaluator_result,
+            "explanation": explanation,
             # "prompt": self.template.format(**evaluation_data),
             "prompt": evaluation_prompt,
             "juror_scores": juror_scores
         }
-
         return response_dict
-
-        # score_counter = Counter(score['score'] for score in juror_scores.values())
-        # most_common_score = score_counter.most_common(1)[0][0]
-        
-        # if most_common_score == "INCORRECT":
-        #     return {"score": float(0), "value": "INCORRECT", "prompt": self.template.format(**evaluation_data), "juror_scores": juror_scores}
-        # elif most_common_score == "CORRECT":
-        #     return {"score": float(1), "value": "CORRECT", "prompt": self.template.format(**evaluation_data), "juror_scores": juror_scores}
-
-        #         if score == "INCORRECT":
-        #             return {"score": float(0), "value": "INCORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data)}
-        #         elif score == "CORRECT":
-        #             return {"score": float(1), "value": "CORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data)}
-        # else:
-        #     print("evalutar result\n\n" + evaluator_result)
-        #     print("matches\n\n")
-        #     for match in matches:
-        #         print(match)
-        #     print("No grade text found.")
-        #     return {"score": 0, "value": "INCORRECT", "explanation": evaluator_result, "prompt": self.template.format(**evaluation_data)}
 
 
 
@@ -308,7 +370,7 @@ class Categorizer:
             "temperature": 0,
             "top_p": 0.75,
             "top_k": 40,
-            "max_length": 256,
+            "max_length": 512,
             "stream": False,
             "stop_tokens": [],
             "lang": "en",
