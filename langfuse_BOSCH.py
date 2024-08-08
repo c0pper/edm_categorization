@@ -165,7 +165,8 @@ def run_bosch_qa_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_
     # #all llms
     # llms = ["gpt-3.5-turbo-instruct", "gpt-3.5-turbo", "elmib"]
     # llms = ["notebookLM"]
-    llms = ["notebookLM", "elmib"]
+    # llms = ["notebookLM", "elmib"]
+    llms = ["gpt4o_rag"]
     
     for l in llms:
         run_id = f"{l}_{expertiment_uuid}"
@@ -213,6 +214,15 @@ def run_bosch_qa_experiment(dataset, gpt35turboinstruct_config=None, gpt35turbo_
                 prompt_obj = langfuse.get_prompt("nestor_elmib_original_prompt")
                 prompt_str = f"DUMMY - {prompt_obj.compile(context=nl.join(contexts), query=question)}"
                 response = [a for a in notebookLM_answers if a["q"] == question][0].get("a", "no answer found in notebookLM_answers json")
+                response = {"question": question, "output": response, "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "llm_config": {}, "start_time": generationStartTime, "end_time": datetime.now()}                
+                
+            elif l == "gpt4o_rag": # caricamento pdf su interfaccia chatgpt e rag esclusivamente da li
+                print(f"\nAsking '{question}'\nModel: {l}")
+                with open("bosch_chatgpt4orag_answers.json", "r", encoding="utf8") as f:
+                    gpt4orag_answers = json.load(f)
+                prompt_obj = langfuse.get_prompt("nestor_elmib_original_prompt")
+                prompt_str = f"DUMMY - {prompt_obj.compile(context=nl.join(contexts), query=question)}"
+                response = [a for a in gpt4orag_answers if a["q"] == question][0].get("a", "no answer found in bosch_chatgpt4orag_answers json")
                 response = {"question": question, "output": response, "prompt_obj": prompt_obj, "prompt_str": prompt_str, "llm": l, "llm_config": {}, "start_time": generationStartTime, "end_time": datetime.now()}
                 
             llm_generate_and_evaluate(response, item, run_id, using_LF_dataset)
